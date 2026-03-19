@@ -1,0 +1,42 @@
+name: Daily Tech News Push
+
+on:
+  schedule:
+    # Tokyo 08:00 = UTC 23:00 (前一天)
+    # Tokyo is UTC+9, so 08:00 Tokyo = 23:00 UTC previous day
+    - cron: '0 23 * * *'
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  push-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run news fetcher and push
+        env:
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+        run: |
+          python main.py
+      
+      - name: Commit log (if any)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M:%S')" || true
+          git push || true
