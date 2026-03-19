@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-科技新闻自动推送主程序
+高价值信息自动推送主程序
 """
 
 import os
@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 def main():
     """主函数"""
     logger.info("=" * 50)
-    logger.info(f"科技新闻推送任务开始 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    logger.info(f"高价值信息筛选任务开始 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     logger.info("=" * 50)
     
     # 检查环境变量
@@ -42,19 +42,23 @@ def main():
     
     try:
         # 1. 抓取新闻
-        logger.info("步骤1: 抓取新闻...")
+        logger.info("步骤1: 抓取新闻源...")
         fetcher = NewsFetcher()
         all_news = fetcher.fetch_all()
         logger.info(f"共获取 {len(all_news)} 条原始新闻")
         
         if not all_news:
             logger.warning("未获取到任何新闻")
+            # 仍然推送空消息
+            logger.info("步骤2: 推送空结果通知...")
+            pusher = ServerChanPusher()
+            pusher.push([])
             sys.exit(0)
         
-        # 2. 筛选排序
-        logger.info("步骤2: 筛选和排序...")
+        # 2. 高价值筛选
+        logger.info("步骤2: 高价值筛选 (>=6分)...")
         top_news = fetcher.filter_and_rank(all_news, top_n=10)
-        logger.info(f"筛选后保留 {len(top_news)} 条高质量新闻")
+        logger.info(f"筛选后保留 {len(top_news)} 条高价值新闻")
         
         # 3. 推送
         logger.info("步骤3: 推送到微信...")

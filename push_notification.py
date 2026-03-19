@@ -28,32 +28,37 @@ class ServerChanPusher:
     def format_news_message(self, news_list: List[NewsItem]) -> tuple:
         """格式化新闻为推送消息"""
         if not news_list:
-            return "今日科技新闻", "今日暂无高质量科技新闻"
+            return "今日高价值科技信息", "## 📭 今日无高价值科技信息\n\n> 经过筛选，今日暂无符合标准的高价值科技新闻。\n\n---\n📱 *高价值信息筛选系统*"
         
         # 标题
-        title = f"📡 今日科技新闻精选 ({len(news_list)}条)"
+        title = f"💎 高价值信息精选 ({len(news_list)}条)"
         
         # Markdown 内容
         content_lines = []
-        content_lines.append("## 🔥 科技要闻精选\n")
-        content_lines.append("> 过去24小时最值得关注的科技新闻\n")
+        content_lines.append("## 🔥 高价值科技信息\n")
+        content_lines.append("> 过去24小时最有价值的科技动态\n")
         
         for i, news in enumerate(news_list, 1):
+            score_display = "⭐" * min(news.quality_score // 2, 5)  # 星级显示
             content_lines.append(f"\n### {i}. {news.one_line_summary}\n")
-            content_lines.append(f"**标题**: {news.title}\n")
-            content_lines.append(f"**来源**: {news.source}\n")
-            content_lines.append(f"**链接**: [点击查看]({news.link})\n")
+            content_lines.append(f"> 价值评分: {score_display} ({news.quality_score}/10)\n\n")
+            content_lines.append(f"**📰 标题**: {news.title}\n")
+            content_lines.append(f"**📌 来源**: {news.source}\n")
+            content_lines.append(f"**🔗 链接**: [点击查看]({news.link})\n")
             
             if news.summary:
-                short_summary = news.summary[:150] + "..." if len(news.summary) > 150 else news.summary
-                content_lines.append(f"\n**摘要**: {short_summary}\n")
+                short_summary = news.summary[:120] + "..." if len(news.summary) > 120 else news.summary
+                content_lines.append(f"\n**📝 摘要**: {short_summary}\n")
             
-            content_lines.append("---")
+            # 实际意义 (核心价值)
+            if news.practical_value:
+                content_lines.append(f"\n**💡 实际意义**: {news.practical_value}\n")
+            
+            content_lines.append("\n---")
         
         # 添加底部信息
-        content_lines.append("\n---\n")
-        content_lines.append("📱 *由自动新闻推送系统生成*\n")
-        content_lines.append("⏰ *每日早8点(东京时间)推送*\n")
+        content_lines.append("\n\n📱 *由高价值信息筛选系统生成*\n")
+        content_lines.append("🎯 *只筛选真正有价值的信息*\n")
         
         content = "\n".join(content_lines)
         return title, content
@@ -95,7 +100,9 @@ if __name__ == '__main__':
             source="TechCrunch",
             link="https://example.com/news1",
             summary="OpenAI今天发布了最新的GPT-5模型，在多项基准测试中取得了突破性进展。",
-            one_line_summary="🤖 AI: OpenAI发布GPT-5，性能大幅提升"
+            one_line_summary="🤖 AI: OpenAI发布GPT-5，性能大幅提升",
+            practical_value="大模型能力升级，可关注相关API调用成本变化，探索新的应用场景",
+            quality_score=8
         )
     ]
     
