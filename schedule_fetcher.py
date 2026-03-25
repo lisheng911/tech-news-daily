@@ -77,17 +77,33 @@ class ScheduleFetcher:
             logger.warning("ddddocr 未安装")
             return None
         
-        captcha_url = f"{BASE_URL}/studentportal.php/Public/verify/"
+        # 先访问登录页面建立session
+        login_page_url = f"{BASE_URL}/studentportal.php"
+        try:
+            self.session.get(login_page_url, timeout=10)
+        except:
+            pass
+        
+        # 获取验证码（带时间戳避免缓存）
+        import time
+        captcha_url = f"{BASE_URL}/studentportal.php/Public/verify/?t={int(time.time() * 1000)}"
         
         try:
             logger.info(f"获取验证码: {captcha_url}")
             response = self.session.get(captcha_url, timeout=10)
             
+            logger.info(f"验证码响应: status={response.status_code}, size={len(response.content)}, content-type={response.headers.get('Content-Type', 'unknown')}")
+            
             if response.status_code == 200 and len(response.content) > 50:
-                ocr = ddddocr.DdddOcr(show_ad=False)
-                code = ocr.classification(response.content)
-                logger.info(f"验证码识别结果: {code}")
-                return code
+                # 检查是否是图片
+                content_type = response.headers.get('Content-Type', '')
+                if 'image' in content_type or len(response.content) > 100:
+                    ocr = ddddocr.DdddOcr(show_ad=False)
+                    code = ocr.classification(response.content)
+                    logger.info(f"验证码识别结果: {code}")
+                    return code
+                else:
+                    logger.error(f"响应不是图片: {content_type}")
             else:
                 logger.error(f"验证码获取失败: status={response.status_code}, size={len(response.content)}")
         
