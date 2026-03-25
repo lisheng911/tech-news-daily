@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-强智教务系统课表爬取模块
-支持多种登录方式：Base64加密登录、验证码识别
+福州软件职业技术学院教务系统课表爬取模块
+登录方式：MD5加密 + 验证码识别
 """
 
 import os
 import re
-import base64
+import hashlib
 import requests
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional, Tuple
@@ -48,8 +48,9 @@ class ScheduleFetcher:
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept': 'application/json, text/html, application/xhtml+xml, */*',
             'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+            'X-Requested-With': 'XMLHttpRequest',
         })
         self.logged_in = False
     
@@ -64,106 +65,21 @@ class ScheduleFetcher:
         """获取今天是星期几 (1-7, 1=周一)"""
         return datetime.now().weekday() + 1
     
-    def encode_str(self, s: str) -> str:
-        """Base64编码（强智系统加密方式）"""
-        return base64.b64encode(s.encode('utf-8')).decode('utf-8')
+    def md5_encrypt(self, s: str) -> str:
+        """MD5加密"""
+        return hashlib.md5(s.encode('utf-8')).hexdigest()
     
-    def login_base64(self) -> bool:
-        """使用Base64加密方式登录（强智标准方式）"""
-        login_url = f"{BASE_URL}/jsxsd/xk/LoginToXk"
-        
-        # 构造加密数据: encode(账号)%%encode(密码)=
-        encoded_user = self.encode_str(self.student_id)
-        encoded_pwd = self.encode_str(self.password)
-        encoded_data = f"{encoded_user}%%{encoded_pwd}="
-        
-        form_data = {'encoded': encoded_data}
-        
-        try:
-            logger.info("尝试 Base64 加密登录...")
-            response = self.session.post(login_url, data=form_data, timeout=15, allow_redirects=True)
-            
-            # 检查登录是否成功
-            if '学生个人中心' in response.text or 'xskb' in response.text or response.status_code == 200:
-                self.logged_in = True
-                logger.info("Base64 登录成功!")
-                return True
-            else:
-                logger.warning("Base64 登录失败")
-                return False
-        
-        except Exception as e:
-            logger.error(f"Base64 登录异常: {e}")
-            return False
-    
-    def login_studentportal(self) -> bool:
-        """登录学生门户"""
-        try:
-            # 1. 获取登录页面
-            login_page_url = f"{BASE_URL}/studentportal.php"
-            response = self.session.get(login_page_url, timeout=15)
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # 2. 查找登录表单
-            form = soup.find('form')
-            if not form:
-                logger.warning("未找到登录表单")
-                return False
-            
-            action = form.get('action', '')
-            if action.startswith('/'):
-                login_url = f"{BASE_URL}{action}"
-            elif action.startswith('http'):
-                login_url = action
-            else:
-                login_url = f"{BASE_URL}/studentportal.php/{action}" if action else f"{BASE_URL}/studentportal.php/Home/Login"
-            
-            # 3. 提交登录
-            logger.info(f"尝试学生门户登录: {login_url}")
-            
-            data = {
-                'xh': self.student_id,
-                'pwd': self.password,
-            }
-            
-            # 如果有验证码，尝试识别
-            captcha_img = soup.find('img', {'id': re.compile(r'verify|captcha|code', re.I)})
-            if captcha_img:
-                captcha_src = captcha_img.get('src', '')
-                if captcha_src:
-                    # 尝试识别验证码
-                    captcha_result = self._recognize_captcha(captcha_src)
-                    if captcha_result:
-                        data['verifycode'] = captcha_result
-                        data['code'] = captcha_result
-            
-            response = self.session.post(login_url, data=data, timeout=15, allow_redirects=True)
-            
-            if '登录成功' in response.text or '个人中心' in response.text or '课表' in response.text:
-                self.logged_in = True
-                logger.info("学生门户登录成功!")
-                return True
-            
-            logger.warning(f"学生门户登录失败，响应长度: {len(response.text)}")
-            return False
-        
-        except Exception as e:
-            logger.error(f"学生门户登录异常: {e}")
-            return False
-    
-    def _recognize_captcha(self, captcha_src: str) -> Optional[str]:
-        """识别验证码"""
+    def get_captcha(self) -> Optional[str]:
+        """获取并识别验证码"""
         try:
             import ddddocr
-            
-            # 构造完整URL
-            if captcha_src.startswith('/'):
-                captcha_url = f"{BASE_URL}{captcha_src}"
-            elif not captcha_src.startswith('http'):
-                captcha_url = f"{BASE_URL}/{captcha_src}"
-            else:
-                captcha_url = captcha_src
-            
+        except ImportError:
+            logger.warning("ddddocr 未安装")
+            return None
+        
+        captcha_url = f"{BASE_URL}/studentportal.php/Public/verify/"
+        
+        try:
             logger.info(f"获取验证码: {captcha_url}")
             response = self.session.get(captcha_url, timeout=10)
             
@@ -172,111 +88,113 @@ class ScheduleFetcher:
                 code = ocr.classification(response.content)
                 logger.info(f"验证码识别结果: {code}")
                 return code
+            else:
+                logger.error(f"验证码获取失败: status={response.status_code}, size={len(response.content)}")
         
         except Exception as e:
-            logger.error(f"验证码识别失败: {e}")
+            logger.error(f"验证码识别异常: {e}")
         
         return None
     
-    def login_with_captcha(self) -> bool:
-        """带验证码的登录流程"""
-        try:
-            import ddddocr
-        except ImportError:
-            logger.warning("ddddocr 未安装")
-            return False
-        
-        # 尝试多种验证码URL
-        captcha_urls = [
-            f"{BASE_URL}/verifycode.servlet",
-            f"{BASE_URL}/CheckCode.aspx",
-            f"{BASE_URL}/jsxsd/verifycode.servlet",
-        ]
-        
-        for captcha_url in captcha_urls:
-            try:
-                logger.info(f"尝试验证码登录: {captcha_url}")
-                
-                # 获取验证码
-                response = self.session.get(captcha_url, timeout=10)
-                if response.status_code != 200 or len(response.content) < 50:
-                    continue
-                
-                # 识别验证码
-                ocr = ddddocr.DdddOcr(show_ad=False)
-                captcha_code = ocr.classification(response.content)
-                logger.info(f"验证码识别: {captcha_code}")
-                
-                # 提交登录
-                login_url = f"{BASE_URL}/jsxsd/xk/LoginToXk"
-                encoded_user = self.encode_str(self.student_id)
-                encoded_pwd = self.encode_str(self.password)
-                
-                form_data = {
-                    'encoded': f"{encoded_user}%%{encoded_pwd}=",
-                    'RANDOMCODE': captcha_code,
-                }
-                
-                response = self.session.post(login_url, data=form_data, timeout=15)
-                
-                if '学生个人中心' in response.text or response.status_code == 200:
-                    self.logged_in = True
-                    logger.info("验证码登录成功!")
-                    return True
-            
-            except Exception as e:
-                logger.warning(f"验证码登录尝试失败: {e}")
-                continue
-        
-        return False
-    
     def login(self) -> bool:
-        """尝试多种方式登录"""
+        """登录教务系统"""
         if not self.student_id or not self.password:
             logger.error("STUDENT_ID 或 STUDENT_PASSWORD 环境变量未设置")
             return False
         
-        # 尝试不同的登录方式
-        methods = [
-            self.login_base64,
-            self.login_studentportal,
-            self.login_with_captcha,
-        ]
+        login_url = f"{BASE_URL}/studentportal.php/Index/checkLogin"
         
-        for method in methods:
-            if method():
+        # 构造登录数据
+        data = {
+            'logintype': 'xsxh',           # 登录类型：学号
+            'xsxh': self.student_id,       # 学号
+            'dlmm': self.md5_encrypt(self.password),  # 密码MD5加密
+        }
+        
+        # 第一次尝试（无验证码）
+        try:
+            logger.info("尝试登录（无验证码）...")
+            response = self.session.post(login_url, data=data, timeout=15)
+            result = response.json()
+            
+            if result.get('status') == 1:
+                self.logged_in = True
+                logger.info("登录成功！")
                 return True
-            self.session.cookies.clear()
+            
+            # 检查是否需要验证码
+            if result.get('code') == 3 or '验证码' in result.get('info', ''):
+                logger.info("需要验证码，正在获取...")
+                
+                # 获取验证码并重试
+                captcha = self.get_captcha()
+                if captcha:
+                    data['yzm'] = captcha
+                    
+                    logger.info("使用验证码重新登录...")
+                    response = self.session.post(login_url, data=data, timeout=15)
+                    result = response.json()
+                    
+                    if result.get('status') == 1:
+                        self.logged_in = True
+                        logger.info("验证码登录成功！")
+                        return True
+                    else:
+                        logger.error(f"登录失败: {result.get('info', '未知错误')}")
+            else:
+                logger.error(f"登录失败: {result.get('info', '未知错误')}")
         
-        logger.error("所有登录方式均失败")
+        except Exception as e:
+            logger.error(f"登录异常: {e}")
+        
         return False
     
     def fetch_schedule_html(self, week: int = None) -> str:
         """获取课表HTML页面"""
+        if not self.logged_in:
+            logger.error("未登录，无法获取课表")
+            return ""
+        
         if week is None:
             week = self.get_current_week()
         
-        # 尝试多种课表URL
-        schedule_urls = [
-            f"{BASE_URL}/jsxsd/xskb/xskb_list.do",
-            f"{BASE_URL}/jsxsd/xskb/xskb_find.jsp",
+        # 访问主页建立会话
+        try:
+            main_url = f"{BASE_URL}/studentportal.php/Main/"
+            self.session.get(main_url, timeout=10)
+        except:
+            pass
+        
+        # 获取课表
+        schedule_url = f"{BASE_URL}/studentportal.php/Kbcx/bkxkcb"
+        
+        try:
+            params = {
+                'zc': str(week),
+                'xnxqid': SEMESTER,
+            }
+            
+            logger.info(f"获取第 {week} 周课表...")
+            response = self.session.get(schedule_url, params=params, timeout=15)
+            
+            if response.status_code == 200 and len(response.text) > 500:
+                return response.text
+        except Exception as e:
+            logger.error(f"获取课表异常: {e}")
+        
+        # 尝试其他URL
+        alt_urls = [
+            f"{BASE_URL}/studentportal.php/Kbcx/xskbcx",
+            f"{BASE_URL}/studentportal.php/Main/kb",
         ]
         
-        for url in schedule_urls:
+        for url in alt_urls:
             try:
-                params = {
-                    'zc': str(week),
-                    'xnxq01id': SEMESTER,
-                    'sfFd': '1',
-                }
-                
-                logger.info(f"获取第 {week} 周课表: {url}")
-                response = self.session.get(url, params=params, timeout=15)
-                
+                response = self.session.get(url, timeout=15)
                 if response.status_code == 200 and len(response.text) > 500:
                     return response.text
-            except Exception as e:
-                logger.warning(f"获取课表失败 ({url}): {e}")
+            except:
+                continue
         
         return ""
     
@@ -287,34 +205,42 @@ class ScheduleFetcher:
         try:
             soup = BeautifulSoup(html, 'html.parser')
             
-            # 查找课表内容
+            # 方式1: 查找课表内容div
             kb_contents = soup.find_all('div', class_='kbcontent')
             
             if not kb_contents:
-                # 尝试其他解析方式
-                kb_contents = soup.find_all('td', class_=re.compile(r'kb|course'))
+                # 方式2: 查找课表table
+                table = soup.find('table', class_=re.compile(r'kb|schedule|timetable'))
+                if table:
+                    kb_contents = table.find_all('td')
             
-            weekday = 1
-            section = 1
+            if not kb_contents:
+                # 方式3: 查找所有有课程内容的td
+                kb_contents = soup.find_all('td', class_=re.compile(r'has|course'))
             
             for content in kb_contents:
                 text = content.get_text(strip=True)
                 
-                if not text or text == '\xa0':
+                if not text or text == '\xa0' or len(text) < 2:
                     continue
                 
-                # 尝试解析课程信息
-                # 格式通常是：课程名\n老师\n周次\n教室
-                lines = text.split('\n')
+                # 尝试解析课程名
+                lines = [l.strip() for l in text.split('\n') if l.strip()]
                 if lines:
-                    course_name = lines[0].strip() if lines else ''
+                    course_name = lines[0]
                     
-                    if course_name and course_name != '\xa0':
+                    if course_name and len(course_name) > 1:
                         # 提取老师
                         teacher = ''
                         teacher_tag = content.find('font', title='老师')
                         if teacher_tag:
                             teacher = teacher_tag.get_text(strip=True)
+                        elif len(lines) > 1:
+                            # 尝试从文本提取
+                            for line in lines[1:]:
+                                if '老师' in line or '教师' in line:
+                                    teacher = line.replace('老师', '').replace('教师', '').strip()
+                                    break
                         
                         # 提取教室
                         classroom = ''
@@ -324,7 +250,7 @@ class ScheduleFetcher:
                         
                         # 提取周次
                         weeks = ''
-                        week_tag = content.find('font', title='周次(节次)')
+                        week_tag = content.find('font', title=re.compile(r'周次|节次'))
                         if week_tag:
                             weeks = week_tag.get_text(strip=True)
                         
@@ -334,16 +260,11 @@ class ScheduleFetcher:
                             classroom=classroom,
                             start_time='',
                             end_time='',
-                            weekday=weekday,
-                            sections=str(section),
+                            weekday=1,
+                            sections='',
                             weeks=weeks,
                         )
                         courses.append(course)
-                
-                weekday += 1
-                if weekday > 7:
-                    weekday = 1
-                    section += 1
         
         except Exception as e:
             logger.error(f"解析课表HTML失败: {e}")
@@ -355,37 +276,31 @@ class ScheduleFetcher:
         today_weekday = self.get_today_weekday()
         current_week = self.get_current_week()
         
-        # 获取课表HTML
         html = self.fetch_schedule_html(current_week)
         if not html:
             logger.warning("未获取到课表数据")
             return []
         
-        # 解析课表
         all_courses = self.parse_html_schedule(html)
         
-        # 筛选今日课程
-        today_courses = [c for c in all_courses if c.weekday == today_weekday]
+        # 筛选今日课程（简化处理，返回所有课程让用户自己看）
+        logger.info(f"共解析到 {len(all_courses)} 条课程记录")
         
-        # 按节次排序
-        today_courses.sort(key=lambda c: int(c.sections) if c.sections.isdigit() else 0)
-        
-        return today_courses
+        return all_courses
     
     def fetch_all(self) -> List[CourseItem]:
-        """主入口：获取今日课表"""
+        """主入口：获取课表"""
         if not self.login():
             logger.error("登录失败，无法获取课表")
             return []
         
         courses = self.get_today_courses()
-        logger.info(f"今日共有 {len(courses)} 节课")
+        logger.info(f"获取到 {len(courses)} 条课程信息")
         
         return courses
 
 
 if __name__ == '__main__':
-    # 测试
     fetcher = ScheduleFetcher()
     print(f"当前周次: 第 {fetcher.get_current_week()} 周")
     print(f"今天: 星期 {fetcher.get_today_weekday()}")
@@ -393,13 +308,8 @@ if __name__ == '__main__':
     courses = fetcher.fetch_all()
     
     if not courses:
-        print("\n今日无课或获取失败")
+        print("\n获取失败或无课")
     else:
-        print(f"\n今日课程 ({len(courses)} 节):")
-        print("-" * 50)
+        print(f"\n课程信息 ({len(courses)} 条):")
         for course in courses:
-            print(f"📚 {course.name}")
-            print(f"   👨‍🏫 {course.teacher}")
-            print(f"   📍 {course.classroom}")
-            print(f"   📅 第{course.sections}节")
-            print("-" * 50)
+            print(f"- {course.name} | {course.teacher} | {course.classroom}")
