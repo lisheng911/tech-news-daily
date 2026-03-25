@@ -120,7 +120,7 @@ class ScheduleFetcher:
         
         login_url = f"{BASE_URL}/studentportal.php/Index/checkLogin"
         
-        # 构造登录数据
+        # 构造登录数据（密码MD5加密）
         data = {
             'logintype': 'xsxh',           # 登录类型：学号
             'xsxh': self.student_id,       # 学号
@@ -140,23 +140,38 @@ class ScheduleFetcher:
             
             # 检查是否需要验证码
             if result.get('code') == 3 or '验证码' in result.get('info', ''):
-                logger.info("需要验证码，正在获取...")
+                logger.info("需要验证码，开始尝试识别...")
                 
-                # 获取验证码并重试
-                captcha = self.get_captcha()
-                if captcha:
-                    data['yzm'] = captcha
+                # 多次重试验证码识别（最多5次）
+                max_retry = 5
+                for attempt in range(1, max_retry + 1):
+                    logger.info(f"验证码识别尝试 {attempt}/{max_retry}")
                     
-                    logger.info("使用验证码重新登录...")
+                    # 获取验证码
+                    captcha = self.get_captcha()
+                    if not captcha:
+                        logger.warning(f"验证码获取失败，重试...")
+                        continue
+                    
+                    # 使用验证码登录
+                    data['yzm'] = captcha
                     response = self.session.post(login_url, data=data, timeout=15)
                     result = response.json()
                     
                     if result.get('status') == 1:
                         self.logged_in = True
-                        logger.info("验证码登录成功！")
+                        logger.info(f"验证码登录成功！（第{attempt}次尝试）")
                         return True
+                    
+                    # 检查错误类型
+                    error_info = result.get('info', '')
+                    if '验证码' in error_info:
+                        logger.warning(f"验证码错误，重试...")
+                        continue
                     else:
-                        logger.error(f"登录失败: {result.get('info', '未知错误')}")
+                        logger.error(f"登录失败: {error_info}")
+                        break
+            
             else:
                 logger.error(f"登录失败: {result.get('info', '未知错误')}")
         
