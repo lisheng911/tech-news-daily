@@ -1,17 +1,25 @@
 name: Daily Tools Push
 
 on:
-  workflow_dispatch:  # 手动触发测试
+  workflow_dispatch:
   schedule:
-    # 北京时间 8:00 = UTC 0:00（绝对稳定方案）
-    - cron: '0 0 * * *'
+    # 北京时间 8:17 = UTC 0:17
+    # 避开整点拥塞，降低延迟和跳过风险
+    # 注意：公开仓库60天无活动会自动禁用scheduled workflow
+    - cron: '17 0 * * *'
+
+# 并发控制
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   push-tools:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     
     steps:
       - name: Checkout repository
@@ -28,8 +36,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Run daily tools fetcher and push
-        id: run_push
+      - name: Run daily push
         env:
           SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
         run: |
@@ -38,7 +45,17 @@ jobs:
           python main.py
           echo "========== 执行完成 =========="
       
+      - name: Save history
+        if: always()
+        run: |
+          if [ -f "history.json" ]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add history.json
+            git diff --staged --quiet || git commit -m "update history [skip ci]"
+            git push
+          fi
+      
       - name: Notify on failure
         if: failure()
-        run: |
-          echo "::error::任务执行失败，请检查日志"
+        run: echo "::error::任务执行失败"

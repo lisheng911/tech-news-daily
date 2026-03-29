@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-每日精选推送主程序
+每日精选推送主程序 - 增强版
+
+目标：只推高价值、尽量不重复
+保证：每个分类都有内容
 """
 
 import os
 import sys
+import traceback
 import logging
 from datetime import datetime
 
-# 添加当前目录到路径
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from news_fetcher import NewsFetcher
@@ -24,45 +27,58 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    """主函数"""
-    logger.info("=" * 50)
+    logger.info("=" * 60)
     logger.info(f"每日精选推送 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    logger.info("=" * 50)
+    logger.info("=" * 60)
     
-    # 检查环境变量
     if not os.getenv('SERVERCHAN_SENDKEY'):
-        logger.error("SERVERCHAN_SENDKEY 未设置")
+        logger.error("❌ SERVERCHAN_SENDKEY 未设置")
         sys.exit(1)
     
+    pusher = None
     try:
-        # 1. 抓取
+        pusher = ServerChanPusher()
+        
         logger.info("📥 开始抓取...")
         fetcher = NewsFetcher()
-        categorized = fetcher.fetch_all()
+        result = fetcher.fetch_all()
         
-        # 统计
-        total = sum(len(items) for items in categorized.values())
-        logger.info(f"📊 精选 {total} 条内容")
-        for cat, items in categorized.items():
-            logger.info(f"  {cat}: {len(items)}条")
+        stats = result.get("统计面板", {})
+        category_counts = stats.get("各分类数", {})
+        total = sum(category_counts.values())
+        
+        logger.info(f"📊 分类统计:")
+        for cat, count in category_counts.items():
+            logger.info(f"   {cat}: {count}条")
+        logger.info(f"   总计: {total}条")
         
         if total == 0:
-            logger.warning("无内容可推送")
+            logger.warning("⚠️ 无内容可推送")
             sys.exit(0)
         
-        # 2. 推送
         logger.info("📤 开始推送...")
-        pusher = ServerChanPusher()
-        success = pusher.push(categorized)
+        success = pusher.push(result)
         
         if success:
             logger.info("✅ 任务完成!")
         else:
             logger.error("❌ 推送失败")
+            pusher.push_alert("消息推送", "推送API调用失败")
             sys.exit(1)
     
     except Exception as e:
-        logger.exception(f"执行出错: {e}")
+        error_trace = traceback.format_exc()
+        logger.exception(f"❌ 执行出错: {e}")
+        
+        if pusher:
+            pusher.push_alert("主程序执行", error_trace[-500:])
+        else:
+            try:
+                pusher = ServerChanPusher()
+                pusher.push_alert("主程序执行", error_trace[-500:])
+            except:
+                pass
+        
         sys.exit(1)
 
 
