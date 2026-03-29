@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Server酱推送模块 - 按分类推送
+Server酱推送模块
 """
 
 import os
 import requests
-from typing import List, Dict
+from typing import Dict
 import logging
 from datetime import datetime
 
@@ -23,7 +23,7 @@ class ServerChanPusher:
             raise ValueError("SERVERCHAN_SENDKEY 环境变量未设置")
         self.api_url = f"https://sctapi.ftqq.com/{self.sendkey}.send"
     
-    def format_message(self, categorized: Dict, total_count: int) -> tuple:
+    def format_message(self, categorized: Dict) -> tuple:
         """格式化推送消息"""
         today = datetime.now().strftime('%Y-%m-%d')
         weekday_names = ['一', '二', '三', '四', '五', '六', '日']
@@ -35,7 +35,7 @@ class ServerChanPusher:
         
         lines = []
         lines.append(f"## 📅 {today} 星期{weekday_names[weekday]}\n")
-        lines.append(f"> 从 {total_count} 条中精选 {selected_count} 条\n")
+        lines.append(f"> 共精选 {selected_count} 条内容\n")
         lines.append("---\n")
         
         # 1. 国内AI工具
@@ -95,15 +95,15 @@ class ServerChanPusher:
         lines.append("- 🤖 国内AI工具大多免费，建议试用")
         lines.append("- ⚡ 自动化脚本可节省重复劳动")
         lines.append("- 🔥 GitHub热门项目可学习或直接使用")
-        lines.append("- 📢 AI动态关注最新能力变化\n")
+        lines.append("- 📢 关注AI动态，了解最新能力\n")
         
         lines.append("\n📱 *每日精选推送*")
         
         return title, "\n".join(lines)
     
-    def push(self, categorized: Dict, total_count: int) -> bool:
+    def push(self, categorized: Dict) -> bool:
         """推送"""
-        title, content = self.format_message(categorized, total_count)
+        title, content = self.format_message(categorized)
         
         try:
             logger.info("正在推送...")

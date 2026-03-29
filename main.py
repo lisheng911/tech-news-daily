@@ -35,17 +35,11 @@ def main():
         # 1. 抓取
         logger.info("📥 开始抓取...")
         fetcher = NewsFetcher()
-        all_items = fetcher.fetch_all()
-        logger.info(f"获取 {len(all_items)} 条内容")
+        categorized = fetcher.fetch_all()
         
-        # 2. 分类筛选
-        logger.info("📊 分类筛选...")
-        categorized = fetcher.filter_by_category(all_items)
-        
-        total = sum(len(v) for v in categorized.values())
-        logger.info(f"精选 {total} 条")
-        
-        # 打印结果
+        # 统计
+        total = sum(len(items) for items in categorized.values())
+        logger.info(f"📊 精选 {total} 条内容")
         for cat, items in categorized.items():
             logger.info(f"  {cat}: {len(items)}条")
         
@@ -53,10 +47,10 @@ def main():
             logger.warning("无内容可推送")
             sys.exit(0)
         
-        # 3. 推送
+        # 2. 推送
         logger.info("📤 开始推送...")
         pusher = ServerChanPusher()
-        success = pusher.push(categorized, len(all_items))
+        success = pusher.push(categorized)
         
         if success:
             logger.info("✅ 任务完成!")
