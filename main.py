@@ -46,7 +46,7 @@ def main():
         
         # 2. 筛选高价值内容
         logger.info("步骤2: 筛选高价值内容...")
-        top_items = fetcher.filter_and_rank(all_items, top_n=15)
+        top_items = fetcher.filter_and_rank(all_items, top_n=22)
         logger.info(f"筛选后 {len(top_items)} 条高价值内容")
         
         if not top_items:
