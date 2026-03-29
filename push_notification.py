@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Server酱Turbo推送模块
+Server酱Turbo推送模块 - 每日精选工具推送
 """
 
 import os
@@ -22,77 +22,81 @@ class ServerChanPusher:
         if not self.sendkey:
             raise ValueError("SERVERCHAN_SENDKEY 环境变量未设置")
         
-        # Server酱Turbo API
         self.api_url = f"https://sctapi.ftqq.com/{self.sendkey}.send"
     
-    def format_schedule_message(self, courses: List, current_week: int, weekday: int) -> tuple:
-        """格式化课表为推送消息"""
-        weekday_names = ['一', '二', '三', '四', '五', '六', '日']
+    def format_tools_message(self, items: List, total_count: int) -> tuple:
+        """格式化工具推送消息"""
         today = datetime.now().strftime('%Y-%m-%d')
+        weekday_names = ['一', '二', '三', '四', '五', '六', '日']
+        weekday = datetime.now().weekday()
         
-        if not courses:
-            title = f"📭 今日无课"
-            content = f"""## 🎉 今日无课
-
-**📅 日期**: {today}  
-**📆 第 {current_week} 周 星期{weekday_names[weekday-1]}**
-
----
-
-> 今天没有安排课程，可以自由安排时间！
-
-📱 *每日课表推送系统*"""
-            return title, content
+        title = f"每日精选 ({len(items)}条高价值内容)"
         
-        # 有课的情况
-        title = f"📚 今日课表 ({len(courses)}节课)"
+        # 分类统计
+        ai_count = len([i for i in items if i.category == 'ai_tool'])
+        github_count = len([i for i in items if i.category == 'github_project'])
         
         content_lines = []
-        content_lines.append(f"## 📅 今日课表\n")
-        content_lines.append(f"> **日期**: {today}")
-        content_lines.append(f"> **周次**: 第 {current_week} 周 星期{weekday_names[weekday-1]}\n")
+        content_lines.append(f"## 🎯 每日精选推送\n")
+        content_lines.append(f"> **日期**: {today} 星期{weekday_names[weekday]}")
+        content_lines.append(f"> **筛选**: 从 {total_count} 条中精选 {len(items)} 条\n")
         
-        # 时间轴样式
+        # 分类展示
         content_lines.append("---\n")
-        content_lines.append("### 🕐 今日安排\n")
         
-        for i, course in enumerate(courses, 1):
-            # 课程卡片
-            time_str = f"{course.start_time} - {course.end_time}" if course.start_time else "时间待定"
-            
-            # 单双周标记
-            week_note = ""
-            if course.is_single:
-                week_note = " (单周)"
-            elif course.is_double:
-                week_note = " (双周)"
-            
-            content_lines.append(f"\n#### {i}. {course.name}{week_note}\n")
-            content_lines.append(f"| 项目 | 内容 |\n|------|------|\n")
-            content_lines.append(f"| 🕐 时间 | {time_str} |\n")
-            
-            if course.teacher:
-                content_lines.append(f"| 👨‍🏫 教师 | {course.teacher} |\n")
-            
-            if course.classroom and course.classroom != '无':
-                content_lines.append(f"| 📍 教室 | {course.classroom} |\n")
-            
-            content_lines.append("\n---\n")
+        # 1. 国内AI工具推荐
+        ai_items = [i for i in items if i.category == 'ai_tool'][:5]
+        if ai_items:
+            content_lines.append("### 🤖 国内AI工具\n")
+            for i, item in enumerate(ai_items, 1):
+                content_lines.append(f"**{i}. {item.name}**")
+                content_lines.append(f"- 描述: {item.description}")
+                if item.tags:
+                    content_lines.append(f"- 标签: {' '.join(['`' + t + '`' for t in item.tags[:3]])}")
+                content_lines.append(f"- 链接: [点击访问]({item.link})\n")
+            content_lines.append("---\n")
         
-        # 添加底部提示
-        content_lines.append("\n💡 **温馨提示**")
-        content_lines.append("- 请提前准备好教材和文具")
-        content_lines.append("- 注意上课时间和教室位置")
-        content_lines.append("- 如有调课请及时关注通知\n")
+        # 2. GitHub热门项目
+        github_items = [i for i in items if i.category == 'github_project'][:6]
+        if github_items:
+            content_lines.append("### 📦 GitHub热门项目\n")
+            for i, item in enumerate(github_items, 1):
+                star_str = f" ⭐{item.stars:,}" if item.stars > 0 else ""
+                content_lines.append(f"**{i}. {item.name}**{star_str}")
+                content_lines.append(f"- 用途: {item.practical_use}")
+                content_lines.append(f"- 描述: {item.description[:80]}...")
+                content_lines.append(f"- 链接: [查看项目]({item.link})\n")
+            content_lines.append("---\n")
         
-        content_lines.append("\n📱 *每日课表推送系统*")
+        # 3. 其他精选内容
+        other_items = [i for i in items if i.category not in ['ai_tool', 'github_project']][:4]
+        if other_items:
+            content_lines.append("### 📰 其他精选\n")
+            for i, item in enumerate(other_items, 1):
+                content_lines.append(f"**{i}. {item.name}**")
+                content_lines.append(f"- 来源: {item.source}")
+                content_lines.append(f"- 用途: {item.practical_use}")
+                content_lines.append(f"- 链接: [查看详情]({item.link})\n")
+            content_lines.append("---\n")
+        
+        # 底部提示
+        content_lines.append("\n### 💡 使用建议")
+        content_lines.append("- AI工具可提升工作效率，大部分有免费额度")
+        content_lines.append("- GitHub项目可直接使用或学习源码")
+        content_lines.append("- 关注自动化工具，减少重复劳动\n")
+        
+        content_lines.append("\n📱 *每日精选推送系统*")
         
         content = "\n".join(content_lines)
         return title, content
     
-    def push_schedule(self, courses: List, current_week: int, weekday: int) -> bool:
-        """推送课表到微信"""
-        title, content = self.format_schedule_message(courses, current_week, weekday)
+    def push_tools(self, items: List, total_count: int) -> bool:
+        """推送工具列表到微信"""
+        if not items:
+            logger.warning("无内容可推送")
+            return False
+        
+        title, content = self.format_tools_message(items, total_count)
         
         payload = {
             'title': title,
@@ -100,7 +104,7 @@ class ServerChanPusher:
         }
         
         try:
-            logger.info("正在推送课表到微信...")
+            logger.info("正在推送到微信...")
             response = requests.post(self.api_url, data=payload, timeout=30)
             result = response.json()
             
@@ -120,31 +124,44 @@ class ServerChanPusher:
 
 
 if __name__ == '__main__':
-    # 测试推送
-    from schedule_fetcher import CourseItem
+    # 测试
+    from dataclasses import dataclass, field
+    from typing import List
     
-    test_courses = [
-        CourseItem(
-            name="Python程序设计",
-            teacher="张老师",
-            classroom="教学楼A301",
-            start_time="08:00",
-            end_time="09:40",
-            weekday=1,
-            sections="12",
-            weeks="1-16"
+    @dataclass
+    class TestItem:
+        name: str
+        category: str
+        source: str
+        link: str
+        description: str
+        stars: int = 0
+        quality_score: int = 0
+        practical_use: str = ""
+        tags: List[str] = field(default_factory=list)
+    
+    test_items = [
+        TestItem(
+            name="DeepSeek",
+            category="ai_tool",
+            source="国内AI工具",
+            link="https://www.deepseek.com/",
+            description="国产大模型，API便宜，编程能力强",
+            tags=["大模型", "API", "编程"],
+            quality_score=8,
+            practical_use="AI能力，可用于提升工作效率或开发AI应用"
         ),
-        CourseItem(
-            name="数据结构",
-            teacher="李老师",
-            classroom="教学楼B202",
-            start_time="10:00",
-            end_time="11:40",
-            weekday=1,
-            sections="34",
-            weeks="1-16"
-        )
+        TestItem(
+            name="microsoft/semantic-kernel",
+            category="github_project",
+            source="GitHub Trending",
+            link="https://github.com/microsoft/semantic-kernel",
+            description="Integrate cutting-edge LLM technology into your apps",
+            stars=21000,
+            quality_score=8,
+            practical_use="开发接口，可集成到自己的项目"
+        ),
     ]
     
     pusher = ServerChanPusher()
-    pusher.push_schedule(test_courses, 3, 1)
+    pusher.push_tools(test_items, 100)

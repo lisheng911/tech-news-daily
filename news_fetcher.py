@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-高价值信息筛选模块
-优先使用 NewsData.io API，失败时使用 RSS 备选
+每日精选工具/项目推送模块
+抓取国内AI工具、GitHub热门项目、自动化脚本等
 """
 
 import os
 import re
+import json
 import requests
 import feedparser
 from datetime import datetime, timedelta
@@ -18,362 +19,381 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 @dataclass
-class NewsItem:
-    """新闻条目"""
-    title: str
-    source: str
-    link: str
-    summary: str
-    published: Optional[datetime] = None
-    quality_score: int = 0
-    one_line_summary: str = ""
-    practical_value: str = ""  # 实际意义
+class ToolItem:
+    """工具/项目条目"""
+    name: str                    # 名称
+    category: str                # 分类: ai_tool, github_project, automation, startup
+    source: str                  # 来源
+    link: str                    # 链接
+    description: str             # 描述
+    stars: int = 0               # GitHub stars (如适用)
+    quality_score: int = 0       # 价值评分
+    practical_use: str = ""      # 实际用途
+    tags: List[str] = field(default_factory=list)
 
 
-# ============ 高价值信息筛选关键词 ============
+# ============ 数据源配置 ============
 
-# AI相关关键词 (大模型、工具、应用) +3分
+# 国内AI工具/模型
+CN_AI_TOOLS = [
+    # 大模型
+    {"name": "DeepSeek", "url": "https://www.deepseek.com/", "desc": "国产大模型，API便宜，编程能力强", "tags": ["大模型", "API", "编程"]},
+    {"name": "Kimi", "url": "https://kimi.moonshot.cn/", "desc": "长文本处理强，支持20万字上下文", "tags": ["大模型", "长文本"]},
+    {"name": "通义千问", "url": "https://tongyi.aliyun.com/", "desc": "阿里大模型，文档处理强，有免费额度", "tags": ["大模型", "文档"]},
+    {"name": "智谱清言", "url": "https://chatglm.cn/", "desc": "清华系大模型，GLM开源，有API", "tags": ["大模型", "开源"]},
+    {"name": "豆包", "url": "https://www.doubao.com/", "desc": "字节跳动大模型，免费，对话体验好", "tags": ["大模型", "免费"]},
+    {"name": "文心一言", "url": "https://yiyan.baidu.com/", "desc": "百度大模型，中文理解强", "tags": ["大模型", "中文"]},
+    # AI工具
+    {"name": "iFlow CLI", "url": "https://github.com/iflow-ai/iflow-cli", "desc": "国产AI编程助手，心流编程体验", "tags": ["编程工具", "AI助手"]},
+    {"name": "Cursor中国版", "url": "https://cursor.com/", "desc": "AI编程编辑器，自动补全代码", "tags": ["编程工具", "IDE"]},
+    {"name": "扣子Coze", "url": "https://www.coze.cn/", "desc": "字节AI应用搭建平台，无代码创建Bot", "tags": ["无代码", "AI应用"]},
+    {"name": "Dify", "url": "https://dify.ai/", "desc": "开源LLM应用开发平台，可私有化部署", "tags": ["开源", "AI应用", "部署"]},
+    {"name": "FastGPT", "url": "https://fastgpt.in/", "desc": "开源知识库问答系统，基于大模型", "tags": ["开源", "知识库", "RAG"]},
+    {"name": "Cherry Studio", "url": "https://github.com/kangfenmao/cherry-studio", "desc": "国产AI客户端，支持多模型，美观易用", "tags": ["客户端", "开源"]},
+    # AI绘画/视频
+    {"name": "即梦", "url": "https://jimeng.jianying.com/", "desc": "字节AI绘画工具，免费生成图片", "tags": ["AI绘画", "免费"]},
+    {"name": "可灵AI", "url": "https://klingai.kuaishou.com/", "desc": "快手AI视频生成，效果惊艳", "tags": ["AI视频", "创作"]},
+    {"name": "LiblibAI", "url": "https://www.liblib.ai/", "desc": "AI绘画模型分享平台，大量免费模型", "tags": ["AI绘画", "模型库"]},
+    # 效率工具
+    {"name": "飞书", "url": "https://www.feishu.cn/", "desc": "协作办公，有飞书多维表格自动化", "tags": ["办公", "自动化"]},
+    {"name": "Notion", "url": "https://www.notion.so/", "desc": "笔记+数据库+AI，个人知识管理首选", "tags": ["笔记", "知识管理"]},
+    {"name": "RayLink", "url": "https://www.raylink.live/", "desc": "免费远程控制软件，流畅稳定", "tags": ["远程控制", "免费"]},
+]
+
+# GitHub Trending RSS (非官方但可用)
+GITHUB_TRENDING_RSS = "https://mshibanami.github.io/GitHubTrendingRSS/daily.xml"
+
+# 热门RSS源
+RSS_FEEDS = [
+    # 技术资讯
+    ("https://www.v2ex.com/api/topics/hot.json", "V2EX热门", "json"),
+    ("https://rsshub.app/hackernews/best", "Hacker News", "rss"),
+    ("https://rsshub.app/github/trending/daily", "GitHub Trending", "rss"),
+    # 国内资讯
+    ("https://www.36kr.com/feed", "36氪", "rss"),
+    ("https://sspai.com/feed", "少数派", "rss"),
+    ("https://rsshub.app/zhihu/hotlist", "知乎热榜", "rss"),
+    # Product Hunt
+    ("https://rsshub.app/producthunt/today", "Product Hunt", "rss"),
+]
+
+# 自动化/实用项目关键词 (用于筛选GitHub项目)
+AUTOMATION_KEYWORDS = [
+    'automation', 'automate', '自动化', 'script', '脚本',
+    'bot', '机器人', 'crawler', '爬虫', 'scraper',
+    'tool', '工具', 'utility', 'helper', 'assistant',
+    'workflow', '工作流', 'task', '任务', 'scheduler',
+    'notification', '推送', '提醒', 'alert',
+    'backup', '备份', 'sync', '同步',
+    'download', '下载', 'converter', '转换',
+    'github-actions', 'action', 'ci/cd',
+    'cli', 'command-line', 'terminal',
+    'api', 'wrapper', 'sdk', 'client',
+    'spider', '监控', 'monitor',
+]
+
+# AI/大模型关键词
 AI_KEYWORDS = [
-    'ai', 'artificial intelligence', '人工智能', 'gpt', 'chatgpt', 'openai',
-    'llm', '大模型', 'deepseek', 'claude', 'gemini', 'copilot',
-    'machine learning', 'deep learning', '机器学习', '深度学习',
-    'generative ai', '生成式ai', 'aigc', 'midjourney', 'stable diffusion',
-    'agent', '智能体', 'prompt', '提示词', 'ai工具'
+    'ai', 'artificial-intelligence', '人工智能', 
+    'llm', '大模型', 'gpt', 'chatgpt', 'claude',
+    'deepseek', 'kimi', '通义', '文心', '智谱',
+    'agent', '智能体', 'prompt', '提示词',
+    'rag', '知识库', 'embedding', '向量',
+    'chatbot', '对话', 'assistant',
+    'generative', '生成式', 'aigc',
+    'stable-diffusion', 'midjourney', '绘图',
 ]
 
-# 芯片相关关键词 (NVIDIA、算力、半导体) +3分
-CHIP_KEYWORDS = [
-    'nvidia', '英伟达', 'gpu', '芯片', 'chip', 'semiconductor', '半导体',
-    '算力', 'computing power', 'tsmc', '台积电', 'intel', 'amd',
-    'cuda', 'h100', 'a100', 'h200', 'blackwell', '数据中心',
-    'datacenter', '训练', 'inference', '推理'
-]
-
-# 互联网商业相关关键词 (融资、产品发布) +2分
-BUSINESS_KEYWORDS = [
-    '融资', 'funding', 'fundraising', 'ipo', '上市',
-    '收购', 'acquire', 'acquisition', 'merger', '合并',
-    '产品发布', 'launch', 'release', '发布', '推出',
-    'startup', '创业', '独角兽', 'unicorn',
-    '融资轮', 'series a', 'series b', '种子轮', '天使轮'
-]
-
-# 赚钱机会相关关键词 (副业、工具变现) +3分
-MONEY_KEYWORDS = [
-    '副业', 'side hustle', '变现', 'monetize', '赚钱',
-    '被动收入', 'passive income', '自由职业', 'freelance',
-    '远程工作', 'remote work', '数字游民', 'digital nomad',
-    '工具变现', 'api付费', '订阅制', 'subscription', 'saas',
-    '知识付费', '课程', 'course', '付费专栏'
-]
-
-# 大公司关键词 +2分
-BIG_COMPANY_KEYWORDS = [
-    'openai', 'google', 'google deepmind', 'microsoft', 'apple',
-    'nvidia', 'meta', 'amazon', 'tesla', 'spacex',
-    'anthropic', '字节跳动', 'bytedance', '腾讯', 'tencent',
-    '阿里巴巴', 'alibaba', '百度', 'baidu'
-]
-
-# 普通无价值关键词 -3分
-LOW_VALUE_KEYWORDS = [
-    '广告', '推广', '优惠', '折扣', '促销', 'advertisement', 'promo',
-    '标题党', '震惊', '必看', '速看', '疯传', '刷屏',
-    '转发', '抽奖', '福利', '免费领取', '限时',
-    '点击', '优惠码', '优惠券', '抢购', '秒杀'
+# 创业/赚钱关键词
+STARTUP_KEYWORDS = [
+    'startup', '创业', 'saas', '订阅', 'subscription',
+    'monetize', '变现', 'revenue', '收入',
+    'side-project', '副业', 'indie', '独立开发',
+    'landing-page', '落地页', 'marketing', '营销',
+    'product', '产品', 'mvp', '最小可行',
 ]
 
 
 class NewsFetcher:
-    """新闻抓取器"""
+    """信息抓取器"""
     
     def __init__(self):
-        self.newsdata_api_key = os.getenv('NEWSDATA_API_KEY', '')
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json, text/html, application/rss+xml, */*',
         })
     
-    def fetch_all(self) -> List[NewsItem]:
-        """获取所有新闻，优先API，失败则使用RSS"""
-        news_list = []
+    def fetch_all(self) -> List[ToolItem]:
+        """获取所有信息"""
+        items = []
         
-        # 尝试 NewsData.io API
-        if self.newsdata_api_key:
-            logger.info("尝试使用 NewsData.io API...")
-            news_list = self._fetch_from_newsdata()
-            if news_list:
-                logger.info(f"NewsData.io API 获取到 {len(news_list)} 条新闻")
-                return news_list
+        # 1. 获取国内AI工具 (静态列表 + 动态更新检查)
+        logger.info("获取国内AI工具列表...")
+        items.extend(self._get_cn_ai_tools())
         
-        # 备选: 使用 RSS 源
-        logger.info("使用 RSS 备选方案...")
-        news_list = self._fetch_from_rss()
-        logger.info(f"RSS 获取到 {len(news_list)} 条新闻")
+        # 2. 获取GitHub热门项目
+        logger.info("获取GitHub热门项目...")
+        items.extend(self._fetch_github_trending())
         
-        return news_list
+        # 3. 获取RSS资讯
+        logger.info("获取RSS资讯...")
+        items.extend(self._fetch_rss_feeds())
+        
+        # 4. 获取V2EX热门
+        logger.info("获取V2EX热门...")
+        items.extend(self._fetch_v2ex_hot())
+        
+        return items
     
-    def _fetch_from_newsdata(self) -> List[NewsItem]:
-        """从 NewsData.io API 获取新闻"""
-        news_list = []
+    def _get_cn_ai_tools(self) -> List[ToolItem]:
+        """获取国内AI工具列表 (可扩展为动态检查更新)"""
+        items = []
+        for tool in CN_AI_TOOLS:
+            item = ToolItem(
+                name=tool["name"],
+                category="ai_tool",
+                source="国内AI工具",
+                link=tool["url"],
+                description=tool["desc"],
+                tags=tool.get("tags", []),
+                quality_score=7  # 基础分
+            )
+            items.append(item)
+        return items
+    
+    def _fetch_github_trending(self) -> List[ToolItem]:
+        """获取GitHub Trending"""
+        items = []
         
         try:
-            url = "https://newsdata.io/api/1/news"
-            params = {
-                'apikey': self.newsdata_api_key,
-                'q': 'technology OR AI OR chip OR startup OR funding',
-                'category': 'technology',
-                'language': 'en,zh',
-                'size': 50
-            }
+            # 使用RSSHub的GitHub Trending
+            url = "https://rsshub.app/github/trending/daily/any?limit=30"
+            response = self.session.get(url, timeout=30)
             
-            response = self.session.get(url, params=params, timeout=30)
-            response.raise_for_status()
-            data = response.json()
-            
-            if data.get('status') == 'success' and data.get('results'):
-                for item in data['results']:
-                    published = None
-                    if item.get('pubDate'):
-                        try:
-                            published = datetime.fromisoformat(item['pubDate'].replace('Z', '+00:00'))
-                        except:
-                            pass
-                    
-                    news = NewsItem(
-                        title=item.get('title', ''),
-                        source=item.get('source_id', 'Unknown'),
-                        link=item.get('link', ''),
-                        summary=item.get('description', '') or (item.get('content', '')[:300] if item.get('content') else ''),
-                        published=published
-                    )
-                    news_list.append(news)
-        
-        except Exception as e:
-            logger.error(f"NewsData.io API 错误: {e}")
-        
-        return news_list
-    
-    def _fetch_from_rss(self) -> List[NewsItem]:
-        """从 RSS 源获取新闻"""
-        rss_feeds = [
-            # 科技媒体 RSS
-            ('https://feeds.arstechnica.com/arstechnica/technology-lab', 'Ars Technica'),
-            ('https://www.theverge.com/rss/index.xml', 'The Verge'),
-            ('https://techcrunch.com/feed/', 'TechCrunch'),
-            ('https://www.wired.com/feed/rss', 'Wired'),
-            ('https://feeds.bbci.co.uk/news/technology/rss.xml', 'BBC Tech'),
-            ('https://www.36kr.com/feed', '36氪'),
-            ('https://www.ifanr.com/feed', '爱范儿'),
-            ('https://sspai.com/feed', '少数派'),
-            ('https://hackernews.betacat.io/feed', 'Hacker News 中文'),
-        ]
-        
-        news_list = []
-        cutoff_time = datetime.now() - timedelta(hours=24)
-        
-        for feed_url, source_name in rss_feeds:
-            try:
-                logger.info(f"获取 RSS: {source_name}")
-                feed = feedparser.parse(feed_url)
+            if response.status_code == 200:
+                feed = feedparser.parse(response.content)
                 
-                for entry in feed.entries[:20]:
-                    published = None
-                    if hasattr(entry, 'published_parsed') and entry.published_parsed:
-                        try:
-                            published = datetime(*entry.published_parsed[:6])
-                        except:
-                            pass
+                for entry in feed.entries[:30]:
+                    title = entry.get('title', '')
+                    link = entry.get('link', '')
+                    summary = entry.get('summary', '') or entry.get('description', '')
                     
-                    # 过滤24小时内的新闻
-                    if published and published.replace(tzinfo=None) < cutoff_time.replace(tzinfo=None):
-                        continue
+                    # 提取项目名
+                    name_match = re.search(r'([^/]+/[^/\s]+)', title)
+                    name = name_match.group(1) if name_match else title
                     
-                    summary = ''
-                    if hasattr(entry, 'summary'):
-                        summary = re.sub(r'<[^>]+>', '', entry.summary)
-                        summary = summary[:300]
+                    # 提取stars
+                    stars = 0
+                    star_match = re.search(r'(\d+,?\d*)\s*stars?', summary, re.I)
+                    if star_match:
+                        stars = int(star_match.group(1).replace(',', ''))
                     
-                    news = NewsItem(
-                        title=entry.get('title', ''),
-                        source=source_name,
-                        link=entry.get('link', ''),
-                        summary=summary,
-                        published=published
+                    # 提取描述
+                    desc = re.sub(r'<[^>]+>', '', summary)
+                    desc = desc[:200].strip()
+                    
+                    item = ToolItem(
+                        name=name,
+                        category="github_project",
+                        source="GitHub Trending",
+                        link=link,
+                        description=desc,
+                        stars=stars,
                     )
-                    news_list.append(news)
-            
-            except Exception as e:
-                logger.error(f"RSS {source_name} 错误: {e}")
-                continue
+                    items.append(item)
+                    
+        except Exception as e:
+            logger.error(f"GitHub Trending 获取失败: {e}")
         
-        return news_list
+        return items
     
-    def calculate_value_score(self, news: NewsItem) -> int:
+    def _fetch_rss_feeds(self) -> List[ToolItem]:
+        """获取RSS资讯"""
+        items = []
+        
+        for feed_url, source_name, feed_type in RSS_FEEDS:
+            if feed_type == "json":
+                continue  # V2EX单独处理
+            
+            try:
+                logger.info(f"获取RSS: {source_name}")
+                response = self.session.get(feed_url, timeout=30)
+                
+                if response.status_code == 200:
+                    feed = feedparser.parse(response.content)
+                    
+                    for entry in feed.entries[:15]:
+                        title = entry.get('title', '')
+                        link = entry.get('link', '')
+                        summary = entry.get('summary', '') or entry.get('description', '')
+                        summary = re.sub(r'<[^>]+>', '', summary)[:200]
+                        
+                        # 根据来源判断分类
+                        if 'github' in feed_url.lower():
+                            category = "github_project"
+                        elif 'product' in feed_url.lower():
+                            category = "startup"
+                        else:
+                            category = "automation"
+                        
+                        item = ToolItem(
+                            name=title[:50],
+                            category=category,
+                            source=source_name,
+                            link=link,
+                            description=summary,
+                        )
+                        items.append(item)
+                        
+            except Exception as e:
+                logger.error(f"RSS {source_name} 获取失败: {e}")
+        
+        return items
+    
+    def _fetch_v2ex_hot(self) -> List[ToolItem]:
+        """获取V2EX热门话题"""
+        items = []
+        
+        try:
+            url = "https://www.v2ex.com/api/topics/hot.json"
+            response = self.session.get(url, timeout=30)
+            
+            if response.status_code == 200:
+                data = response.json()
+                
+                for topic in data[:10]:
+                    title = topic.get('title', '')
+                    link = topic.get('url', '')
+                    content = topic.get('content', '')[:200]
+                    node = topic.get('node', {}).get('name', '')
+                    
+                    item = ToolItem(
+                        name=title,
+                        category="automation",
+                        source=f"V2EX/{node}",
+                        link=link,
+                        description=content,
+                    )
+                    items.append(item)
+                    
+        except Exception as e:
+            logger.error(f"V2EX获取失败: {e}")
+        
+        return items
+    
+    def calculate_value_score(self, item: ToolItem) -> int:
         """
-        计算高价值分数 (0-10分制)
-        只保留评分 >= 6 的新闻
+        计算价值评分 (0-10)
+        重点: 对普通人/创业者的实用价值
         """
-        score = 5  # 基础分5分
+        score = 5  # 基础分
+        text = f"{item.name} {item.description}".lower()
         
-        text = f"{news.title} {news.summary}".lower()
-        
-        # AI相关关键词 +3分
-        for keyword in AI_KEYWORDS:
-            if keyword.lower() in text:
-                score += 3
-                break  # 只加一次
-        
-        # 芯片相关关键词 +3分
-        for keyword in CHIP_KEYWORDS:
-            if keyword.lower() in text:
+        # 自动化/实用工具 +3分
+        for kw in AUTOMATION_KEYWORDS:
+            if kw.lower() in text:
                 score += 3
                 break
         
-        # 赚钱机会关键词 +3分
-        for keyword in MONEY_KEYWORDS:
-            if keyword.lower() in text:
-                score += 3
-                break
-        
-        # 大公司关键词 +2分
-        for keyword in BIG_COMPANY_KEYWORDS:
-            if keyword.lower() in text:
+        # AI相关 +2分
+        for kw in AI_KEYWORDS:
+            if kw.lower() in text:
                 score += 2
                 break
         
-        # 商业/发布类信息 +2分
-        for keyword in BUSINESS_KEYWORDS:
-            if keyword.lower() in text:
+        # 创业/赚钱 +2分
+        for kw in STARTUP_KEYWORDS:
+            if kw.lower() in text:
                 score += 2
                 break
         
-        # 普通无价值新闻 -3分
-        for keyword in LOW_VALUE_KEYWORDS:
-            if keyword.lower() in text:
-                score -= 3
+        # GitHub stars加分
+        if item.stars > 10000:
+            score += 2
+        elif item.stars > 5000:
+            score += 1
+        
+        # 国内AI工具加分
+        if item.category == "ai_tool":
+            score += 1
+        
+        # 过滤低价值内容
+        low_value = ['广告', '推广', '优惠', '促销', '抽奖']
+        for kw in low_value:
+            if kw in text:
+                score -= 2
                 break
         
         return max(0, min(10, score))
     
-    def generate_one_line_summary(self, news: NewsItem) -> str:
-        """生成一句话总结"""
-        title = news.title
-        text = f"{title} {news.summary}".lower()
+    def generate_practical_use(self, item: ToolItem) -> str:
+        """生成实际用途说明"""
+        text = f"{item.name} {item.description}".lower()
         
-        # 根据内容类型添加emoji前缀
-        if any(k in text for k in AI_KEYWORDS[:10]):
-            prefix = "🤖 AI"
-        elif any(k in text for k in CHIP_KEYWORDS[:8]):
-            prefix = "🔬 芯片"
-        elif any(k in text for k in MONEY_KEYWORDS[:6]):
-            prefix = "💰 赚钱"
-        elif any(k in text for k in BUSINESS_KEYWORDS[:8]):
-            prefix = "📊 商业"
-        else:
-            prefix = "📰 科技"
+        # 根据关键词给出建议
+        if any(kw in text for kw in ['cli', 'command', '终端', '命令']):
+            return "命令行工具，可提升开发效率"
+        elif any(kw in text for kw in ['bot', '机器人', 'chatbot']):
+            return "可自动化处理消息/任务，节省人力"
+        elif any(kw in text for kw in ['crawler', '爬虫', 'scraper']):
+            return "数据采集工具，可用于信息监控"
+        elif any(kw in text for kw in ['automation', '自动化', 'workflow']):
+            return "自动化工具，可替代重复劳动"
+        elif any(kw in text for kw in ['api', 'sdk']):
+            return "开发接口，可集成到自己的项目"
+        elif any(kw in text for kw in ['notion', 'obsidian', '笔记']):
+            return "知识管理工具，提升信息组织效率"
+        elif any(kw in text for kw in ['download', '下载']):
+            return "下载工具，可能节省会员费用"
+        elif any(kw in text for kw in ['backup', '同步', 'sync']):
+            return "数据备份工具，防止数据丢失"
+        elif any(kw in text for kw in ['大模型', 'llm', 'gpt', 'ai']):
+            return "AI能力，可用于提升工作效率或开发AI应用"
+        elif any(kw in text for kw in ['saas', '订阅', '变现']):
+            return "商业模式参考，可学习变现思路"
+        elif any(kw in text for kw in ['template', '模板', 'starter']):
+            return "项目模板，可快速启动新项目"
         
-        # 截取标题前40字符
-        short_title = title[:40] + "..." if len(title) > 40 else title
-        return f"{prefix}: {short_title}"
+        return "值得关注，可能有实用价值"
     
-    def generate_practical_value(self, news: NewsItem) -> str:
-        """
-        生成实际意义说明
-        重点：说明对赚钱/趋势的影响
-        """
-        text = f"{news.title} {news.summary}".lower()
-        insights = []
+    def filter_and_rank(self, items: List[ToolItem], top_n: int = 15) -> List[ToolItem]:
+        """筛选并排序"""
+        # 计算分数
+        for item in items:
+            item.quality_score = self.calculate_value_score(item)
+            item.practical_use = self.generate_practical_use(item)
         
-        # AI相关洞察
-        if any(k in text for k in AI_KEYWORDS):
-            if 'gpt' in text or 'chatgpt' in text or 'claude' in text or 'deepseek' in text:
-                insights.append("大模型能力升级，可关注相关API调用成本变化")
-            if 'agent' in text or '智能体' in text:
-                insights.append("AI Agent赛道升温，可探索自动化工具开发机会")
-            if 'prompt' in text or '提示词' in text:
-                insights.append("提示词工程仍是热点，可考虑Prompt优化服务")
-            if not insights:
-                insights.append("AI领域持续演进，关注可落地的应用场景")
-        
-        # 芯片相关洞察
-        if any(k in text for k in CHIP_KEYWORDS):
-            if 'nvidia' in text or '英伟达' in text:
-                insights.append("算力需求持续增长，关注GPU云服务价格趋势")
-            if 'gpu' in text:
-                insights.append("硬件升级带来AI应用成本下降红利")
-            if not insights:
-                insights.append("半导体供应链变化可能影响AI产品成本")
-        
-        # 赚钱机会相关洞察
-        if any(k in text for k in MONEY_KEYWORDS):
-            if '副业' in text or 'side' in text:
-                insights.append("副业方法论更新，可参考新模式")
-            if '变现' in text or 'monetize' in text:
-                insights.append("工具变现新思路，值得研究借鉴")
-            if '订阅' in text or 'subscription' in text:
-                insights.append("订阅模式验证成功，可考虑复制到垂直领域")
-            if not insights:
-                insights.append("赚钱机会值得关注，结合自身技能评估可行性")
-        
-        # 商业相关洞察
-        if any(k in text for k in BUSINESS_KEYWORDS):
-            if '融资' in text or 'funding' in text:
-                insights.append("资本看好该赛道，可关注同类产品机会")
-            if '发布' in text or 'launch' in text:
-                insights.append("新品发布意味着市场验证，可学习产品设计思路")
-            if '收购' in text or 'acquire' in text:
-                insights.append("并购活跃，该领域可能存在整合红利")
-            if not insights:
-                insights.append("商业动向值得关注，把握行业趋势")
-        
-        # 默认洞察
-        if not insights:
-            insights.append("关注行业动态，寻找差异化机会")
-        
-        return insights[0] if insights else "关注发展趋势，把握潜在机会"
-    
-    def filter_and_rank(self, news_list: List[NewsItem], top_n: int = 10) -> List[NewsItem]:
-        """
-        筛选并排序新闻
-        只保留评分 >= 6 的高价值新闻
-        """
-        # 计算价值分数
-        for news in news_list:
-            news.quality_score = self.calculate_value_score(news)
-            news.one_line_summary = self.generate_one_line_summary(news)
-            news.practical_value = self.generate_practical_value(news)
-        
-        # 过滤：只保留评分 >= 6 的新闻
-        filtered = [n for n in news_list if n.quality_score >= 6]
-        logger.info(f"评分筛选: {len(news_list)} -> {len(filtered)} 条 (>=6分)")
+        # 过滤低分
+        filtered = [i for i in items if i.quality_score >= 6]
+        logger.info(f"筛选: {len(items)} -> {len(filtered)} 条 (>=6分)")
         
         # 按分数排序
-        sorted_news = sorted(filtered, key=lambda x: x.quality_score, reverse=True)
+        sorted_items = sorted(filtered, key=lambda x: x.quality_score, reverse=True)
         
-        # 去重 (相同标题只保留一个)
-        seen_titles = set()
-        unique_news = []
-        for news in sorted_news:
-            title_key = re.sub(r'\s+', '', news.title.lower())
-            if title_key not in seen_titles:
-                seen_titles.add(title_key)
-                unique_news.append(news)
+        # 去重
+        seen = set()
+        unique = []
+        for item in sorted_items:
+            key = re.sub(r'\s+', '', item.name.lower())
+            if key not in seen:
+                seen.add(key)
+                unique.append(item)
         
-        return unique_news[:top_n]
+        return unique[:top_n]
 
 
 if __name__ == '__main__':
     # 测试
     fetcher = NewsFetcher()
-    all_news = fetcher.fetch_all()
-    top_news = fetcher.filter_and_rank(all_news, 10)
+    all_items = fetcher.fetch_all()
+    top_items = fetcher.filter_and_rank(all_items, 20)
     
-    if not top_news:
-        print("\n今日无高价值科技信息")
-    else:
-        for i, news in enumerate(top_news, 1):
-            print(f"\n{i}. [{news.quality_score}分] {news.title}")
-            print(f"   来源: {news.source}")
-            print(f"   一句话: {news.one_line_summary}")
-            print(f"   实际意义: {news.practical_value}")
+    print(f"\n今日精选 ({len(top_items)}条):\n")
+    
+    for i, item in enumerate(top_items, 1):
+        print(f"{i}. [{item.quality_score}分] {item.name}")
+        print(f"   分类: {item.category} | 来源: {item.source}")
+        print(f"   用途: {item.practical_use}")
+        print(f"   链接: {item.link}")
+        print()

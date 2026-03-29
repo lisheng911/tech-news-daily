@@ -1,14 +1,16 @@
-name: Daily Schedule Push
+name: Daily Tools Push
 
 on:
+  workflow_dispatch:  # 手动触发测试
   schedule:
-    # Tokyo 07:30 = UTC 22:30 (前一天)
-    # Tokyo is UTC+9, so 07:30 Tokyo = 22:30 UTC previous day
-    - cron: '30 22 * * *'
-  workflow_dispatch: # 支持手动触发
+    # 北京时间 8:00 = UTC 0:00（绝对稳定方案）
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: read
 
 jobs:
-  push-schedule:
+  push-tools:
     runs-on: ubuntu-latest
     
     steps:
@@ -26,18 +28,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Run schedule fetcher and push
+      - name: Run daily tools fetcher and push
+        id: run_push
         env:
-          STUDENT_ID: ${{ secrets.STUDENT_ID }}
-          STUDENT_PASSWORD: ${{ secrets.STUDENT_PASSWORD }}
           SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
         run: |
+          echo "========== 开始执行 =========="
+          echo "时间: $(date '+%Y-%m-%d %H:%M:%S')"
           python main.py
+          echo "========== 执行完成 =========="
       
-      - name: Commit log (if any)
+      - name: Notify on failure
+        if: failure()
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A || true
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M:%S')" || true
-          git push || true
+          echo "::error::任务执行失败，请检查日志"
