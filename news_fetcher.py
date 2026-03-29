@@ -138,7 +138,9 @@ class NewsFetcher:
         items = []
         ai_keywords = ['ai', 'gpt', 'llm', 'chatgpt', 'claude', 'deepseek', 'openai', 
                       'anthropic', 'model', 'gemini', '人工智能', '大模型', '智能体', 
-                      'agent', 'sora', 'diffusion', 'stable', 'midjourney']
+                      'agent', 'sora', 'diffusion', 'stable', 'midjourney',
+                      'machine learning', 'neural', 'transformer', 'llama', 'mistral',
+                      '科技', '技术', '创业', '产品', '发布', '新功能', '更新']
         
         for url, source in RSS_SOURCES["ai_news"]:
             try:
@@ -147,11 +149,11 @@ class NewsFetcher:
                     continue
                 
                 feed = feedparser.parse(response.content)
-                for entry in feed.entries[:15]:
+                for entry in feed.entries[:20]:
                     title = entry.get('title', '')
                     text = title.lower()
                     
-                    # AI相关内容才保留
+                    # AI相关或科技资讯都保留
                     if not any(kw in text for kw in ai_keywords):
                         continue
                     
@@ -266,7 +268,7 @@ class NewsFetcher:
                     )
                     items.append(item)
                     
-                    if len(items) >= 10:
+                    if len(items) >= 15:
                         break
         except Exception as e:
             logger.error(f"自动化脚本错误: {e}")
@@ -395,11 +397,11 @@ class NewsFetcher:
         
         # 限制每个分类数量
         limits = {
-            "国内AI工具": 8,
-            "AI动态": 6,
-            "GitHub热门": 6,
-            "自动化脚本": 5,
-            "科技资讯": 6,
+            "国内AI工具": 10,
+            "AI动态": 8,
+            "GitHub热门": 8,
+            "自动化脚本": 8,
+            "科技资讯": 10,
         }
         
         for cat in result:
