@@ -203,7 +203,7 @@ class NewsFetcher:
         return items
     
     def _fetch_automation_scripts(self) -> List[ToolItem]:
-        """自动化脚本 - 从GitHub筛选工具类项目"""
+        """自动化脚本 - 先筛选，不够则补充热门项目"""
         items = []
         seen = set()
         
@@ -221,6 +221,7 @@ class NewsFetcher:
             "https://rsshub.app/github/trending/daily/python?limit=30",
             "https://rsshub.app/github/trending/daily/javascript?limit=25",
             "https://rsshub.app/github/trending/daily/go?limit=20",
+            "https://rsshub.app/github/trending/daily/typescript?limit=20",
             "https://rsshub.app/github/trending/daily/rust?limit=15",
         ]
         
@@ -243,10 +244,6 @@ class NewsFetcher:
                     if name in seen:
                         continue
                     
-                    # 筛选工具类项目
-                    if not any(kw in text for kw in tool_keywords):
-                        continue
-                    
                     seen.add(name)
                     
                     # 提取stars
@@ -255,6 +252,9 @@ class NewsFetcher:
                     if star_match:
                         stars = int(star_match.group(1).replace(',', ''))
                     
+                    # 先尝试筛选工具类项目
+                    is_tool = any(kw in text for kw in tool_keywords)
+                    
                     item = ToolItem(
                         name=name,
                         category="自动化脚本",
@@ -262,10 +262,15 @@ class NewsFetcher:
                         link=entry.get('link', ''),
                         description=self._clean_summary(summary, 50),
                         stars=stars,
-                        quality_score=8
+                        quality_score=8 if is_tool else 6
                     )
                     item.practical_use = self._get_practical_use(item)
-                    items.append(item)
+                    
+                    # 工具类项目优先，不够则补充其他项目
+                    if is_tool:
+                        items.insert(len([i for i in items if i.quality_score >= 8]), item)
+                    elif len(items) < 10:
+                        items.append(item)
                     
                     if len(items) >= 10:
                         break
@@ -275,7 +280,8 @@ class NewsFetcher:
             except Exception as e:
                 logger.error(f"自动化脚本错误: {e}")
         
-        return items
+        # 确保至少有内容
+        return items[:10]
     
     def _fetch_tech_news(self) -> List[ToolItem]:
         """科技资讯 - 知乎、少数派、掘金"""
