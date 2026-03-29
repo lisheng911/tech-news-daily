@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 每日精选推送模块
-确保每个分类都有足够内容
+每个分类都有静态备用数据，确保网络失败也能推送
 """
 
 import os
@@ -31,7 +31,9 @@ class ToolItem:
     practical_use: str = ""
 
 
-# ============ 国内AI工具精选（静态，保证数量） ============
+# ============ 静态备用数据（网络失败时使用） ============
+
+# 国内AI工具（静态主数据）
 CN_AI_TOOLS = [
     {"name": "DeepSeek R1 - 深度思考免费模型", "url": "https://www.deepseek.com/", "desc": "国产最强推理模型，免费开放，API超便宜"},
     {"name": "Kimi - 20万字长文本AI", "url": "https://kimi.moonshot.cn/", "desc": "支持超长文本，文件解析强，完全免费"},
@@ -43,6 +45,56 @@ CN_AI_TOOLS = [
     {"name": "Coze扣子 - 无代码AI应用", "url": "https://www.coze.cn/", "desc": "无代码搭建AI机器人，免费托管"},
     {"name": "Dify - 开源AI应用平台", "url": "https://dify.ai/", "desc": "可私有部署的LLM应用开发平台"},
     {"name": "Cursor - AI编程神器", "url": "https://cursor.com/", "desc": "AI自动写代码，程序员必备"},
+]
+
+# AI动态备用数据
+AI_NEWS_BACKUP = [
+    {"name": "OpenAI发布GPT-4.5", "url": "https://openai.com/", "desc": "最新大模型，能力更强"},
+    {"name": "DeepSeek R1开源发布", "url": "https://www.deepseek.com/", "desc": "国产推理模型，媲美o1"},
+    {"name": "Claude 3.5 Sonnet更新", "url": "https://anthropic.com/", "desc": "编程能力大幅提升"},
+    {"name": "Gemini 2.0发布", "url": "https://deepmind.google/", "desc": "谷歌最新多模态模型"},
+    {"name": "Llama 3.3开源", "url": "https://ai.meta.com/", "desc": "Meta开源大模型"},
+    {"name": "AI编程工具Trae发布", "url": "https://www.trae.ai/", "desc": "字节AI编程工具"},
+    {"name": "Sora视频生成开放", "url": "https://openai.com/sora", "desc": "OpenAI视频生成"},
+    {"name": "Midjourney V7发布", "url": "https://midjourney.com/", "desc": "AI绘画新版本"},
+]
+
+# GitHub热门备用数据
+GITHUB_BACKUP = [
+    {"name": "microsoft/semantic-kernel", "url": "https://github.com/microsoft/semantic-kernel", "desc": "AI应用开发框架", "stars": 22000},
+    {"name": "openai/whisper", "url": "https://github.com/openai/whisper", "desc": "语音识别模型", "stars": 60000},
+    {"name": "langchain-ai/langchain", "url": "https://github.com/langchain-ai/langchain", "desc": "LLM应用框架", "stars": 90000},
+    {"name": "lobehub/lobe-chat", "url": "https://github.com/lobehub/lobe-chat", "desc": "开源AI聊天客户端", "stars": 35000},
+    {"name": "hpcaitech/Open-Sora", "url": "https://github.com/hpcaitech/Open-Sora", "desc": "开源视频生成", "stars": 20000},
+    {"name": "comfyanonymous/ComfyUI", "url": "https://github.com/comfyanonymous/ComfyUI", "desc": "Stable Diffusion界面", "stars": 45000},
+    {"name": "AutomaApp/automa", "url": "https://github.com/AutomaApp/automa", "desc": "浏览器自动化", "stars": 10000},
+    {"name": "denoland/deno", "url": "https://github.com/denoland/deno", "desc": "JavaScript运行时", "stars": 95000},
+    {"name": "rustdesk/rustdesk", "url": "https://github.com/rustdesk/rustdesk", "desc": "远程桌面软件", "stars": 70000},
+    {"name": "usebruno/bruno", "url": "https://github.com/usebruno/bruno", "desc": "API测试工具", "stars": 25000},
+]
+
+# 自动化脚必备用数据
+AUTOMATION_BACKUP = [
+    {"name": "yt-dlp/yt-dlp", "url": "https://github.com/yt-dlp/yt-dlp", "desc": "视频下载工具", "stars": 75000},
+    {"name": "huginn/huginn", "url": "https://github.com/huginn/huginn", "desc": "自动化代理系统", "stars": 42000},
+    {"name": "n8n-io/n8n", "url": "https://github.com/n8n-io/n8n", "desc": "工作流自动化", "stars": 45000},
+    {"name": "ArchiveBox/ArchiveBox", "url": "https://github.com/ArchiveBox/ArchiveBox", "desc": "网页归档工具", "stars": 20000},
+    {"name": "pwndbg/pwndbg", "url": "https://github.com/pwndbg/pwndbg", "desc": "调试工具", "stars": 7000},
+    {"name": "sherlock-project/sherlock", "url": "https://github.com/sherlock-project/sherlock", "desc": "用户名搜索工具", "stars": 55000},
+    {"name": "InstaPy/InstaPy", "url": "https://github.com/InstaPy/InstaPy", "desc": "Instagram自动化", "stars": 16000},
+    {"name": "github/hub", "url": "https://github.com/github/hub", "desc": "GitHub命令行工具", "stars": 22000},
+    {"name": "scrapy/scrapy", "url": "https://github.com/scrapy/scrapy", "desc": "爬虫框架", "stars": 52000},
+    {"name": "puppeteer/puppeteer", "url": "https://github.com/puppeteer/puppeteer", "desc": "浏览器自动化", "stars": 88000},
+]
+
+# 科技资讯备用数据
+TECH_NEWS_BACKUP = [
+    {"name": "AI大模型最新进展汇总", "url": "https://www.36kr.com/", "source": "36氪"},
+    {"name": "程序员必备工具推荐", "url": "https://sspai.com/", "source": "少数派"},
+    {"name": "开源项目精选推荐", "url": "https://github.com/", "source": "GitHub"},
+    {"name": "科技行业热点解读", "url": "https://www.zhihu.com/", "source": "知乎"},
+    {"name": "开发者效率工具分享", "url": "https://juejin.cn/", "source": "掘金"},
+    {"name": "AI编程工具对比评测", "url": "https://www.v2ex.com/", "source": "V2EX"},
 ]
 
 
@@ -57,7 +109,7 @@ class NewsFetcher:
         self.timeout = 25
     
     def fetch_all(self) -> dict:
-        """直接按分类获取，确保每个分类都有内容"""
+        """获取所有内容，网络失败时使用备用数据"""
         result = {
             "国内AI工具": [],
             "AI动态": [],
@@ -66,30 +118,44 @@ class NewsFetcher:
             "科技资讯": [],
         }
         
-        # 1. 国内AI工具（静态数据，保证10条）
+        # 1. 国内AI工具（静态数据，100%保证）
         logger.info("🤖 获取国内AI工具...")
         result["国内AI工具"] = self._get_cn_ai_tools()
         
-        # 2. AI动态（不筛选，直接取科技新闻）
+        # 2. AI动态
         logger.info("📢 获取AI动态...")
         result["AI动态"] = self._fetch_ai_news()
+        if len(result["AI动态"]) < 5:
+            logger.warning("AI动态数据不足，使用备用数据")
+            result["AI动态"] = self._get_ai_news_backup()
         
-        # 3. GitHub热门（不筛选，直接取热门）
+        # 3. GitHub热门
         logger.info("🔥 获取GitHub热门...")
         result["GitHub热门"] = self._fetch_github_trending()
+        if len(result["GitHub热门"]) < 5:
+            logger.warning("GitHub热门数据不足，使用备用数据")
+            result["GitHub热门"] = self._get_github_backup()
         
-        # 4. 自动化脚本（从GitHub筛选工具类项目）
+        # 4. 自动化脚本
         logger.info("⚡ 获取自动化脚本...")
         result["自动化脚本"] = self._fetch_automation_scripts()
+        if len(result["自动化脚本"]) < 5:
+            logger.warning("自动化脚本数据不足，使用备用数据")
+            result["自动化脚本"] = self._get_automation_backup()
         
-        # 5. 科技资讯（知乎、少数派等）
+        # 5. 科技资讯
         logger.info("📰 获取科技资讯...")
         result["科技资讯"] = self._fetch_tech_news()
+        if len(result["科技资讯"]) < 5:
+            logger.warning("科技资讯数据不足，使用备用数据")
+            result["科技资讯"] = self._get_tech_news_backup()
         
         return result
     
+    # ============ 静态备用数据方法 ============
+    
     def _get_cn_ai_tools(self) -> List[ToolItem]:
-        """国内AI工具（静态数据）"""
+        """国内AI工具（静态）"""
         items = []
         for tool in CN_AI_TOOLS:
             item = ToolItem(
@@ -104,11 +170,77 @@ class NewsFetcher:
             items.append(item)
         return items
     
-    def _fetch_ai_news(self) -> List[ToolItem]:
-        """AI动态 - 不筛选关键词，直接取科技资讯"""
+    def _get_ai_news_backup(self) -> List[ToolItem]:
+        """AI动态备用数据"""
         items = []
-        
-        # 数据源：Hacker News + 36氪 + IT之家
+        for news in AI_NEWS_BACKUP:
+            item = ToolItem(
+                name=news["name"],
+                category="AI动态",
+                source="精选",
+                link=news["url"],
+                description=news["desc"],
+                quality_score=7
+            )
+            item.practical_use = "AI动态"
+            items.append(item)
+        return items
+    
+    def _get_github_backup(self) -> List[ToolItem]:
+        """GitHub热门备用数据"""
+        items = []
+        for proj in GITHUB_BACKUP:
+            item = ToolItem(
+                name=proj["name"],
+                category="GitHub热门",
+                source="GitHub",
+                link=proj["url"],
+                description=proj["desc"],
+                stars=proj.get("stars", 0),
+                quality_score=7
+            )
+            item.practical_use = self._get_practical_use(item)
+            items.append(item)
+        return items
+    
+    def _get_automation_backup(self) -> List[ToolItem]:
+        """自动化脚必备用数据"""
+        items = []
+        for proj in AUTOMATION_BACKUP:
+            item = ToolItem(
+                name=proj["name"],
+                category="自动化脚本",
+                source="GitHub",
+                link=proj["url"],
+                description=proj["desc"],
+                stars=proj.get("stars", 0),
+                quality_score=8
+            )
+            item.practical_use = "自动化工具"
+            items.append(item)
+        return items
+    
+    def _get_tech_news_backup(self) -> List[ToolItem]:
+        """科技资讯备用数据"""
+        items = []
+        for news in TECH_NEWS_BACKUP:
+            item = ToolItem(
+                name=news["name"],
+                category="科技资讯",
+                source=news["source"],
+                link=news["url"],
+                description="",
+                quality_score=6
+            )
+            item.practical_use = "值得关注"
+            items.append(item)
+        return items
+    
+    # ============ 网络抓取方法 ============
+    
+    def _fetch_ai_news(self) -> List[ToolItem]:
+        """AI动态 - 抓取网络数据"""
+        items = []
         sources = [
             ("https://rsshub.app/hackernews/best", "Hacker News"),
             ("https://rsshub.app/36kr/newsflashes", "36氪"),
@@ -126,8 +258,6 @@ class NewsFetcher:
                 feed = feedparser.parse(response.content)
                 for entry in feed.entries[:15]:
                     title = entry.get('title', '')
-                    
-                    # 去重
                     title_key = re.sub(r'\s+', '', title.lower())[:30]
                     if title_key in seen_titles:
                         continue
@@ -155,7 +285,7 @@ class NewsFetcher:
         return items
     
     def _fetch_github_trending(self) -> List[ToolItem]:
-        """GitHub热门 - 直接取热门项目，不筛选"""
+        """GitHub热门 - 抓取网络数据"""
         items = []
         seen = set()
         
@@ -169,7 +299,6 @@ class NewsFetcher:
                     link = entry.get('link', '')
                     summary = entry.get('summary', '') or ''
                     
-                    # 提取项目名
                     match = re.search(r'([^/]+/[^/\s]+)', title)
                     name = match.group(1) if match else title
                     
@@ -177,7 +306,6 @@ class NewsFetcher:
                         continue
                     seen.add(name)
                     
-                    # 提取stars
                     stars = 0
                     star_match = re.search(r'(\d+,?\d*)\s*star', summary, re.I)
                     if star_match:
@@ -203,11 +331,10 @@ class NewsFetcher:
         return items
     
     def _fetch_automation_scripts(self) -> List[ToolItem]:
-        """自动化脚本 - 先筛选，不够则补充热门项目"""
+        """自动化脚本 - 抓取网络数据"""
         items = []
         seen = set()
         
-        # 工具类关键词
         tool_keywords = [
             'tool', 'tools', 'cli', 'script', 'scripts', 'bot', 'helper',
             'automation', 'util', 'utility', 'downloader', 'crawler',
@@ -216,7 +343,6 @@ class NewsFetcher:
             'workflow', 'task', 'runner', 'manager', 'generator',
         ]
         
-        # 从多个语言热门中筛选
         urls = [
             "https://rsshub.app/github/trending/daily/python?limit=30",
             "https://rsshub.app/github/trending/daily/javascript?limit=25",
@@ -237,22 +363,18 @@ class NewsFetcher:
                     summary = entry.get('summary', '') or ''
                     text = f"{title} {summary}".lower()
                     
-                    # 提取项目名
                     match = re.search(r'([^/]+/[^/\s]+)', title)
                     name = match.group(1) if match else title
                     
                     if name in seen:
                         continue
-                    
                     seen.add(name)
                     
-                    # 提取stars
                     stars = 0
                     star_match = re.search(r'(\d+,?\d*)\s*star', summary, re.I)
                     if star_match:
                         stars = int(star_match.group(1).replace(',', ''))
                     
-                    # 先尝试筛选工具类项目
                     is_tool = any(kw in text for kw in tool_keywords)
                     
                     item = ToolItem(
@@ -266,7 +388,6 @@ class NewsFetcher:
                     )
                     item.practical_use = self._get_practical_use(item)
                     
-                    # 工具类项目优先，不够则补充其他项目
                     if is_tool:
                         items.insert(len([i for i in items if i.quality_score >= 8]), item)
                     elif len(items) < 10:
@@ -280,11 +401,10 @@ class NewsFetcher:
             except Exception as e:
                 logger.error(f"自动化脚本错误: {e}")
         
-        # 确保至少有内容
         return items[:10]
     
     def _fetch_tech_news(self) -> List[ToolItem]:
-        """科技资讯 - 知乎、少数派、掘金"""
+        """科技资讯 - 抓取网络数据"""
         items = []
         seen_titles = set()
         
@@ -301,7 +421,6 @@ class NewsFetcher:
                 if response.status_code != 200:
                     continue
                 
-                # V2EX是JSON格式
                 if "v2ex" in url:
                     data = response.json()
                     for topic in data[:8]:
@@ -349,20 +468,19 @@ class NewsFetcher:
         
         return items
     
+    # ============ 工具方法 ============
+    
     def _clean_title(self, title: str) -> str:
-        """清理标题"""
         title = re.sub(r'<[^>]+>', '', title)
         title = re.sub(r'\s+', ' ', title).strip()
         return title[:50] + "..." if len(title) > 50 else title
     
     def _clean_summary(self, summary: str, max_len: int = 60) -> str:
-        """清理摘要"""
         summary = re.sub(r'<[^>]+>', '', summary)
         summary = re.sub(r'\s+', ' ', summary).strip()
         return summary[:max_len] + "..." if len(summary) > max_len else summary
     
     def _get_practical_use(self, item: ToolItem) -> str:
-        """生成实用建议"""
         text = f"{item.name} {item.description}".lower()
         
         if '免费' in text or 'free' in text:
