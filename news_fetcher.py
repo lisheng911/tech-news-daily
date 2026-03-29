@@ -91,23 +91,40 @@ BLACKLIST_KEYWORDS = [
 STATIC_RESOURCES = {
     "GitHub热门": [
         {"name": "yt-dlp - 视频下载神器", "url": "https://github.com/yt-dlp/yt-dlp", "desc": "支持上千网站", "stars": 75000},
-        {"name": "auto-gpt - 自主AI代理", "url": "https://github.com/Significant-Gravitas/AutoGPT", "desc": "AI自动化先锋", "stars": 160000},
+        {"name": "AutoGPT - 自主AI代理", "url": "https://github.com/Significant-Gravitas/AutoGPT", "desc": "AI自动化先锋", "stars": 160000},
+        {"name": "LangChain - LLM应用框架", "url": "https://github.com/langchain-ai/langchain", "desc": "构建AI应用", "stars": 90000},
+        {"name": "ComfyUI - Stable Diffusion GUI", "url": "https://github.com/comfyanonymous/ComfyUI", "desc": "AI绘画节点式界面", "stars": 50000},
+        {"name": "transformers - HuggingFace核心库", "url": "https://github.com/huggingface/transformers", "desc": "预训练模型库", "stars": 130000},
     ],
     "自动化脚本": [
         {"name": "n8n - 工作流自动化", "url": "https://github.com/n8n-io/n8n", "desc": "可视化自动化平台", "stars": 40000},
         {"name": "huginn - 自动化代理", "url": "https://github.com/huginn/huginn", "desc": "构建自定义代理", "stars": 42000},
+        {"name": "AutoHotkey - Windows自动化", "url": "https://www.autohotkey.com/", "desc": "脚本自动化工具"},
+        {"name": "Playwright - 浏览器自动化", "url": "https://github.com/microsoft/playwright", "desc": "跨浏览器自动化", "stars": 65000},
+        {"name": "Puppeteer - Node.js浏览器控制", "url": "https://github.com/puppeteer/puppeteer", "desc": "Headless Chrome", "stars": 88000},
     ],
     "AI新功能": [
         {"name": "DeepSeek R1 - 深度思考模型", "url": "https://www.deepseek.com/", "desc": "国产推理模型，免费开放"},
         {"name": "Kimi - 长文本AI", "url": "https://kimi.moonshot.cn/", "desc": "20万字长文本，完全免费"},
+        {"name": "Claude - Anthropic AI助手", "url": "https://claude.ai/", "desc": "安全可靠的AI对话"},
+        {"name": "Perplexity - AI搜索引擎", "url": "https://www.perplexity.ai/", "desc": "AI驱动搜索"},
+        {"name": "Midjourney - AI绘画", "url": "https://www.midjourney.com/", "desc": "高质量AI图像生成"},
     ],
     "新模型咨询": [
         {"name": "Hugging Face - 模型社区", "url": "https://huggingface.co/models", "desc": "最新开源模型集合"},
         {"name": "OpenRouter - API聚合", "url": "https://openrouter.ai/", "desc": "多模型统一接口"},
+        {"name": "Ollama - 本地运行LLM", "url": "https://ollama.ai/", "desc": "本地大模型运行"},
+        {"name": "ModelScope - 阿里模型库", "url": "https://modelscope.cn/", "desc": "国产模型社区"},
+        {"name": "Papers With Code - 论文+代码", "url": "https://paperswithcode.com/", "desc": "最新AI论文追踪"},
     ],
     "好用的工具": [
         {"name": "Cursor - AI编程助手", "url": "https://cursor.sh/", "desc": "AI代码编辑器"},
         {"name": "Raycast - Mac效率工具", "url": "https://www.raycast.com/", "desc": "快捷启动器"},
+        {"name": "Obsidian - 知识管理", "url": "https://obsidian.md/", "desc": "双向链接笔记"},
+        {"name": "Notion - 全能协作平台", "url": "https://www.notion.so/", "desc": "笔记+数据库+协作"},
+        {"name": "VS Code - 代码编辑器", "url": "https://code.visualstudio.com/", "desc": "免费强大的IDE"},
+        {"name": "Docker - 容器化平台", "url": "https://www.docker.com/", "desc": "应用容器化部署"},
+        {"name": "Figma - 设计协作", "url": "https://www.figma.com/", "desc": "在线UI设计工具"},
     ],
 }
 
@@ -554,12 +571,12 @@ class NewsFetcher:
         """GitHub热门"""
         items = []
         source = "GitHub"
-        content = self._fetch_source("https://rsshub.app/github/trending/daily/any?limit=30", source)
+        content = self._fetch_source("https://rsshub.app/github/trending/daily/any?limit=50", source)
         
         if content:
             feed = feedparser.parse(content)
             seen = set()
-            for entry in feed.entries[:15]:
+            for entry in feed.entries[:25]:
                 title = entry.get('title', '')
                 match = re.search(r'([^/]+/[^/\s]+)', title)
                 name = match.group(1) if match else title
@@ -612,7 +629,7 @@ class NewsFetcher:
                 continue
             
             feed = feedparser.parse(content)
-            for entry in feed.entries[:15]:
+            for entry in feed.entries[:20]:
                 title = entry.get('title', '')
                 key = re.sub(r'\s+', '', title.lower())[:30]
                 if key in seen:
@@ -695,6 +712,8 @@ class NewsFetcher:
             ("https://rsshub.app/zhihu/hotlist", "知乎"),
             ("https://sspai.com/feed", "少数派"),
             ("https://www.v2ex.com/api/topics/hot.json", "V2EX"),
+            ("https://rsshub.app/ithome/ranking", "IT之家"),
+            ("https://rsshub.app/producthunt/today", "ProductHunt"),
         ]
         seen = set()
         
@@ -706,7 +725,7 @@ class NewsFetcher:
             if "v2ex" in url:
                 try:
                     data = json.loads(content)
-                    for topic in data[:10]:
+                    for topic in data[:15]:
                         title = topic.get('title', '')
                         key = re.sub(r'\s+', '', title.lower())[:30]
                         if key in seen:
@@ -735,7 +754,7 @@ class NewsFetcher:
                     pass
             else:
                 feed = feedparser.parse(content)
-                for entry in feed.entries[:10]:
+                for entry in feed.entries[:15]:
                     title = entry.get('title', '')
                     key = re.sub(r'\s+', '', title.lower())[:30]
                     if key in seen:
