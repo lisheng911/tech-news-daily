@@ -237,7 +237,7 @@ class HistoryManager:
         
         策略：
         1. 精确匹配：title + url + source hash
-        2. 模糊匹配：标题相似度 > 0.8
+        2. 模糊匹配：标题相似度 > 0.85（只检查最近7天）
         """
         content_hash = self._hash(item.title, item.link, item.source)
         item.content_hash = content_hash
@@ -248,20 +248,31 @@ class HistoryManager:
             try:
                 last_date = datetime.fromisoformat(record.get('last_pushed', '2000-01-01'))
                 days_ago = (datetime.now() - last_date).days
+                logger.debug(f"精确匹配: {item.title[:30]}... ({days_ago}天前)")
                 return True, days_ago
             except:
                 return True, 0
         
-        # 2. 模糊匹配：遍历历史记录查找相似标题
-        SIMILARITY_THRESHOLD = 0.8
+        # 2. 模糊匹配：只检查最近7天的记录（避免误杀）
+        SIMILARITY_THRESHOLD = 0.85  # 提高阈值
+        seven_days_ago = datetime.now() - timedelta(days=7)
+        
         for hash_key, record in self.history.items():
+            # 只检查最近7天的
+            try:
+                last_pushed = datetime.fromisoformat(record.get('last_pushed', '2000-01-01'))
+                if last_pushed < seven_days_ago:
+                    continue
+            except:
+                continue
+            
             stored_title = record.get('title', '')
             if not stored_title:
                 continue
             
             similarity = title_similarity(item.title, stored_title)
             if similarity > SIMILARITY_THRESHOLD:
-                logger.info(f"🔍 模糊匹配命中: '{item.title[:30]}...' ≈ '{stored_title[:30]}...' (相似度: {similarity:.2f})")
+                logger.debug(f"模糊匹配: '{item.title[:30]}...' ≈ '{stored_title[:30]}...' (相似度: {similarity:.2f})")
                 try:
                     last_date = datetime.fromisoformat(record.get('last_pushed', '2000-01-01'))
                     days_ago = (datetime.now() - last_date).days
@@ -442,37 +453,52 @@ class NewsFetcher:
                 continue
             valid_items.append(item)
         
-        # 第三步：分类 + 去重 + 黑名单过滤（黑名单需要评分）
+        # 第三步：先计算评分，再分类 + 去重 + 黑名单过滤
         suppress_count = 0
         blacklisted = 0
+        category_miss = 0
         for item in valid_items:
+            # 先计算评分（classify 需要用到）
+            item.quality_score = self._calc_score(
+                item.title, item.stars, item.source, item.publish_time
+            )
+            
+            # 再检查重复状态
             status = self.history.classify(item)
             if status == 'suppress':
                 suppress_count += 1
+                logger.debug(f"压制: {item.title[:30]}... (days_ago={item.duplicate_days})")
                 continue
             elif status == 'remind':
+                # 重复内容重新计算评分（加入重复惩罚）
                 item.quality_score = self._calc_score(
                     item.title, item.stars, item.source, item.publish_time, is_repeat=True
-                )
-            else:
-                item.quality_score = self._calc_score(
-                    item.title, item.stars, item.source, item.publish_time
                 )
             
             # 黑名单过滤（需要评分）
             if self._is_blacklisted(item):
                 blacklisted += 1
+                logger.debug(f"黑名单: {item.title[:30]}... (score={item.quality_score})")
                 continue
             
             # 添加到分类
             cat = item.category
             if cat in result:
                 result[cat].append(item)
+            else:
+                category_miss += 1
+                logger.warning(f"分类未匹配: {item.title[:30]}... -> category='{cat}'")
         
         result["统计面板"]["过滤压制"] = suppress_count
         result["统计面板"]["过滤黑名单"] = blacklisted
+        
+        # 输出过滤统计
+        if suppress_count > 0:
+            logger.info(f"🚫 压制过滤: {suppress_count} 条")
         if blacklisted > 0:
             logger.info(f"🚫 黑名单过滤: {blacklisted} 条")
+        if category_miss > 0:
+            logger.info(f"⚠️ 分类未匹配: {category_miss} 条")
         
         # 第四步：排序并确保每个分类都有内容
         for cat in self.CATEGORIES:
