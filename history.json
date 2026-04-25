@@ -530,9 +530,9 @@
     },
     "3644b291ca5f8128": {
       "first_seen": "2026-04-03T03:27:19.899659",
-      "last_pushed": "2026-04-03T03:27:19.899659",
-      "push_count": 1,
-      "last_score": 5,
+      "last_pushed": "2026-04-25T03:31:21.985399",
+      "push_count": 2,
+      "last_score": 4,
       "title": "汇聚热爱，「2050 大会」少数派线下活动邀请你来参与",
       "source": "少数派"
     },
@@ -2663,8 +2663,104 @@
       "last_score": 8,
       "title": "App+1｜秒看视频参数，我做了个免费的 Mac 小工具",
       "source": "少数派"
+    },
+    "34571a17c9b7eb1a": {
+      "first_seen": "2026-04-25T03:31:21.985380",
+      "last_pushed": "2026-04-25T03:31:21.985380",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "GPT-5.5 / gpt-image-2 API 已上线， 0.06$/张，注册留 ID 送 5 ",
+      "source": "V2EX"
+    },
+    "723d6aeba7b473b9": {
+      "first_seen": "2026-04-25T03:31:21.985390",
+      "last_pushed": "2026-04-25T03:31:21.985390",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "占比大幅提升！谷歌：公司内部 75%的新代码已由 AI 生成",
+      "source": "V2EX"
+    },
+    "302d9bd5b22d2f72": {
+      "first_seen": "2026-04-25T03:31:21.985393",
+      "last_pushed": "2026-04-25T03:31:21.985393",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "# 抽奖 | 懒猫小龙猫 AI Agent 抽奖活动（第二轮）",
+      "source": "V2EX"
+    },
+    "5192d73664a4e082": {
+      "first_seen": "2026-04-25T03:31:21.985396",
+      "last_pushed": "2026-04-25T03:31:21.985396",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "本周看什么 | 最近值得一看的 11 部作品",
+      "source": "少数派"
+    },
+    "e72cdc23aecb0b3a": {
+      "first_seen": "2026-04-25T03:31:21.985402",
+      "last_pushed": "2026-04-25T03:31:21.985402",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般",
+      "source": "V2EX"
+    },
+    "8d3c3b970f03ff96": {
+      "first_seen": "2026-04-25T03:31:21.985405",
+      "last_pushed": "2026-04-25T03:31:21.985405",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "性爱机器人的诞生合理吗？",
+      "source": "V2EX"
+    },
+    "9d66d30c7b0c6bfc": {
+      "first_seen": "2026-04-25T03:31:21.985408",
+      "last_pushed": "2026-04-25T03:31:21.985408",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "如果你有且仅有一次机会获得一项超能力，你最想拥有什么能力？",
+      "source": "V2EX"
+    },
+    "16fac617e64944e4": {
+      "first_seen": "2026-04-25T03:31:21.985411",
+      "last_pushed": "2026-04-25T03:31:21.985411",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "时光荏苒，四年了自己一点长进都没有。大家点进来看看我这个笨蛋",
+      "source": "V2EX"
+    },
+    "320328aafbc2d8a0": {
+      "first_seen": "2026-04-25T03:31:21.985414",
+      "last_pushed": "2026-04-25T03:31:21.985414",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "我是不是意味着职业生涯到期了？",
+      "source": "V2EX"
+    },
+    "d0ef7f25ca341371": {
+      "first_seen": "2026-04-25T03:31:21.985422",
+      "last_pushed": "2026-04-25T03:31:21.985422",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "2026 年，选择 Podman 还是 Docker",
+      "source": "V2EX"
+    },
+    "23f4ef2b252dbfb1": {
+      "first_seen": "2026-04-25T03:31:21.985425",
+      "last_pushed": "2026-04-25T03:31:21.985425",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "换了新显示器怎么验？我做了一个开箱即用的全平台屏幕检测工具",
+      "source": "少数派"
+    },
+    "8b8593f8402967aa": {
+      "first_seen": "2026-04-25T03:31:21.985427",
+      "last_pushed": "2026-04-25T03:31:21.985427",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "我做了个工具让 8GB 显卡跑 30B 模型从 3 tok/s 提到 21 tok/s，记录一下技术",
+      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-04-24T03:49:36.405409"
+  "last_update": "2026-04-25T03:31:21.985433"
 }
