@@ -1,5 +1,101 @@
 {
   "records": {
+    "6cfce735aca397c6": {
+      "first_seen": "2026-09-05T04:25:01.874043",
+      "last_pushed": "2026-09-05T04:25:01.874043",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "南昌旅游推荐",
+      "source": "V2EX"
+    },
+    "26447ba95ea9def6": {
+      "first_seen": "2026-09-05T04:25:01.874040",
+      "last_pushed": "2026-09-05T04:25:01.874040",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "用了一次 5.6 Luna，我就滚回到了 Sol",
+      "source": "V2EX"
+    },
+    "84fa40854978c5ee": {
+      "first_seen": "2026-09-05T04:25:01.874038",
+      "last_pushed": "2026-09-05T04:25:01.874038",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "周六清早起来快蹬 马上又要重置了....",
+      "source": "V2EX"
+    },
+    "85f010fb191c5a31": {
+      "first_seen": "2026-09-05T04:25:01.874035",
+      "last_pushed": "2026-09-05T04:25:01.874035",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "聊聊成都老破小",
+      "source": "V2EX"
+    },
+    "6289973075c10e19": {
+      "first_seen": "2026-09-05T04:25:01.874031",
+      "last_pushed": "2026-09-05T04:25:01.874031",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "[中转站] 福利国模分组上线，限时 0.09x 爽蹬，进来领鸡蛋",
+      "source": "V2EX"
+    },
+    "0fb9572077acd289": {
+      "first_seen": "2026-09-05T04:25:01.874028",
+      "last_pushed": "2026-09-05T04:25:01.874028",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "多年经验总结，经常发送消息有错字的人工作能力都不佳，这是为啥？",
+      "source": "V2EX"
+    },
+    "36ab5b8f112fe22f": {
+      "first_seen": "2026-09-05T04:25:01.874025",
+      "last_pushed": "2026-09-05T04:25:01.874025",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "中国的考公考编还能火多久？",
+      "source": "V2EX"
+    },
+    "4fab7a3dbec68bcf": {
+      "first_seen": "2026-09-05T04:25:01.874022",
+      "last_pushed": "2026-09-05T04:25:01.874022",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "新玩意 251｜少数派的编辑们最近买了啥？",
+      "source": "少数派"
+    },
+    "a22f700c3181d161": {
+      "first_seen": "2026-09-05T04:25:01.874019",
+      "last_pushed": "2026-09-05T04:25:01.874019",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "gtp6 体验中[吉吉 API] 即使同步上线，欢迎各位大佬前来尝鲜。纯血 Pro 倍率 0.16 ",
+      "source": "V2EX"
+    },
+    "00d71575a92ad777": {
+      "first_seen": "2026-09-05T04:25:01.874016",
+      "last_pushed": "2026-09-05T04:25:01.874016",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "开学季 | 超级闹钟、算教学周、统计作业：三条快捷指令让学校生活轻松一点",
+      "source": "少数派"
+    },
+    "4f03335876de8494": {
+      "first_seen": "2026-09-05T04:25:01.874013",
+      "last_pushed": "2026-09-05T04:25:01.874013",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "新学期，新气象：正版软件 & 付费栏目限时优惠",
+      "source": "少数派"
+    },
+    "ed62f4a6ecd1c117": {
+      "first_seen": "2026-09-05T04:25:01.874005",
+      "last_pushed": "2026-09-05T04:25:01.874005",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "opencode 出新模型了，叫 Omen Alpha，输入输出价格接近 deepseek，速度飞快",
+      "source": "V2EX"
+    },
     "c4cfa2196419418d": {
       "first_seen": "2026-09-04T04:29:52.242719",
       "last_pushed": "2026-09-04T04:29:52.242719",
@@ -15903,104 +15999,8 @@
       "last_score": 4,
       "title": "2026 年了，程序员用 chrome 还是用 Safari 比较多？可以说一下推荐的原因吗？",
       "source": "V2EX"
-    },
-    "1175702cf05bc879": {
-      "first_seen": "2026-03-30T03:40:01.538456",
-      "last_pushed": "2026-03-30T03:40:01.538456",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "我录入了 14 亿条数据泄漏信息，搓了一个 个人信息 “泄漏” 检测工具",
-      "source": "V2EX"
-    },
-    "47cb04c97ab7d9a4": {
-      "first_seen": "2026-03-30T03:40:01.538451",
-      "last_pushed": "2026-03-30T03:40:01.538451",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "新买的酷态科 10 号 ultra 坏了",
-      "source": "V2EX"
-    },
-    "e6773182e4c568be": {
-      "first_seen": "2026-03-30T03:40:01.538448",
-      "last_pushed": "2026-03-30T03:40:01.538448",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "2026 年，个人开发首选是直接走原生还是走 RN 或 flutter",
-      "source": "V2EX"
-    },
-    "964ce31c05ab8e1a": {
-      "first_seen": "2026-03-30T03:40:01.538446",
-      "last_pushed": "2026-03-30T03:40:01.538446",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "上周 32 岁成都女征男友经验分享及情况分析，供诸位参考",
-      "source": "V2EX"
-    },
-    "c3635fea29a874f5": {
-      "first_seen": "2026-03-30T03:40:01.538443",
-      "last_pushed": "2026-03-30T03:40:01.538443",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "今天和 HR 说取消校招，因为上周一个需求让我后背发凉",
-      "source": "V2EX"
-    },
-    "5bbf20a57f0d7e4c": {
-      "first_seen": "2026-03-30T03:40:01.538440",
-      "last_pushed": "2026-03-30T03:40:01.538440",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "弟弟是赌狗诈骗犯，我应该跟家里断绝关系吗",
-      "source": "V2EX"
-    },
-    "2238826db1e9cfec": {
-      "first_seen": "2026-03-30T03:40:01.538436",
-      "last_pushed": "2026-03-30T03:40:01.538436",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "大家一人来一句 AI 味很浓的语句，纯属娱乐",
-      "source": "V2EX"
-    },
-    "1cf0683e33ec2096": {
-      "first_seen": "2026-03-30T03:40:01.538426",
-      "last_pushed": "2026-03-30T03:40:01.538426",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "派早报：英文维基百科正式禁止 AI 参与编写",
-      "source": "少数派"
-    },
-    "7e76e832907226c0": {
-      "first_seen": "2026-03-29T10:43:17.684276",
-      "last_pushed": "2026-03-29T10:43:17.684276",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "Claude Pro 信用卡频频被拒？用 N26 + Apple Pay 丝滑升级保姆级教程",
-      "source": "V2EX"
-    },
-    "3de995aedc4e5f0f": {
-      "first_seen": "2026-03-29T10:43:17.684274",
-      "last_pushed": "2026-03-29T10:43:17.684274",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "入坑小红书公司的要谨慎，期权有第三年得不到的巨大风险，不要被 16 薪欺骗。",
-      "source": "V2EX"
-    },
-    "69f2e91d5d163171": {
-      "first_seen": "2026-03-29T10:43:17.684273",
-      "last_pushed": "2026-03-29T10:43:17.684273",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "大资金",
-      "source": "V2EX"
-    },
-    "773a1655428bcaac": {
-      "first_seen": "2026-03-29T10:43:17.684271",
-      "last_pushed": "2026-03-29T10:43:17.684271",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "有玩流量卡和 CPE 的吗，有什么适合长期旅行的方案",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-09-04T04:29:52.243484"
+  "last_update": "2026-09-05T04:25:01.874685"
 }
