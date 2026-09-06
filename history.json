@@ -1,5 +1,93 @@
 {
   "records": {
+    "70b5b7056246ef2c": {
+      "first_seen": "2026-09-06T04:36:01.054123",
+      "last_pushed": "2026-09-06T04:36:01.054123",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "一个 MonoRepo 复杂系统的部署问题",
+      "source": "V2EX"
+    },
+    "a5dcb66bacf167a5": {
+      "first_seen": "2026-09-06T04:36:01.054121",
+      "last_pushed": "2026-09-06T04:36:01.054121",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "拼多多购物体验真的是很恶心",
+      "source": "V2EX"
+    },
+    "e8f525464fb9beed": {
+      "first_seen": "2026-09-06T04:36:01.054118",
+      "last_pushed": "2026-09-06T04:36:01.054118",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "外接显示器时，你会把 Mac 打开作为副屏用吗？",
+      "source": "V2EX"
+    },
+    "9614e9aef3018014": {
+      "first_seen": "2026-09-06T04:36:01.054114",
+      "last_pushed": "2026-09-06T04:36:01.054114",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "给我整乐呵了，商汤上了 deepseek v4 flash 和 pro",
+      "source": "V2EX"
+    },
+    "8480e1d85f7d34dd": {
+      "first_seen": "2026-09-06T04:36:01.054110",
+      "last_pushed": "2026-09-06T04:36:01.054110",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "汇流直播，一个 Apple 全家桶的直播聚合观看 app，上架 Apple Store，抽奖了",
+      "source": "V2EX"
+    },
+    "a0d65c088f02ddb5": {
+      "first_seen": "2026-09-06T04:36:01.054107",
+      "last_pushed": "2026-09-06T04:36:01.054107",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "本周看什么 | 最近值得一看的 8 部作品",
+      "source": "少数派"
+    },
+    "3a9facd8b3fe9ffe": {
+      "first_seen": "2026-09-06T04:36:01.054105",
+      "last_pushed": "2026-09-06T04:36:01.054105",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "最值得买的顶级公路车？TREK 八代 Madone 评测",
+      "source": "少数派"
+    },
+    "e0838073cfddad44": {
+      "first_seen": "2026-09-06T04:36:01.054102",
+      "last_pushed": "2026-09-06T04:36:01.054102",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "几个网友分享的 GPT-6-Astra 编写的游戏和 Web 页面",
+      "source": "V2EX"
+    },
+    "797baa1f6ed0b6ec": {
+      "first_seen": "2026-09-06T04:36:01.054099",
+      "last_pushed": "2026-09-06T04:36:01.054099",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "卧槽 GPT-6 Astra 就是 AGI。",
+      "source": "V2EX"
+    },
+    "5cffad2896102122": {
+      "first_seen": "2026-09-06T04:36:01.054096",
+      "last_pushed": "2026-09-06T04:36:01.054096",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "难绷，太相信 ai 了😭",
+      "source": "V2EX"
+    },
+    "bfc45dcbfd75075e": {
+      "first_seen": "2026-09-06T04:36:01.054086",
+      "last_pushed": "2026-09-06T04:36:01.054086",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "搞了个开源大模型 API 中转站，官方价 3.5 折，送 25 份 5 刀额度",
+      "source": "V2EX"
+    },
     "6cfce735aca397c6": {
       "first_seen": "2026-09-05T04:25:01.874043",
       "last_pushed": "2026-09-05T04:25:01.874043",
@@ -15911,96 +15999,8 @@
       "last_score": 4,
       "title": "刚才发现小米应用商店半夜 3 点偷偷给我装应用",
       "source": "V2EX"
-    },
-    "efdd34acb6adf094": {
-      "first_seen": "2026-03-31T03:29:11.529372",
-      "last_pushed": "2026-03-31T03:29:11.529372",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "记录一次京东以旧换新 iPhone 17 Pro Max",
-      "source": "V2EX"
-    },
-    "dc675ac22d790264": {
-      "first_seen": "2026-03-31T03:29:11.529370",
-      "last_pushed": "2026-03-31T03:29:11.529370",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "antigravity 额度几乎是乞丐版了， ultra 订阅也不行",
-      "source": "V2EX"
-    },
-    "b15f2c217b82def8": {
-      "first_seen": "2026-03-31T03:29:11.529366",
-      "last_pushed": "2026-03-31T03:29:11.529366",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "对于吸血的另一半家庭，陷入了迷茫",
-      "source": "V2EX"
-    },
-    "db49dad307530bc4": {
-      "first_seen": "2026-03-31T03:29:11.529362",
-      "last_pushed": "2026-03-31T03:29:11.529362",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "蜕变日记 5(2 约女大学生)",
-      "source": "V2EX"
-    },
-    "781fb8e5ad6685cd": {
-      "first_seen": "2026-03-31T03:29:11.529360",
-      "last_pushed": "2026-03-31T03:29:11.529360",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "如何投诉苏州大学？",
-      "source": "V2EX"
-    },
-    "df6fb4b449704b3b": {
-      "first_seen": "2026-03-31T03:29:11.529357",
-      "last_pushed": "2026-03-31T03:29:11.529357",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "张雪摩托车连续获得两个 WSBK 分站冠军， 是不是意味着国产摩托车已经达到世界先进水平？",
-      "source": "V2EX"
-    },
-    "da113395137c961d": {
-      "first_seen": "2026-03-31T03:29:11.529354",
-      "last_pushed": "2026-03-31T03:29:11.529354",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "自家新茶又来啦，龙井茶和径山茶有需要的 V 友欢迎联系[抽奖送龙井茶]",
-      "source": "V2EX"
-    },
-    "df6ba81cac552246": {
-      "first_seen": "2026-03-31T03:29:11.529351",
-      "last_pushed": "2026-03-31T03:29:11.529351",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "从保鲜逻辑到外观设计，一份冰箱落地选购指南",
-      "source": "少数派"
-    },
-    "5bd0a57d8f6f30eb": {
-      "first_seen": "2026-03-31T03:29:11.529347",
-      "last_pushed": "2026-03-31T03:29:11.529347",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：vivo 举办 vivo X 系列春季新品发布会等",
-      "source": "少数派"
-    },
-    "bba924bdf644de2d": {
-      "first_seen": "2026-03-31T03:29:11.529337",
-      "last_pushed": "2026-03-31T03:29:11.529337",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "经济要崩溃了吗？大萧条叠加 AI 危机",
-      "source": "V2EX"
-    },
-    "8c0f7bc2d1d9f95e": {
-      "first_seen": "2026-03-30T03:40:01.538459",
-      "last_pushed": "2026-03-30T03:40:01.538459",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "2026 年了，程序员用 chrome 还是用 Safari 比较多？可以说一下推荐的原因吗？",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-09-05T04:25:01.874685"
+  "last_update": "2026-09-06T04:36:01.054859"
 }
