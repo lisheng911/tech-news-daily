@@ -1,5 +1,125 @@
 {
   "records": {
+    "184e846515dbce04": {
+      "first_seen": "2026-09-09T04:39:17.439312",
+      "last_pushed": "2026-09-09T04:39:17.439312",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "派评｜近期值得关注的 App",
+      "source": "少数派"
+    },
+    "481d8bba9e65a7e7": {
+      "first_seen": "2026-09-09T04:39:17.439310",
+      "last_pushed": "2026-09-09T04:39:17.439310",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "Apple「随航」的无感体验里，藏着多少流畅的秘密？",
+      "source": "少数派"
+    },
+    "335bf589ce5cad30": {
+      "first_seen": "2026-09-09T04:39:17.439307",
+      "last_pushed": "2026-09-09T04:39:17.439307",
+      "push_count": 1,
+      "last_score": 8,
+      "title": "[送终身会员] Frset：精致优雅的 macOS 效率工具进入稳定版。主打剪贴板、截图、翻译、AI",
+      "source": "V2EX"
+    },
+    "b6b7929fbcfec107": {
+      "first_seen": "2026-09-09T04:39:17.439304",
+      "last_pushed": "2026-09-09T04:39:17.439304",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "请教下, 用 claude/codex 写代码太贵了, 打算尝试下国产模型, 如何处理?",
+      "source": "V2EX"
+    },
+    "c64ba5a3e60ca5fa": {
+      "first_seen": "2026-09-09T04:39:17.439302",
+      "last_pushed": "2026-09-09T04:39:17.439302",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "支付宝的美区苹果礼品卡全部没货",
+      "source": "V2EX"
+    },
+    "696f3fa83ba2a099": {
+      "first_seen": "2026-09-09T04:39:17.439299",
+      "last_pushed": "2026-09-09T04:39:17.439299",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "从什么时候开始，早睡早起变成小众爱好了？",
+      "source": "V2EX"
+    },
+    "2431d11ba8eb0df7": {
+      "first_seen": "2026-09-09T04:39:17.439297",
+      "last_pushed": "2026-09-09T04:39:17.439297",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "又是一个新的时代",
+      "source": "V2EX"
+    },
+    "f162ba687d1d55f5": {
+      "first_seen": "2026-09-09T04:39:17.439280",
+      "last_pushed": "2026-09-09T04:39:17.439280",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "论小红书上的极品蠢人",
+      "source": "V2EX"
+    },
+    "1241e468009d48c1": {
+      "first_seen": "2026-09-09T04:39:17.439276",
+      "last_pushed": "2026-09-09T04:39:17.439276",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "一边是消费降级，一边是各种涨价。看不懂了。",
+      "source": "V2EX"
+    },
+    "5009ea671c3ff4b7": {
+      "first_seen": "2026-09-09T04:39:17.439273",
+      "last_pushed": "2026-09-09T04:39:17.439273",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "失业三个月多月了，做了两款全栈产品，目前付费收入 100 块都没有，还要继续吗",
+      "source": "V2EX"
+    },
+    "73de62234f642961": {
+      "first_seen": "2026-09-09T04:39:17.439271",
+      "last_pushed": "2026-09-09T04:39:17.439271",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "[送终身会员] 自带 Agent 的 SSH 终端软件",
+      "source": "V2EX"
+    },
+    "661309947e94ac27": {
+      "first_seen": "2026-09-09T04:39:17.439268",
+      "last_pushed": "2026-09-09T04:39:17.439268",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "一日一技｜我的 Windows 11 头像会动，你也可以",
+      "source": "少数派"
+    },
+    "26677a237650dec0": {
+      "first_seen": "2026-09-09T04:39:17.439265",
+      "last_pushed": "2026-09-09T04:39:17.439265",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "社区速递 157 | NuPhy 全铝磁轴键盘与派友拒绝算法的「反投喂」信息源",
+      "source": "少数派"
+    },
+    "a91c1122ad8c22e1": {
+      "first_seen": "2026-09-09T04:39:17.439262",
+      "last_pushed": "2026-09-09T04:39:17.439262",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：LG 电视被曝存在后门、《塞尔达传说：时之笛》重制版公布等",
+      "source": "少数派"
+    },
+    "1fa66ef3a5f25d53": {
+      "first_seen": "2026-09-09T04:39:17.439252",
+      "last_pushed": "2026-09-09T04:39:17.439252",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "Velastar：喜欢仰望星空的你，有了一个探索异星的新选择",
+      "source": "少数派"
+    },
     "5ddaf8f4f2b99dd8": {
       "first_seen": "2026-09-08T04:32:37.367198",
       "last_pushed": "2026-09-08T04:32:37.367198",
@@ -15879,128 +15999,8 @@
       "last_score": 4,
       "title": "怀念那个美好的时代",
       "source": "V2EX"
-    },
-    "9d8f1d01b09f667d": {
-      "first_seen": "2026-04-03T03:27:19.899675",
-      "last_pushed": "2026-04-03T03:27:19.899675",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "问一个问题，如何增肥？",
-      "source": "V2EX"
-    },
-    "0c764a913bfb4c1e": {
-      "first_seen": "2026-04-03T03:27:19.899672",
-      "last_pushed": "2026-04-03T03:27:19.899672",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "很苦恼,对已婚有娃的同学可能有些喜欢怎么办",
-      "source": "V2EX"
-    },
-    "22e9e4f878f2e0bf": {
-      "first_seen": "2026-04-03T03:27:19.899669",
-      "last_pushed": "2026-04-03T03:27:19.899669",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "不到两个月就要离开北京了，聊聊我的故事，以及为什么…",
-      "source": "V2EX"
-    },
-    "a0fff4d061b70853": {
-      "first_seen": "2026-04-03T03:27:19.899665",
-      "last_pushed": "2026-04-03T03:27:19.899665",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "被咬一口的世界，苹果 50 年的疯狂与奇迹",
-      "source": "少数派"
-    },
-    "bb99596b9db2ee76": {
-      "first_seen": "2026-04-03T03:27:19.899662",
-      "last_pushed": "2026-04-03T03:27:19.899662",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派晚报：2026 年愚人节产品大赏",
-      "source": "少数派"
-    },
-    "8b25d9659be995ef": {
-      "first_seen": "2026-04-03T03:27:19.899657",
-      "last_pushed": "2026-04-03T03:27:19.899657",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "vivo X300 Ultra 影像漫谈：最大的变化是变化很大",
-      "source": "少数派"
-    },
-    "524f316305203b18": {
-      "first_seen": "2026-04-03T03:27:19.899654",
-      "last_pushed": "2026-04-03T03:27:19.899654",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "各位有没有靠谱的方法可以给团队提供 AI 编程服务的？",
-      "source": "V2EX"
-    },
-    "689cb9221df0dd9e": {
-      "first_seen": "2026-04-03T03:27:19.899651",
-      "last_pushed": "2026-04-03T03:27:19.899651",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "尴尬了，可能招聘了一个不会手写代码的 AI 工程师",
-      "source": "V2EX"
-    },
-    "7a61395331841318": {
-      "first_seen": "2026-04-03T03:27:19.899640",
-      "last_pushed": "2026-04-03T03:27:19.899640",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "派早报：Google 发布 Gemma 4 开源系列模型、智谱发布 GLM-5V-Turbo 多模态",
-      "source": "少数派"
-    },
-    "33b643506e126fd7": {
-      "first_seen": "2026-04-02T03:25:29.496240",
-      "last_pushed": "2026-04-02T03:25:29.496240",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "分享一下各位 Claude Code 愚人节彩蛋 /buddy 抽到的赛博小伙伴呗？",
-      "source": "V2EX"
-    },
-    "23436ecb22b2b668": {
-      "first_seen": "2026-04-02T03:25:29.496238",
-      "last_pushed": "2026-04-02T03:25:29.496238",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "codex 站起来蹬吗？",
-      "source": "V2EX"
-    },
-    "0b961a4364df832a": {
-      "first_seen": "2026-04-02T03:25:29.496237",
-      "last_pushed": "2026-04-02T03:25:29.496237",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "买特斯拉还是小鹏，听说小鹏 vla2.0 很强",
-      "source": "V2EX"
-    },
-    "1d7c3938edc7cec0": {
-      "first_seen": "2026-04-02T03:25:29.496235",
-      "last_pushed": "2026-04-02T03:25:29.496235",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "[求助] 公司给了 $90 刀 Claude 额度，但在境内用 cc-switch 和 env 都救",
-      "source": "V2EX"
-    },
-    "cbe4a5e52e2b1c00": {
-      "first_seen": "2026-04-02T03:25:29.496234",
-      "last_pushed": "2026-04-02T03:25:29.496234",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "假如喜欢孩子，但不敢结婚有什么办法呢？",
-      "source": "V2EX"
-    },
-    "41b8f7c513d4e5ea": {
-      "first_seen": "2026-04-02T03:25:29.496231",
-      "last_pushed": "2026-04-02T03:25:29.496231",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "这条不是愚人节新闻：中国全国范围内的“后排乘客不系安全带罚款”政策将推行",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-09-08T04:32:37.367907"
+  "last_update": "2026-09-09T04:39:17.439901"
 }
