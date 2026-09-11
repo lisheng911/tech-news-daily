@@ -1,5 +1,85 @@
 {
   "records": {
+    "df87b14fc78e5413": {
+      "first_seen": "2026-09-11T04:37:27.180868",
+      "last_pushed": "2026-09-11T04:37:27.180868",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "App+1｜下一节：教学工作紧张忙碌，下一节课从从容容",
+      "source": "少数派"
+    },
+    "05cbbb36e76ede9a": {
+      "first_seen": "2026-09-11T04:37:27.180865",
+      "last_pushed": "2026-09-11T04:37:27.180865",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "更新下广州前端工程师这两个礼拜找工作的情况",
+      "source": "V2EX"
+    },
+    "f20e89a7e7ad8928": {
+      "first_seen": "2026-09-11T04:37:27.180861",
+      "last_pushed": "2026-09-11T04:37:27.180861",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "把老站重做了一遍： Windows 10/11 精简版、全量版、LTSC，装完基本不用再配",
+      "source": "V2EX"
+    },
+    "c6fcd7b4d54b633d": {
+      "first_seen": "2026-09-11T04:37:27.180858",
+      "last_pushed": "2026-09-11T04:37:27.180858",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "Duo 真的很不苹果",
+      "source": "V2EX"
+    },
+    "420de9fb82a156a0": {
+      "first_seen": "2026-09-11T04:37:27.180855",
+      "last_pushed": "2026-09-11T04:37:27.180855",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "躺平是不是版本答案？",
+      "source": "V2EX"
+    },
+    "7024a10b297da6f2": {
+      "first_seen": "2026-09-11T04:37:27.180851",
+      "last_pushed": "2026-09-11T04:37:27.180851",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "一直有个疑问，感觉用 cursor 的人很少",
+      "source": "V2EX"
+    },
+    "85f352bfbb800407": {
+      "first_seen": "2026-09-11T04:37:27.180849",
+      "last_pushed": "2026-09-11T04:37:27.180849",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "ai 编程目前依然是普通人最好的杠杆",
+      "source": "V2EX"
+    },
+    "f8b074a92a081e08": {
+      "first_seen": "2026-09-11T04:37:27.180846",
+      "last_pushed": "2026-09-11T04:37:27.180846",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "大家会跟同事或者领导说自己用 Ai 完成需求吗？",
+      "source": "V2EX"
+    },
+    "b1de0e06ac87f49c": {
+      "first_seen": "2026-09-11T04:37:27.180842",
+      "last_pushed": "2026-09-11T04:37:27.180842",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "[AI ask me] 自用 API 中转站分享，注册就送 $11，叠加倍率可到 $110！",
+      "source": "V2EX"
+    },
+    "fe7240b9add9a277": {
+      "first_seen": "2026-09-11T04:37:27.180834",
+      "last_pushed": "2026-09-11T04:37:27.180834",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "派早报：商务部回应美国 AI 蒸馏指控",
+      "source": "少数派"
+    },
     "1c2f76876a74510c": {
       "first_seen": "2026-09-10T04:40:02.933711",
       "last_pushed": "2026-09-10T04:40:02.933711",
@@ -15919,88 +15999,8 @@
       "last_score": 5,
       "title": "愿君多修葺，此物最相思：从我的故事谈「数字遗产」保护",
       "source": "少数派"
-    },
-    "e3c193534fc8e1ca": {
-      "first_seen": "2026-04-06T03:40:25.386332",
-      "last_pushed": "2026-04-06T03:40:25.386332",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "程序员们， AI 出现后你们觉的自己变得更强还是要被淘汰了？",
-      "source": "V2EX"
-    },
-    "f750afaa7b75b09c": {
-      "first_seen": "2026-04-06T03:40:25.386329",
-      "last_pushed": "2026-04-06T03:40:25.386329",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "吸了 opus 后 gpt 5.4 都没味了这可怎么办！",
-      "source": "V2EX"
-    },
-    "2ad5a0d6dc993a07": {
-      "first_seen": "2026-04-06T03:40:25.386324",
-      "last_pushed": "2026-04-06T03:40:25.386324",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "专门为程序员设计的聊天软件： KongChat，即将发布。现抽奖，免费送 5 个 ChatGPT P",
-      "source": "V2EX"
-    },
-    "ba8a08df9461e7d9": {
-      "first_seen": "2026-04-06T03:40:25.386313",
-      "last_pushed": "2026-04-06T03:40:25.386313",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "免费发 codex 10000 刀",
-      "source": "V2EX"
-    },
-    "f6688eb802fe07a1": {
-      "first_seen": "2026-04-05T03:36:42.654278",
-      "last_pushed": "2026-04-05T03:36:42.654278",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "怎么感觉 ClaudeCodeMax 5X 额度变少了",
-      "source": "V2EX"
-    },
-    "2875a8e0e7cd8639": {
-      "first_seen": "2026-04-05T03:36:42.654274",
-      "last_pushed": "2026-04-05T03:36:42.654274",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "哪里有 giffgaff 手机卡",
-      "source": "V2EX"
-    },
-    "c5f1d34154552c89": {
-      "first_seen": "2026-04-05T03:36:42.654271",
-      "last_pushed": "2026-04-05T03:36:42.654271",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "2 年以后的硬件和本地大模型",
-      "source": "V2EX"
-    },
-    "7f365e4b1c410ea0": {
-      "first_seen": "2026-04-05T03:36:42.654268",
-      "last_pushed": "2026-04-05T03:36:42.654268",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "是不是折腾输入法的尽头都是回归原生输入法?",
-      "source": "V2EX"
-    },
-    "5dfbced66c8b1a4d": {
-      "first_seen": "2026-04-05T03:36:42.654266",
-      "last_pushed": "2026-04-05T03:36:42.654266",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "现在 session 是主流还是 jwt + refresh token 是主流？",
-      "source": "V2EX"
-    },
-    "7caa7da9c0b45b76": {
-      "first_seen": "2026-04-05T03:36:42.654263",
-      "last_pushed": "2026-04-05T03:36:42.654263",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "死活下载不了 youtube 了",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-09-10T04:40:02.934369"
+  "last_update": "2026-09-11T04:37:27.181557"
 }
