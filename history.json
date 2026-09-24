@@ -1,5 +1,101 @@
 {
   "records": {
+    "ef10b9699277dcfc": {
+      "first_seen": "2026-09-24T04:47:08.970010",
+      "last_pushed": "2026-09-24T04:47:08.970010",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "应届生住满北京 1 年到上海，我感觉生活品质提升了 100 倍",
+      "source": "V2EX"
+    },
+    "18a5d8829a2a5262": {
+      "first_seen": "2026-09-24T04:47:08.970009",
+      "last_pushed": "2026-09-24T04:47:08.970009",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "[咖啡] 有什么好喝的解决方案？",
+      "source": "V2EX"
+    },
+    "7188d7150dd19512": {
+      "first_seen": "2026-09-24T04:47:08.970008",
+      "last_pushed": "2026-09-24T04:47:08.970008",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "特朗普接机，说明了什么呢？个人的尊重友谊还是国家层面的强大？",
+      "source": "V2EX"
+    },
+    "4aa76639d3212f2f": {
+      "first_seen": "2026-09-24T04:47:08.970006",
+      "last_pushed": "2026-09-24T04:47:08.970006",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "很遗憾， Apple 国内直营店已经明显让人失望了",
+      "source": "V2EX"
+    },
+    "fe307f6d775b9111": {
+      "first_seen": "2026-09-24T04:47:08.970004",
+      "last_pushed": "2026-09-24T04:47:08.970004",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "手机都这么贵了，越来越买不起了！",
+      "source": "V2EX"
+    },
+    "a9f39926e8a43b1d": {
+      "first_seen": "2026-09-24T04:47:08.970002",
+      "last_pushed": "2026-09-24T04:47:08.970002",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "33 岁 8 年大厂前端 Gap 三年找工作近况最后一次更新，决定放弃找工作，在家人的支持下决定再创",
+      "source": "V2EX"
+    },
+    "58b9cbdc141c7c3f": {
+      "first_seen": "2026-09-24T04:47:08.970000",
+      "last_pushed": "2026-09-24T04:47:08.970000",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "服气！老婆不想换工作",
+      "source": "V2EX"
+    },
+    "84191881bfafd89d": {
+      "first_seen": "2026-09-24T04:47:08.969999",
+      "last_pushed": "2026-09-24T04:47:08.969999",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "Muse 注册的新方法，已经成功",
+      "source": "V2EX"
+    },
+    "31cf23d28a6f805a": {
+      "first_seen": "2026-09-24T04:47:08.969998",
+      "last_pushed": "2026-09-24T04:47:08.969998",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "具透 | 新「环境」、新变化，visionOS 27 值得关注的新特性",
+      "source": "少数派"
+    },
+    "bf1cea55459868b0": {
+      "first_seen": "2026-09-24T04:47:08.969996",
+      "last_pushed": "2026-09-24T04:47:08.969996",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "社区速递 159 | 便携卡片充电器与库克十五年改变生活的产品",
+      "source": "少数派"
+    },
+    "219414eb3c9260df": {
+      "first_seen": "2026-09-24T04:47:08.969995",
+      "last_pushed": "2026-09-24T04:47:08.969995",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：小米召开秋季新品发布会、千问发布 Qwen-Audio-3.1系列模型等",
+      "source": "少数派"
+    },
+    "423dfc32c23a7e42": {
+      "first_seen": "2026-09-24T04:47:08.969990",
+      "last_pushed": "2026-09-24T04:47:08.969990",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "注册 Meta 的 muse，免费领取 10 亿 token",
+      "source": "V2EX"
+    },
     "7a2b9ed7fd92e2e2": {
       "first_seen": "2026-09-23T04:42:55.626356",
       "last_pushed": "2026-09-23T04:42:55.626356",
@@ -15903,104 +15999,8 @@
       "last_score": 4,
       "title": "对于不听取任务布置的下属，你们会怎么做？",
       "source": "V2EX"
-    },
-    "19cfe4c29ce43a6f": {
-      "first_seen": "2026-04-18T03:29:50.617130",
-      "last_pushed": "2026-04-18T03:29:50.617130",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "移动的上传真的有 1TB 达量限速吗？",
-      "source": "V2EX"
-    },
-    "55cb363648fff363": {
-      "first_seen": "2026-04-18T03:29:50.617128",
-      "last_pushed": "2026-04-18T03:29:50.617128",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "你们 Mac 会安装像 iStat Menus 这类监控软件吗？",
-      "source": "V2EX"
-    },
-    "da36e2eb22df8c26": {
-      "first_seen": "2026-04-18T03:29:50.617126",
-      "last_pushed": "2026-04-18T03:29:50.617126",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "v2er 大佬们， offer 选择求助",
-      "source": "V2EX"
-    },
-    "465c31e2d3a8d136": {
-      "first_seen": "2026-04-18T03:29:50.617124",
-      "last_pushed": "2026-04-18T03:29:50.617124",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "上门女婿和女性嫁去男方家有什么本质区别？",
-      "source": "V2EX"
-    },
-    "ef4daf1c03fd646d": {
-      "first_seen": "2026-04-18T03:29:50.617121",
-      "last_pushed": "2026-04-18T03:29:50.617121",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "周五了，大家周末准备干啥呢",
-      "source": "V2EX"
-    },
-    "8b9059aea8f438f8": {
-      "first_seen": "2026-04-18T03:29:50.617119",
-      "last_pushed": "2026-04-18T03:29:50.617119",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "今天结婚了☺️☺️☺️",
-      "source": "V2EX"
-    },
-    "11891c631cbe3c1c": {
-      "first_seen": "2026-04-18T03:29:50.617116",
-      "last_pushed": "2026-04-18T03:29:50.617116",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "中年单身男人想给自己买个生日礼物，可以买什么?",
-      "source": "V2EX"
-    },
-    "696ca5e3aaf44e32": {
-      "first_seen": "2026-04-18T03:29:50.617114",
-      "last_pushed": "2026-04-18T03:29:50.617114",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "来一杯不翻车的自信：手冲咖啡入门指北",
-      "source": "少数派"
-    },
-    "8c54fadec919a784": {
-      "first_seen": "2026-04-18T03:29:50.617112",
-      "last_pushed": "2026-04-18T03:29:50.617112",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "TDS REVIEW｜三星 Galaxy Buds4 Pro 降噪真无线耳机体验",
-      "source": "少数派"
-    },
-    "0cd2d6b07c740217": {
-      "first_seen": "2026-04-18T03:29:50.617109",
-      "last_pushed": "2026-04-18T03:29:50.617109",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "本周看什么 | 最近值得一看的 9 部作品",
-      "source": "少数派"
-    },
-    "0ce421a21339e335": {
-      "first_seen": "2026-04-18T03:29:50.617099",
-      "last_pushed": "2026-04-18T03:29:50.617099",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "从 X 上搬运来的白嫖 GPT Plus 教程",
-      "source": "V2EX"
-    },
-    "87c9a2ea0bde6783": {
-      "first_seen": "2026-04-17T03:44:52.231630",
-      "last_pushed": "2026-04-17T03:44:52.231630",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "爱他美也爆了，有没有推荐新生儿能喝的奶粉",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-09-23T04:42:55.626984"
+  "last_update": "2026-09-24T04:47:08.970354"
 }
