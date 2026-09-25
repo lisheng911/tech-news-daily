@@ -1,5 +1,93 @@
 {
   "records": {
+    "c1b97934add84326": {
+      "first_seen": "2026-09-25T04:55:12.132146",
+      "last_pushed": "2026-09-25T04:55:12.132146",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "用半年时间打磨的 HTTPS 抓包和调试工具-ApiCatcher，对标 Proxyman",
+      "source": "V2EX"
+    },
+    "85050f24804070f2": {
+      "first_seen": "2026-09-25T04:55:12.132143",
+      "last_pushed": "2026-09-25T04:55:12.132143",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "dmit 洛杉矶 补货了！",
+      "source": "V2EX"
+    },
+    "15b00d28d90a437a": {
+      "first_seen": "2026-09-25T04:55:12.132140",
+      "last_pushed": "2026-09-25T04:55:12.132140",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "到底应该用 astra 还是 opus 5.5 来写代码呢？",
+      "source": "V2EX"
+    },
+    "9bdb163392e52cad": {
+      "first_seen": "2026-09-25T04:55:12.132136",
+      "last_pushed": "2026-09-25T04:55:12.132136",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "当司机都 10-15k 了，做程序员干啥",
+      "source": "V2EX"
+    },
+    "9701630db49407a7": {
+      "first_seen": "2026-09-25T04:55:12.132132",
+      "last_pushed": "2026-09-25T04:55:12.132132",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "顶级折磨",
+      "source": "V2EX"
+    },
+    "70a3ee278681af3d": {
+      "first_seen": "2026-09-25T04:55:12.132129",
+      "last_pushed": "2026-09-25T04:55:12.132129",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "大家公司中秋都发了什么？都来晒一下呗",
+      "source": "V2EX"
+    },
+    "1d8f1e689bd6d598": {
+      "first_seen": "2026-09-25T04:55:12.132126",
+      "last_pushed": "2026-09-25T04:55:12.132126",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "你们过节都发了什么东西？",
+      "source": "V2EX"
+    },
+    "a8e2948940af91d2": {
+      "first_seen": "2026-09-25T04:55:12.132123",
+      "last_pushed": "2026-09-25T04:55:12.132123",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "古董电脑室十周年记：为什么我不再是收藏家（上）",
+      "source": "少数派"
+    },
+    "957799785550eb23": {
+      "first_seen": "2026-09-25T04:55:12.132121",
+      "last_pushed": "2026-09-25T04:55:12.132121",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "微软在游戏行业的早期试水：一段与梦工厂的「梦幻联动」",
+      "source": "少数派"
+    },
+    "4ca35de5c82e867e": {
+      "first_seen": "2026-09-25T04:55:12.132117",
+      "last_pushed": "2026-09-25T04:55:12.132117",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "家庭饮品 DIY 指南（五）：特调咖啡及其他饮品",
+      "source": "少数派"
+    },
+    "00dcfb771f2d5649": {
+      "first_seen": "2026-09-25T04:55:12.132105",
+      "last_pushed": "2026-09-25T04:55:12.132105",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "新玩意 252｜少数派的编辑们最近买了啥？",
+      "source": "少数派"
+    },
     "ef10b9699277dcfc": {
       "first_seen": "2026-09-24T04:47:08.970010",
       "last_pushed": "2026-09-24T04:47:08.970010",
@@ -15911,96 +15999,8 @@
       "last_score": 7,
       "title": "AI 输出中的 ** 是怎么来的：谈中文 Markdown 强调标记的渲染问题",
       "source": "少数派"
-    },
-    "47b62eae28f58a50": {
-      "first_seen": "2026-04-19T03:49:12.916956",
-      "last_pushed": "2026-04-19T03:49:12.916956",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "交流下 plus 都去哪儿买的",
-      "source": "V2EX"
-    },
-    "f17ec15def37b652": {
-      "first_seen": "2026-04-19T03:49:12.916953",
-      "last_pushed": "2026-04-19T03:49:12.916953",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "如何在服务器上用 codex",
-      "source": "V2EX"
-    },
-    "935de53a5893b9f6": {
-      "first_seen": "2026-04-19T03:49:12.916950",
-      "last_pushed": "2026-04-19T03:49:12.916950",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "今天生日，有哪些羊毛可以薅？",
-      "source": "V2EX"
-    },
-    "60d63a381aaf5619": {
-      "first_seen": "2026-04-19T03:49:12.916947",
-      "last_pushed": "2026-04-19T03:49:12.916947",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "小飞机突然支持中文了",
-      "source": "V2EX"
-    },
-    "9d3a7b445bc3a861": {
-      "first_seen": "2026-04-19T03:49:12.916945",
-      "last_pushed": "2026-04-19T03:49:12.916945",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "如果我是个企业，可以用哪些方法对冲 token 价格上涨的风险？",
-      "source": "V2EX"
-    },
-    "d6fcfd03f3ec967f": {
-      "first_seen": "2026-04-19T03:49:12.916942",
-      "last_pushed": "2026-04-19T03:49:12.916942",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我感觉自己好像被困住了。似乎我经常陷入这种困境， 而这种困境更像是我给自己的限制太多",
-      "source": "V2EX"
-    },
-    "fe4341bea4a81f42": {
-      "first_seen": "2026-04-19T03:49:12.916939",
-      "last_pushed": "2026-04-19T03:49:12.916939",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "你会愿意为浏览器付费吗？",
-      "source": "V2EX"
-    },
-    "8826cc4cce3dce4e": {
-      "first_seen": "2026-04-19T03:49:12.916937",
-      "last_pushed": "2026-04-19T03:49:12.916937",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "IETF 推出 IPv8 协议， IPv6 说明是个草台班子",
-      "source": "V2EX"
-    },
-    "ea83630d583a168d": {
-      "first_seen": "2026-04-19T03:49:12.916934",
-      "last_pushed": "2026-04-19T03:49:12.916934",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我妈逼迫我 23 年深圳买房，导致 3 年房子降价 100 万，加上 30 年利息亏损 180 万",
-      "source": "V2EX"
-    },
-    "91bc5479b4ef33be": {
-      "first_seen": "2026-04-19T03:49:12.916924",
-      "last_pushed": "2026-04-19T03:49:12.916924",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "你好，我是一名「火腿」",
-      "source": "少数派"
-    },
-    "9cf456100c483bd4": {
-      "first_seen": "2026-04-18T03:29:50.617132",
-      "last_pushed": "2026-04-18T03:29:50.617132",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "对于不听取任务布置的下属，你们会怎么做？",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-09-24T04:47:08.970354"
+  "last_update": "2026-09-25T04:55:12.132937"
 }
