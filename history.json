@@ -1,5 +1,85 @@
 {
   "records": {
+    "87e72c34668e058a": {
+      "first_seen": "2026-10-03T05:15:56.303067",
+      "last_pushed": "2026-10-03T05:15:56.303067",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "求问，安卓，有啥好用的，轻量使用的 RSS？",
+      "source": "V2EX"
+    },
+    "91c4deebb2732065": {
+      "first_seen": "2026-10-03T05:15:56.303065",
+      "last_pushed": "2026-10-03T05:15:56.303065",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "大佬们，如果让你们推荐一本此生必读的书，你们会推荐哪一本？",
+      "source": "V2EX"
+    },
+    "3eab5ab28a95bc81": {
+      "first_seen": "2026-10-03T05:15:56.303062",
+      "last_pushed": "2026-10-03T05:15:56.303062",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "个人项目做到哪种程度你才愿意发出来给别人用呢？",
+      "source": "V2EX"
+    },
+    "c6e4aea5edfd12b4": {
+      "first_seen": "2026-10-03T05:15:56.303059",
+      "last_pushed": "2026-10-03T05:15:56.303059",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "做了个真匿名的树洞",
+      "source": "V2EX"
+    },
+    "30339820b210e7f8": {
+      "first_seen": "2026-10-03T05:15:56.303057",
+      "last_pushed": "2026-10-03T05:15:56.303057",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "做了个网盘，同一份文件可以由一万个人分摊存储费",
+      "source": "V2EX"
+    },
+    "565a6555321018f7": {
+      "first_seen": "2026-10-03T05:15:56.303056",
+      "last_pushed": "2026-10-03T05:15:56.303056",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "爷青回！在浏览器里复刻了 CS/CF「运输船」联机版",
+      "source": "V2EX"
+    },
+    "a1da2ad2ef9bf2bc": {
+      "first_seen": "2026-10-03T05:15:56.303054",
+      "last_pushed": "2026-10-03T05:15:56.303054",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "戒短视频，碎片时间，可以干啥？",
+      "source": "V2EX"
+    },
+    "f068d8771d934f01": {
+      "first_seen": "2026-10-03T05:15:56.303050",
+      "last_pushed": "2026-10-03T05:15:56.303050",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "最近一段时间使用 ai 的惊人发现",
+      "source": "V2EX"
+    },
+    "59298d927a88bcc1": {
+      "first_seen": "2026-10-03T05:15:56.303046",
+      "last_pushed": "2026-10-03T05:15:56.303046",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "GPT 6.1 秀",
+      "source": "V2EX"
+    },
+    "5da4d972248d22a2": {
+      "first_seen": "2026-10-03T05:15:56.303032",
+      "last_pushed": "2026-10-03T05:15:56.303032",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "你更相信门诊医生还是 AI？",
+      "source": "V2EX"
+    },
     "ef148b469a32f905": {
       "first_seen": "2026-10-02T05:34:02.352789",
       "last_pushed": "2026-10-02T05:34:02.352789",
@@ -15919,88 +15999,8 @@
       "last_score": 4,
       "title": "什么成品企业级 NAS 方便维修？",
       "source": "V2EX"
-    },
-    "4a85af5696d47dad": {
-      "first_seen": "2026-04-26T03:55:13.512885",
-      "last_pushed": "2026-04-26T03:55:13.512885",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "为了买到便宜靠谱的 Token，少被割韭菜，我做了个比价的网站",
-      "source": "V2EX"
-    },
-    "64769b35e0ef509a": {
-      "first_seen": "2026-04-26T03:55:13.512880",
-      "last_pushed": "2026-04-26T03:55:13.512880",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "感觉机械键盘拆封后就要开始计算日历寿命了(触点氧化)。",
-      "source": "V2EX"
-    },
-    "6c9452aad254c64c": {
-      "first_seen": "2026-04-26T03:55:13.512877",
-      "last_pushed": "2026-04-26T03:55:13.512877",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "27 岁体会到了送别下一代",
-      "source": "V2EX"
-    },
-    "75ad7128d1fd3dee": {
-      "first_seen": "2026-04-26T03:55:13.512873",
-      "last_pushed": "2026-04-26T03:55:13.512873",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "有两种永生的方式，我该选择哪一个",
-      "source": "V2EX"
-    },
-    "40032c566bc32592": {
-      "first_seen": "2026-04-26T03:55:13.512865",
-      "last_pushed": "2026-04-26T03:55:13.512865",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "你们一个月上班要用多少 token?",
-      "source": "V2EX"
-    },
-    "b9b9bf30854a6cb3": {
-      "first_seen": "2026-04-26T03:55:13.512861",
-      "last_pushed": "2026-04-26T03:55:13.512861",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "支付宝的天塌了，新出的《金融产品网络营销管理办法》基本完全干死了余额宝和花呗",
-      "source": "V2EX"
-    },
-    "0f167d2dd2e54224": {
-      "first_seen": "2026-04-26T03:55:13.512859",
-      "last_pushed": "2026-04-26T03:55:13.512859",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "掌控专注力，你需要做的和没必要做的",
-      "source": "少数派"
-    },
-    "d041d3f6f3a7a5a8": {
-      "first_seen": "2026-04-26T03:55:13.512850",
-      "last_pushed": "2026-04-26T03:55:13.512850",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "立志用 Ai 把学英语相关的会员价格打下来 - “keykey 学英语”",
-      "source": "V2EX"
-    },
-    "8b8593f8402967aa": {
-      "first_seen": "2026-04-25T03:31:21.985427",
-      "last_pushed": "2026-04-25T03:31:21.985427",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "我做了个工具让 8GB 显卡跑 30B 模型从 3 tok/s 提到 21 tok/s，记录一下技术",
-      "source": "V2EX"
-    },
-    "23f4ef2b252dbfb1": {
-      "first_seen": "2026-04-25T03:31:21.985425",
-      "last_pushed": "2026-04-25T03:31:21.985425",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "换了新显示器怎么验？我做了一个开箱即用的全平台屏幕检测工具",
-      "source": "少数派"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-02T05:34:02.353462"
+  "last_update": "2026-10-03T05:15:56.303644"
 }
