@@ -1,5 +1,77 @@
 {
   "records": {
+    "e562d4f486cb6ebe": {
+      "first_seen": "2026-10-06T06:17:26.347856",
+      "last_pushed": "2026-10-06T06:17:26.347856",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "目前还有可用的微信聊天记录导出工具吗，最好不用降级的",
+      "source": "V2EX"
+    },
+    "c04c71d0fd03b7c4": {
+      "first_seen": "2026-10-06T06:17:26.347852",
+      "last_pushed": "2026-10-06T06:17:26.347852",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "codex 现在这消耗也太快了吧",
+      "source": "V2EX"
+    },
+    "0b127f4aab012ca2": {
+      "first_seen": "2026-10-06T06:17:26.347848",
+      "last_pushed": "2026-10-06T06:17:26.347848",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "接下来一年的时间，我将从京东过渡到其它平台",
+      "source": "V2EX"
+    },
+    "2156c3eb8d37841b": {
+      "first_seen": "2026-10-06T06:17:26.347845",
+      "last_pushed": "2026-10-06T06:17:26.347845",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "没想到在 GitHub 下载软件还能中木马病毒…真的吃一堑长一智了",
+      "source": "V2EX"
+    },
+    "86444bbac33ef63d": {
+      "first_seen": "2026-10-06T06:17:26.347842",
+      "last_pushed": "2026-10-06T06:17:26.347842",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "目前有没有用了两年 Claude 没被封的？",
+      "source": "V2EX"
+    },
+    "77117aa5141dfb28": {
+      "first_seen": "2026-10-06T06:17:26.347838",
+      "last_pushed": "2026-10-06T06:17:26.347838",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "[送码] 给 Navidrome 写的安卓播放器 Mu3ic：现代 UI、智能歌单、混音、断网也能听",
+      "source": "V2EX"
+    },
+    "fd2bc81084dd808a": {
+      "first_seen": "2026-10-06T06:17:26.347835",
+      "last_pushed": "2026-10-06T06:17:26.347835",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "个人使用 Claude 防止封号的经验分享",
+      "source": "V2EX"
+    },
+    "17d8a84c4d508e0c": {
+      "first_seen": "2026-10-06T06:17:26.347831",
+      "last_pushed": "2026-10-06T06:17:26.347831",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "准备注册美国公司来使用 claude",
+      "source": "V2EX"
+    },
+    "0b174f21e64087b1": {
+      "first_seen": "2026-10-06T06:17:26.347820",
+      "last_pushed": "2026-10-06T06:17:26.347820",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "做了个 AI API 聚合服务， V2EX 前 20 位送 20 元额度",
+      "source": "V2EX"
+    },
     "a479f0b893c8113f": {
       "first_seen": "2026-10-05T05:35:59.055229",
       "last_pushed": "2026-10-05T05:35:59.055229",
@@ -15927,80 +15999,8 @@
       "last_score": 5,
       "title": "派早报：乐道 L80 发布、一加 Ace 6 至尊版发布等",
       "source": "少数派"
-    },
-    "cc163dfa265b3a81": {
-      "first_seen": "2026-04-29T04:02:09.044036",
-      "last_pushed": "2026-04-29T04:02:09.044036",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "用 iPad「画」出来的电影：《燃比娃》的幕后故事",
-      "source": "少数派"
-    },
-    "ff312abc2fbb4d33": {
-      "first_seen": "2026-04-29T04:02:09.044033",
-      "last_pushed": "2026-04-29T04:02:09.044033",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "能一起给本地部署的开源模型做个适配的 coding agent 吗？我憋了口气",
-      "source": "V2EX"
-    },
-    "959b2aa87117235b": {
-      "first_seen": "2026-04-29T04:02:09.044024",
-      "last_pushed": "2026-04-29T04:02:09.044024",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "[源头工厂] 顶级万号 ProMAX， $30 刀 Codex/GPT5 免费送，企业级稳定！",
-      "source": "V2EX"
-    },
-    "f37a28a42685ec3e": {
-      "first_seen": "2026-04-28T04:04:26.989982",
-      "last_pushed": "2026-04-28T04:04:26.989982",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派评 | 近期值得关注的 App",
-      "source": "少数派"
-    },
-    "6a8d7e18612ac50a": {
-      "first_seen": "2026-04-28T04:04:26.989980",
-      "last_pushed": "2026-04-28T04:04:26.989980",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：阿里巴巴发布视频生成模型 HappyHorse 1.0 等",
-      "source": "少数派"
-    },
-    "ee614d975e722389": {
-      "first_seen": "2026-04-28T04:04:26.989978",
-      "last_pushed": "2026-04-28T04:04:26.989978",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "本科毕业又能读大专了，全国多地鼓励进大专院校进修，你怎么看？",
-      "source": "V2EX"
-    },
-    "b0f856e34e8c3a02": {
-      "first_seen": "2026-04-28T04:04:26.989976",
-      "last_pushed": "2026-04-28T04:04:26.989976",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "找工作找了两个多月越找越烦",
-      "source": "V2EX"
-    },
-    "7adc25eaba686502": {
-      "first_seen": "2026-04-28T04:04:26.989974",
-      "last_pushed": "2026-04-28T04:04:26.989974",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "地铁上竟还存在没信号的情况。",
-      "source": "V2EX"
-    },
-    "785e7ab4eaa4a5a9": {
-      "first_seen": "2026-04-28T04:04:26.989972",
-      "last_pushed": "2026-04-28T04:04:26.989972",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "[求助] 怎么把 NFC 门禁卡录入 iPhone 手机",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-05T05:35:59.055924"
+  "last_update": "2026-10-06T06:17:26.348611"
 }
