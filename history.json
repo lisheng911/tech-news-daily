@@ -1,5 +1,85 @@
 {
   "records": {
+    "726708f7a78a5f16": {
+      "first_seen": "2026-10-11T05:43:27.220293",
+      "last_pushed": "2026-10-11T05:43:27.220293",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "我的 4 个游戏上架 taptap 啦",
+      "source": "V2EX"
+    },
+    "9b11d7c8ab0aaa8f": {
+      "first_seen": "2026-10-11T05:43:27.220292",
+      "last_pushed": "2026-10-11T05:43:27.220292",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "Claude 2026 年 1-6 月封了 1140 万账号，其中只有有 4.2 万账号申诉成功",
+      "source": "V2EX"
+    },
+    "98da60a061d4a4f9": {
+      "first_seen": "2026-10-11T05:43:27.220290",
+      "last_pushed": "2026-10-11T05:43:27.220290",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "内存越来越贵会不会拉高 Linux 的装机率？",
+      "source": "V2EX"
+    },
+    "e811a5cb82767454": {
+      "first_seen": "2026-10-11T05:43:27.220287",
+      "last_pushed": "2026-10-11T05:43:27.220287",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "医院和医院还真不一样",
+      "source": "V2EX"
+    },
+    "5500ec031b3f50ae": {
+      "first_seen": "2026-10-11T05:43:27.220285",
+      "last_pushed": "2026-10-11T05:43:27.220285",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "怎么感觉自己变不成一个大人",
+      "source": "V2EX"
+    },
+    "f3426b55c44c021e": {
+      "first_seen": "2026-10-11T05:43:27.220284",
+      "last_pushed": "2026-10-11T05:43:27.220284",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "那些托管在国外的真正家庭中的机器（mac mini/主机）用 claude 真的会封吗？",
+      "source": "V2EX"
+    },
+    "24a303c8fdef6f50": {
+      "first_seen": "2026-10-11T05:43:27.220281",
+      "last_pushed": "2026-10-11T05:43:27.220281",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "[送码]我把 1996 年《小浣熊水浒卡》的 [闪光] 效果做出来了",
+      "source": "V2EX"
+    },
+    "fbee56492cc407b1": {
+      "first_seen": "2026-10-11T05:43:27.220279",
+      "last_pushed": "2026-10-11T05:43:27.220279",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "发工资了今晚干一票大的，我准备直接用招行卡开 5 倍 max",
+      "source": "V2EX"
+    },
+    "d3c9f86d8c7b5c7e": {
+      "first_seen": "2026-10-11T05:43:27.220277",
+      "last_pushed": "2026-10-11T05:43:27.220277",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "[天外 AI | 低价易得，稳定难求] 福利送码$5",
+      "source": "V2EX"
+    },
+    "122be6407e74df09": {
+      "first_seen": "2026-10-11T05:43:27.220268",
+      "last_pushed": "2026-10-11T05:43:27.220268",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "AI 时代为什么硬件工程师反而不焦虑",
+      "source": "V2EX"
+    },
     "4ddc601535eebb76": {
       "first_seen": "2026-10-10T05:49:24.663356",
       "last_pushed": "2026-10-10T05:49:24.663356",
@@ -15919,88 +15999,8 @@
       "last_score": 4,
       "title": "买了一台 256G 显存, 96G 内存电脑放家里, 如何对外出租出售剩余算力?",
       "source": "V2EX"
-    },
-    "dd23befd72f547a3": {
-      "first_seen": "2026-05-03T04:10:21.988508",
-      "last_pushed": "2026-05-03T04:10:21.988508",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "接龙了，兄弟们， dnshe 域名可永久了",
-      "source": "V2EX"
-    },
-    "9471e63ac3de9c66": {
-      "first_seen": "2026-05-03T04:10:21.988504",
-      "last_pushed": "2026-05-03T04:10:21.988504",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "有人在推特展示深圳高中的情况...",
-      "source": "V2EX"
-    },
-    "61f2c7c6483a8be5": {
-      "first_seen": "2026-05-03T04:10:21.988501",
-      "last_pushed": "2026-05-03T04:10:21.988501",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "如何在国内受限网络环境下使用官方 claude 或 codex 等模型？",
-      "source": "V2EX"
-    },
-    "96c55d4a6d72cd9b": {
-      "first_seen": "2026-05-03T04:10:21.988498",
-      "last_pushed": "2026-05-03T04:10:21.988498",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "因为买房的事情快要吵到离婚，求支招",
-      "source": "V2EX"
-    },
-    "cf7ee01b4bdcdd61": {
-      "first_seen": "2026-05-03T04:10:21.988496",
-      "last_pushed": "2026-05-03T04:10:21.988496",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "安卓的权限管理是假的，拒绝了仍然可以获取",
-      "source": "V2EX"
-    },
-    "4a516cf2e44bf979": {
-      "first_seen": "2026-05-03T04:10:21.988493",
-      "last_pushed": "2026-05-03T04:10:21.988493",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "决定开始定投标普 500 和纳指 100 了！",
-      "source": "V2EX"
-    },
-    "b0d7a37a3344f1f6": {
-      "first_seen": "2026-05-03T04:10:21.988490",
-      "last_pushed": "2026-05-03T04:10:21.988490",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "2026 年了， Notepad++ 对比 VSCode ，优势在哪？",
-      "source": "V2EX"
-    },
-    "c515b0d348e5bbd6": {
-      "first_seen": "2026-05-03T04:10:21.988483",
-      "last_pushed": "2026-05-03T04:10:21.988483",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "大家现在都是用什么办法订阅 gpt pro 的？",
-      "source": "V2EX"
-    },
-    "95eac7ac9519dffb": {
-      "first_seen": "2026-05-02T03:49:58.306775",
-      "last_pushed": "2026-05-02T03:49:58.306775",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "异地组网方案怎么选？从 n2n 到 WireGuard，折腾一圈后的真实记录",
-      "source": "V2EX"
-    },
-    "87bd14e3d4b3492f": {
-      "first_seen": "2026-05-02T03:49:58.306772",
-      "last_pushed": "2026-05-02T03:49:58.306772",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "为什么现在的机场都自研客户端了啊？",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-10T05:49:24.663661"
+  "last_update": "2026-10-11T05:43:27.220749"
 }
