@@ -1,5 +1,117 @@
 {
   "records": {
+    "cf74e93a1a0ce483": {
+      "first_seen": "2026-10-13T06:45:23.038700",
+      "last_pushed": "2026-10-13T06:45:23.038700",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派评 | 近期值得关注的 App",
+      "source": "少数派"
+    },
+    "cedacec558552242": {
+      "first_seen": "2026-10-13T06:45:23.038699",
+      "last_pushed": "2026-10-13T06:45:23.038699",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "高端，不只是材质而已：Apple Watch Edition 的前世今生",
+      "source": "少数派"
+    },
+    "23a6f071e7032332": {
+      "first_seen": "2026-10-13T06:45:23.038697",
+      "last_pushed": "2026-10-13T06:45:23.038697",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "迈上生态新台阶，首期 Apple 应用孵化器顺利收官",
+      "source": "少数派"
+    },
+    "51d934e9614b754c": {
+      "first_seen": "2026-10-13T06:45:23.038695",
+      "last_pushed": "2026-10-13T06:45:23.038695",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "避坑恒洁卫浴，前所未见的售后体验",
+      "source": "V2EX"
+    },
+    "f7567ff85c92aec6": {
+      "first_seen": "2026-10-13T06:45:23.038693",
+      "last_pushed": "2026-10-13T06:45:23.038693",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "因为带孩子去医院，医生开的药，家里其实有，所以我开发了一个记录就诊和家庭药箱的 App",
+      "source": "V2EX"
+    },
+    "fee0fe918ebe130b": {
+      "first_seen": "2026-10-13T06:45:23.038692",
+      "last_pushed": "2026-10-13T06:45:23.038692",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "广州欢迎你",
+      "source": "V2EX"
+    },
+    "34449bdac3023e2a": {
+      "first_seen": "2026-10-13T06:45:23.038689",
+      "last_pushed": "2026-10-13T06:45:23.038689",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "作为一个没见过退休金的农村人，我想知道退休职工和体制内退休后退休金有多少钱？",
+      "source": "V2EX"
+    },
+    "c5caf6cdcedd27f6": {
+      "first_seen": "2026-10-13T06:45:23.038687",
+      "last_pushed": "2026-10-13T06:45:23.038687",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "向下剥削太狠，造就社会各种怪象，包括华为刹车断裂。",
+      "source": "V2EX"
+    },
+    "1cf88f57627dd0e6": {
+      "first_seen": "2026-10-13T06:45:23.038685",
+      "last_pushed": "2026-10-13T06:45:23.038685",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "人生滑铁卢了，哎",
+      "source": "V2EX"
+    },
+    "439a115c88301561": {
+      "first_seen": "2026-10-13T06:45:23.038683",
+      "last_pushed": "2026-10-13T06:45:23.038683",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "马克思的按需分配，是不是高估了人性？",
+      "source": "V2EX"
+    },
+    "bb8a0bcc42fe32ef": {
+      "first_seen": "2026-10-13T06:45:23.038681",
+      "last_pushed": "2026-10-13T06:45:23.038681",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "大厂十年领了大礼包，孑然一身应该如何选择呢？",
+      "source": "V2EX"
+    },
+    "4d8c84a8e3d3bc10": {
+      "first_seen": "2026-10-13T06:45:23.038679",
+      "last_pushed": "2026-10-13T06:45:23.038679",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "iOS 27 推出全新家长控制与儿童安全功能，这些变化值得关注",
+      "source": "少数派"
+    },
+    "83076031eea6ac94": {
+      "first_seen": "2026-10-13T06:45:23.038676",
+      "last_pushed": "2026-10-13T06:45:23.038676",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：一加发布一加 16，Google 推出 Fitbit Edge 等",
+      "source": "少数派"
+    },
+    "4fb567464a27afb7": {
+      "first_seen": "2026-10-13T06:45:23.038665",
+      "last_pushed": "2026-10-13T06:45:23.038665",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "现在 AI 是不是逐渐能取代很多高水平程序员了",
+      "source": "V2EX"
+    },
     "bbdb371ad0a19354": {
       "first_seen": "2026-10-12T05:53:41.361298",
       "last_pushed": "2026-10-12T05:53:41.361298",
@@ -15887,120 +15999,8 @@
       "last_score": 4,
       "title": "51 期间有啥有意思的事情呢！",
       "source": "V2EX"
-    },
-    "e86c6d111f449d1e": {
-      "first_seen": "2026-05-06T04:03:32.596168",
-      "last_pushed": "2026-05-06T04:03:32.596168",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "听歌时间到，12 张你可能错过的 2025 华语乐坛好专辑",
-      "source": "少数派"
-    },
-    "88a95e1070316866": {
-      "first_seen": "2026-05-06T04:03:32.596167",
-      "last_pushed": "2026-05-06T04:03:32.596167",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "Best Model 五一送 5 刀 纯血 Claude Max API 告别古法编程 人人有份",
-      "source": "V2EX"
-    },
-    "14e044b4b2d75c7f": {
-      "first_seen": "2026-05-06T04:03:32.596164",
-      "last_pushed": "2026-05-06T04:03:32.596164",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：一加、realme 合并，M4 Mac mini 256GB 版本下架等",
-      "source": "少数派"
-    },
-    "eec14e4d04cdf718": {
-      "first_seen": "2026-05-06T04:03:32.596152",
-      "last_pushed": "2026-05-06T04:03:32.596152",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "我写了一个 skill，用 AI 给 AI「除味儿」",
-      "source": "少数派"
-    },
-    "cd8d8ea0e41d6c7a": {
-      "first_seen": "2026-05-05T03:49:17.641064",
-      "last_pushed": "2026-05-05T03:49:17.641064",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "现在这个形势，推荐备一个 CMHK 的流量卡",
-      "source": "V2EX"
-    },
-    "92f7b80f3367ada4": {
-      "first_seen": "2026-05-05T03:49:17.641061",
-      "last_pushed": "2026-05-05T03:49:17.641061",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "联通宽带速率不达标",
-      "source": "V2EX"
-    },
-    "d17e3faabfc8cf47": {
-      "first_seen": "2026-05-05T03:49:17.641058",
-      "last_pushed": "2026-05-05T03:49:17.641058",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "关于失业 关于创业",
-      "source": "V2EX"
-    },
-    "2a3f1e144fe9e1c0": {
-      "first_seen": "2026-05-05T03:49:17.641055",
-      "last_pushed": "2026-05-05T03:49:17.641055",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "微信输入法这么扯淡都没有切换输入法的选项的吗？",
-      "source": "V2EX"
-    },
-    "5ed00c3259ff00a9": {
-      "first_seen": "2026-05-05T03:49:17.641051",
-      "last_pushed": "2026-05-05T03:49:17.641051",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "大疆 Pocket 4 好难抢，是饥饿营销还是真缺货？",
-      "source": "V2EX"
-    },
-    "189d937768ed1b36": {
-      "first_seen": "2026-05-05T03:49:17.641049",
-      "last_pushed": "2026-05-05T03:49:17.641049",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "正确使用 claude 的姿势是什么？怎么能降低 Token 消耗",
-      "source": "V2EX"
-    },
-    "e372bd8831bc73e8": {
-      "first_seen": "2026-05-05T03:49:17.641046",
-      "last_pushed": "2026-05-05T03:49:17.641046",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "城巴佬——城市中产在消费劳动表演",
-      "source": "V2EX"
-    },
-    "80ff4f525cc62f5d": {
-      "first_seen": "2026-05-05T03:49:17.641043",
-      "last_pushed": "2026-05-05T03:49:17.641043",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "吐槽一下外卖不送货上门，怎么就成众矢之的了？",
-      "source": "V2EX"
-    },
-    "7ddb0bdd2bc7bbd1": {
-      "first_seen": "2026-05-05T03:49:17.641040",
-      "last_pushed": "2026-05-05T03:49:17.641040",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "iPad 用户首次体验 Android 平板：vivo Pad6 Pro",
-      "source": "少数派"
-    },
-    "9659c36ad0c60c55": {
-      "first_seen": "2026-05-05T03:49:17.641036",
-      "last_pushed": "2026-05-05T03:49:17.641036",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "因为炒币合约亏太多了，用 ai 做了一个裸 K 实盘训练的网页，不用登陆欢迎大家来玩",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-12T05:53:41.361940"
+  "last_update": "2026-10-13T06:45:23.039289"
 }
