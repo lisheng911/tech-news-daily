@@ -1,5 +1,117 @@
 {
   "records": {
+    "476d28beb19ab645": {
+      "first_seen": "2026-10-14T04:50:03.409556",
+      "last_pushed": "2026-10-14T04:50:03.409556",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "求推荐扫地机",
+      "source": "V2EX"
+    },
+    "c130a975a2485b9b": {
+      "first_seen": "2026-10-14T04:50:03.409553",
+      "last_pushed": "2026-10-14T04:50:03.409553",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "最好看最好用的 iOS V2EX 客户端过审了，欢迎 TestFlight 体验打脸",
+      "source": "V2EX"
+    },
+    "54d6a16aff66476b": {
+      "first_seen": "2026-10-14T04:50:03.409550",
+      "last_pushed": "2026-10-14T04:50:03.409550",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "App+1 | 我做了一个专为「P 人」和 ADHD 设计的精力管理 App",
+      "source": "少数派"
+    },
+    "859348926fb0b6d6": {
+      "first_seen": "2026-10-14T04:50:03.409548",
+      "last_pushed": "2026-10-14T04:50:03.409548",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：Apple 发布 HomePod mini 2、HomeView 等新品",
+      "source": "少数派"
+    },
+    "3391ebebc1c324ce": {
+      "first_seen": "2026-10-14T04:50:03.409545",
+      "last_pushed": "2026-10-14T04:50:03.409545",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒",
+      "source": "少数派"
+    },
+    "67f84b3ca54f3268": {
+      "first_seen": "2026-10-14T04:50:03.409542",
+      "last_pushed": "2026-10-14T04:50:03.409542",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "Piczo 相册照片自动分类 | 送码",
+      "source": "V2EX"
+    },
+    "21799c8c117f9d71": {
+      "first_seen": "2026-10-14T04:50:03.409539",
+      "last_pushed": "2026-10-14T04:50:03.409539",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "2026 年了，还有老架构坚持 MySQL 单表数据不能超过 2000 万行",
+      "source": "V2EX"
+    },
+    "b14a745ba3c6d1b2": {
+      "first_seen": "2026-10-14T04:50:03.409535",
+      "last_pushed": "2026-10-14T04:50:03.409535",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "现在修电视都这么贵的吗？",
+      "source": "V2EX"
+    },
+    "1dd80ea4a2210075": {
+      "first_seen": "2026-10-14T04:50:03.409532",
+      "last_pushed": "2026-10-14T04:50:03.409532",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "昨天把家里 Wi-Fi 2.4G 和 5G 分开了，你们呢？",
+      "source": "V2EX"
+    },
+    "d34c21897801c53a": {
+      "first_seen": "2026-10-14T04:50:03.409529",
+      "last_pushed": "2026-10-14T04:50:03.409529",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "v2 的大佬们指点一下我该不该割肉，房子的事",
+      "source": "V2EX"
+    },
+    "b89d5891248ef183": {
+      "first_seen": "2026-10-14T04:50:03.409526",
+      "last_pushed": "2026-10-14T04:50:03.409526",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "用 Rust 重写一切，这次是 navicat",
+      "source": "V2EX"
+    },
+    "5953115bf67d4d1a": {
+      "first_seen": "2026-10-14T04:50:03.409522",
+      "last_pushed": "2026-10-14T04:50:03.409522",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "关于长辈抽烟的问题，有好的解决办法么？",
+      "source": "V2EX"
+    },
+    "87e1b6e5bba8268c": {
+      "first_seen": "2026-10-14T04:50:03.409519",
+      "last_pushed": "2026-10-14T04:50:03.409519",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "社区速递 161 | 小米手表 S5、EVA 联名香水与换机热议",
+      "source": "少数派"
+    },
+    "c850d28c9e3446c9": {
+      "first_seen": "2026-10-14T04:50:03.409510",
+      "last_pushed": "2026-10-14T04:50:03.409510",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "muse 30 亿免费 token",
+      "source": "V2EX"
+    },
     "cf74e93a1a0ce483": {
       "first_seen": "2026-10-13T06:45:23.038700",
       "last_pushed": "2026-10-13T06:45:23.038700",
@@ -15887,120 +15999,8 @@
       "last_score": 4,
       "title": "老婆年收入已经 130w 了",
       "source": "V2EX"
-    },
-    "25351bac01cb07bd": {
-      "first_seen": "2026-05-07T04:04:15.142584",
-      "last_pushed": "2026-05-07T04:04:15.142584",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "在北京买了一辆超标电自的感受",
-      "source": "V2EX"
-    },
-    "a204521cde10c4a2": {
-      "first_seen": "2026-05-07T04:04:15.142583",
-      "last_pushed": "2026-05-07T04:04:15.142583",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "返工怎能不烦恼，打工人片单总有一部是你的「嘴替」",
-      "source": "少数派"
-    },
-    "0b74b9cd7577cd39": {
-      "first_seen": "2026-05-07T04:04:15.142581",
-      "last_pushed": "2026-05-07T04:04:15.142581",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：三星电子退出中国家电市场、Microsoft Edge 被曝安全隐患等",
-      "source": "少数派"
-    },
-    "8563c8037a467df5": {
-      "first_seen": "2026-05-07T04:04:15.142578",
-      "last_pushed": "2026-05-07T04:04:15.142578",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "甘南秘境，大白高国：我的甘南自由行记",
-      "source": "少数派"
-    },
-    "891e5f06d2a5facd": {
-      "first_seen": "2026-05-07T04:04:15.142567",
-      "last_pushed": "2026-05-07T04:04:15.142567",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "[AI 中转站]高可用满血 Claude/GPT 模型，福利推广中...",
-      "source": "V2EX"
-    },
-    "98fefdf4d3f1b742": {
-      "first_seen": "2026-05-06T04:03:32.596185",
-      "last_pushed": "2026-05-06T04:03:32.596185",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "求推荐一辆摩托车，用途：通勤，钓鱼，回老家（单程 200km）",
-      "source": "V2EX"
-    },
-    "07ede44248152841": {
-      "first_seen": "2026-05-06T04:03:32.596183",
-      "last_pushed": "2026-05-06T04:03:32.596183",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "[AI 中转站 / 福利贴]OneXModel 推广拉新，限时回帖送$，稳定、靠谱、好用～",
-      "source": "V2EX"
-    },
-    "a6ddc56bbef50682": {
-      "first_seen": "2026-05-06T04:03:32.596181",
-      "last_pushed": "2026-05-06T04:03:32.596181",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "“万 1 免 5” a 股券商 ETF 低佣免五开户，这周抽一把龙泉秦王剑 ~~ [大笑脸开户]",
-      "source": "V2EX"
-    },
-    "c43b0b29b1513ed0": {
-      "first_seen": "2026-05-06T04:03:32.596180",
-      "last_pushed": "2026-05-06T04:03:32.596180",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "又一个天才程序员陨落了，刚续费五天",
-      "source": "V2EX"
-    },
-    "2a91bf20531c0de5": {
-      "first_seen": "2026-05-06T04:03:32.596178",
-      "last_pushed": "2026-05-06T04:03:32.596178",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "有老家在河南，然后在一线城市打工的么",
-      "source": "V2EX"
-    },
-    "f78aca72a1bae02e": {
-      "first_seen": "2026-05-06T04:03:32.596176",
-      "last_pushed": "2026-05-06T04:03:32.596176",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "都 2026 年了，为什么还有人觉得 AMD 比 Nvidia 更适合部署本地大模型？",
-      "source": "V2EX"
-    },
-    "2799c4f3ab247055": {
-      "first_seen": "2026-05-06T04:03:32.596173",
-      "last_pushed": "2026-05-06T04:03:32.596173",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "相亲太难了",
-      "source": "V2EX"
-    },
-    "a2db467c320bdddb": {
-      "first_seen": "2026-05-06T04:03:32.596172",
-      "last_pushed": "2026-05-06T04:03:32.596172",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "程姓宝宝， 4.10 出生，快一个月了还没确定名字，总觉得之前取的名字不好",
-      "source": "V2EX"
-    },
-    "e851f7501fb2b61d": {
-      "first_seen": "2026-05-06T04:03:32.596170",
-      "last_pushed": "2026-05-06T04:03:32.596170",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "51 期间有啥有意思的事情呢！",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-13T06:45:23.039289"
+  "last_update": "2026-10-14T04:50:03.410232"
 }
