@@ -1,5 +1,77 @@
 {
   "records": {
+    "61a824d1f15f736e": {
+      "first_seen": "2026-10-18T04:29:23.076147",
+      "last_pushed": "2026-10-18T04:29:23.076147",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "剪切板 NexPaste 第二次送码了，可以多端（Mac、 iPhone ）同步的那种",
+      "source": "V2EX"
+    },
+    "72741309bed2e6b2": {
+      "first_seen": "2026-10-18T04:29:23.076144",
+      "last_pushed": "2026-10-18T04:29:23.076144",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "你做项目的话，你觉得是域名重要还是项目重要",
+      "source": "V2EX"
+    },
+    "9e5d25e2daa144a3": {
+      "first_seen": "2026-10-18T04:29:23.076141",
+      "last_pushed": "2026-10-18T04:29:23.076141",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "为什么还有人宣场读书无用论？",
+      "source": "V2EX"
+    },
+    "00e05f140f9b8a5a": {
+      "first_seen": "2026-10-18T04:29:23.076138",
+      "last_pushed": "2026-10-18T04:29:23.076138",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "肉身在墙外，现在做物理机远程 Claude 的生意怎么样？",
+      "source": "V2EX"
+    },
+    "a33277452ebdf0b6": {
+      "first_seen": "2026-10-18T04:29:23.076135",
+      "last_pushed": "2026-10-18T04:29:23.076135",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "deepseek-v4.1-flash-1017 发布了",
+      "source": "V2EX"
+    },
+    "6fe5e64c5e35a136": {
+      "first_seen": "2026-10-18T04:29:23.076133",
+      "last_pushed": "2026-10-18T04:29:23.076133",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "0 基础入行金融需要多久？",
+      "source": "V2EX"
+    },
+    "a029c335ce5a21aa": {
+      "first_seen": "2026-10-18T04:29:23.076128",
+      "last_pushed": "2026-10-18T04:29:23.076128",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "被量化的心跳：HRV 是身体的晴雨表，还是制造焦虑的数字游戏？",
+      "source": "少数派"
+    },
+    "5ef243fabf1047f0": {
+      "first_seen": "2026-10-18T04:29:23.076124",
+      "last_pushed": "2026-10-18T04:29:23.076124",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "AI 写代码的速度已经超过你的阅读速度，你会放心把 Code Review 也交给 AI 吗？",
+      "source": "V2EX"
+    },
+    "698d67398ca8c1c1": {
+      "first_seen": "2026-10-18T04:29:23.076113",
+      "last_pushed": "2026-10-18T04:29:23.076113",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "AIxAPI: V 站福利 AI 中转站 注册送$3 留 ID 送 $10 API 体验额度",
+      "source": "V2EX"
+    },
     "15a17717f28ca6c1": {
       "first_seen": "2026-10-17T04:22:27.932972",
       "last_pushed": "2026-10-17T04:22:27.932972",
@@ -15927,80 +15999,8 @@
       "last_score": 4,
       "title": "offer 迷茫 -- 是否该离家去一线",
       "source": "V2EX"
-    },
-    "c43dab8f823cf021": {
-      "first_seen": "2026-05-11T04:35:11.690830",
-      "last_pushed": "2026-05-11T04:35:11.690830",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "女朋友怀孕了，要还是不要",
-      "source": "V2EX"
-    },
-    "44a675151ac28e84": {
-      "first_seen": "2026-05-11T04:35:11.690828",
-      "last_pushed": "2026-05-11T04:35:11.690828",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "寻找你身边的电波——如何上中继",
-      "source": "少数派"
-    },
-    "9d3f0d1ec68262bc": {
-      "first_seen": "2026-05-11T04:35:11.690825",
-      "last_pushed": "2026-05-11T04:35:11.690825",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：苹果与英特尔就芯片代工达成初步协议",
-      "source": "少数派"
-    },
-    "b6152c9f6d5c5045": {
-      "first_seen": "2026-05-11T04:35:11.690821",
-      "last_pushed": "2026-05-11T04:35:11.690821",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "监工水獭 × 明基挂灯：老朋友回来了，新福利也一并送到",
-      "source": "少数派"
-    },
-    "e811173c3fbc8e12": {
-      "first_seen": "2026-05-11T04:35:11.690811",
-      "last_pushed": "2026-05-11T04:35:11.690811",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "Nexus 满血 GPT5.5 API 中转｜拒绝降智阉割·长期稳定靠谱",
-      "source": "V2EX"
-    },
-    "699bb4ab6811b189": {
-      "first_seen": "2026-05-10T04:13:42.411808",
-      "last_pushed": "2026-05-10T04:13:42.411808",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "自用 Codex 站",
-      "source": "V2EX"
-    },
-    "9f1fab1a3250009f": {
-      "first_seen": "2026-05-10T04:13:42.411806",
-      "last_pushed": "2026-05-10T04:13:42.411806",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "发现一个李鬼 v2，把 v2 的主题内容和评论都采集过去，发帖用户和评论用户一换，就变成一个新的活跃",
-      "source": "V2EX"
-    },
-    "1313fd91de601da9": {
-      "first_seen": "2026-05-10T04:13:42.411804",
-      "last_pushed": "2026-05-10T04:13:42.411804",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "关于 ESP32 嵌入式相关的一些问题，电商创业途中...",
-      "source": "V2EX"
-    },
-    "ba290abda27fb3b3": {
-      "first_seen": "2026-05-10T04:13:42.411801",
-      "last_pushed": "2026-05-10T04:13:42.411801",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "钟薛高破产清算了，我都没吃过一根钟薛高。。",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-17T04:22:27.933829"
+  "last_update": "2026-10-18T04:29:23.076800"
 }
