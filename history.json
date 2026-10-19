@@ -1,5 +1,109 @@
 {
   "records": {
+    "aea7d5a6cd5c7d9c": {
+      "first_seen": "2026-10-19T04:37:13.748290",
+      "last_pushed": "2026-10-19T04:37:13.748290",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "为什么作为日常聊天询问 感觉 gemini 比 gpt 好用",
+      "source": "V2EX"
+    },
+    "f287d51873c17a1d": {
+      "first_seen": "2026-10-19T04:37:13.748288",
+      "last_pushed": "2026-10-19T04:37:13.748288",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "[送激活码] 我做了一个跟随 Finder 窗口的路径工具 FinderNav，送 80 个激活码",
+      "source": "V2EX"
+    },
+    "31e542c3f05ca12a": {
+      "first_seen": "2026-10-19T04:37:13.748285",
+      "last_pushed": "2026-10-19T04:37:13.748285",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "20 年年化通胀 4.06%, 你的理财涨幅跑赢了吗?",
+      "source": "V2EX"
+    },
+    "08224775c39887dd": {
+      "first_seen": "2026-10-19T04:37:13.748282",
+      "last_pushed": "2026-10-19T04:37:13.748282",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "做了一个 X 的第三方客户端， Liquid Glass，全流程翻译",
+      "source": "V2EX"
+    },
+    "1ce0648f0b353a4d": {
+      "first_seen": "2026-10-19T04:37:13.748279",
+      "last_pushed": "2026-10-19T04:37:13.748279",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "突然发现逛小吃摊比想象中贵，所以我做了一个逛夜市模拟器，看看大家金钱的数字敏感度有多高",
+      "source": "V2EX"
+    },
+    "4e8fdf443e159847": {
+      "first_seen": "2026-10-19T04:37:13.748274",
+      "last_pushed": "2026-10-19T04:37:13.748274",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "NSFW/姿势出图 skill",
+      "source": "V2EX"
+    },
+    "b5c75b298839545c": {
+      "first_seen": "2026-10-19T04:37:13.748270",
+      "last_pushed": "2026-10-19T04:37:13.748270",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "发现大家对拖欠工资这件事接受度很高",
+      "source": "V2EX"
+    },
+    "fa7e6c65149b6e14": {
+      "first_seen": "2026-10-19T04:37:13.748267",
+      "last_pushed": "2026-10-19T04:37:13.748267",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "找个喜欢自己的还是自己喜欢的人",
+      "source": "V2EX"
+    },
+    "928b4cf4a3ed0597": {
+      "first_seen": "2026-10-19T04:37:13.748263",
+      "last_pushed": "2026-10-19T04:37:13.748263",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "最近对女方家庭和重男轻女的观念有所变化，其实有女方有哥哥/弟弟挺好的",
+      "source": "V2EX"
+    },
+    "64a01c25ee37e65f": {
+      "first_seen": "2026-10-19T04:37:13.748260",
+      "last_pushed": "2026-10-19T04:37:13.748260",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "今天开车被迫窝囊了一次",
+      "source": "V2EX"
+    },
+    "0370eaad6f38495a": {
+      "first_seen": "2026-10-19T04:37:13.748257",
+      "last_pushed": "2026-10-19T04:37:13.748257",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "Quote/0 妙用 +1，把墨水屏变成点餐助手",
+      "source": "少数派"
+    },
+    "ada82014e853012d": {
+      "first_seen": "2026-10-19T04:37:13.748252",
+      "last_pushed": "2026-10-19T04:37:13.748252",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：三季度全球手机出货量继续两位数下降",
+      "source": "少数派"
+    },
+    "ac90daf1ca234467": {
+      "first_seen": "2026-10-19T04:37:13.748241",
+      "last_pushed": "2026-10-19T04:37:13.748241",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "开源掌机的文化线索",
+      "source": "少数派"
+    },
     "61a824d1f15f736e": {
       "first_seen": "2026-10-18T04:29:23.076147",
       "last_pushed": "2026-10-18T04:29:23.076147",
@@ -15895,112 +15999,8 @@
       "last_score": 4,
       "title": "满血中转， codex 0.1 超低倍率分组，注册赠送两千万 token！求蹬，使劲蹬！",
       "source": "V2EX"
-    },
-    "fd5e2025aa634779": {
-      "first_seen": "2026-05-12T04:04:00.014246",
-      "last_pushed": "2026-05-12T04:04:00.014246",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "手冲咖啡进阶指北：如何让「冠军参数」变成「你的日常」",
-      "source": "少数派"
-    },
-    "3acc29ca1c999b5b": {
-      "first_seen": "2026-05-12T04:04:00.014244",
-      "last_pushed": "2026-05-12T04:04:00.014244",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：大疆发布扫拖机器人 ROMO 2 系列等",
-      "source": "少数派"
-    },
-    "06630f17fdc874fa": {
-      "first_seen": "2026-05-12T04:04:00.014242",
-      "last_pushed": "2026-05-12T04:04:00.014242",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "老板要求用 AI 几周完成一年的工作量",
-      "source": "V2EX"
-    },
-    "45d45d7bd942d89f": {
-      "first_seen": "2026-05-12T04:04:00.014240",
-      "last_pushed": "2026-05-12T04:04:00.014240",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "继续推广我的 gpt 中转站，注册就送 30$余额",
-      "source": "V2EX"
-    },
-    "a1fc290a6a657734": {
-      "first_seen": "2026-05-12T04:04:00.014229",
-      "last_pushed": "2026-05-12T04:04:00.014229",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "再发一个免费送 100 刀的站点！也给我恰恰米",
-      "source": "V2EX"
-    },
-    "232e120a0d3c16ac": {
-      "first_seen": "2026-05-11T04:35:11.690854",
-      "last_pushed": "2026-05-11T04:35:11.690854",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "Deekseek v4 真不错，一天时间写了一个 rust 的 trojan 的服务端",
-      "source": "V2EX"
-    },
-    "1769c065571db518": {
-      "first_seen": "2026-05-11T04:35:11.690851",
-      "last_pushed": "2026-05-11T04:35:11.690851",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "安卓 17 没人讨论吗？要出 PC 桌面模式了",
-      "source": "V2EX"
-    },
-    "4caf07fece723f16": {
-      "first_seen": "2026-05-11T04:35:11.690849",
-      "last_pushed": "2026-05-11T04:35:11.690849",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "自用 Codex 站（今天继续福利分组）",
-      "source": "V2EX"
-    },
-    "88d0196898c1519b": {
-      "first_seen": "2026-05-11T04:35:11.690846",
-      "last_pushed": "2026-05-11T04:35:11.690846",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "鬼神存在么，为什么有的事情无法解释？",
-      "source": "V2EX"
-    },
-    "1df91ba6d5fad0e3": {
-      "first_seen": "2026-05-11T04:35:11.690843",
-      "last_pushed": "2026-05-11T04:35:11.690843",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我有一招可以在裁员潮的当下反击你的老板，并提高自身竞争力。",
-      "source": "V2EX"
-    },
-    "f2aa4cf73521705f": {
-      "first_seen": "2026-05-11T04:35:11.690839",
-      "last_pushed": "2026-05-11T04:35:11.690839",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我开始减肥，方法就是靠饿",
-      "source": "V2EX"
-    },
-    "73c910bf9a37b150": {
-      "first_seen": "2026-05-11T04:35:11.690835",
-      "last_pushed": "2026-05-11T04:35:11.690835",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "老问我失业 1 年怎么活的吗，给你们分享下 深圳低成本生存指南（2026 年实测版）",
-      "source": "V2EX"
-    },
-    "d6d326adc52933b2": {
-      "first_seen": "2026-05-11T04:35:11.690833",
-      "last_pushed": "2026-05-11T04:35:11.690833",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "offer 迷茫 -- 是否该离家去一线",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-18T04:29:23.076800"
+  "last_update": "2026-10-19T04:37:13.749145"
 }
