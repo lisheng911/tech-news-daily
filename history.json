@@ -1,5 +1,109 @@
 {
   "records": {
+    "3f4aa686c2a3dec1": {
+      "first_seen": "2026-10-20T04:46:58.034043",
+      "last_pushed": "2026-10-20T04:46:58.034043",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "想买电车了求推荐",
+      "source": "V2EX"
+    },
+    "a1358acdff896a1f": {
+      "first_seen": "2026-10-20T04:46:58.034041",
+      "last_pushed": "2026-10-20T04:46:58.034041",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "App+1 | 紫毫：基于 Rime 引擎、支持双拼纠错的 iOS 输入法",
+      "source": "少数派"
+    },
+    "5db1118d8d1ba06c": {
+      "first_seen": "2026-10-20T04:46:58.034037",
+      "last_pushed": "2026-10-20T04:46:58.034037",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "能清理、卸载和系统维护的 Mole Windows 版终于来啦，聊聊我是怎么用 Mac 开发它的",
+      "source": "V2EX"
+    },
+    "49bdac02b996316f": {
+      "first_seen": "2026-10-20T04:46:58.034034",
+      "last_pushed": "2026-10-20T04:46:58.034034",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "本地机器能跑 DeepSeek v4.1flash 或者 Qwen3.8 得多少钱？",
+      "source": "V2EX"
+    },
+    "8b2deb75c567c256": {
+      "first_seen": "2026-10-20T04:46:58.034031",
+      "last_pushed": "2026-10-20T04:46:58.034031",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "老婆又要生孩子了",
+      "source": "V2EX"
+    },
+    "37eaa6e1b9446b3c": {
+      "first_seen": "2026-10-20T04:46:58.034027",
+      "last_pushed": "2026-10-20T04:46:58.034027",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "开个银河买纳指或者红利低波 ETF 比较稳健，“万一免五”股票基金免 5 大笑脸开户，抽键盘迈从 A",
+      "source": "V2EX"
+    },
+    "288d2aa6ccdbb734": {
+      "first_seen": "2026-10-20T04:46:58.034023",
+      "last_pushed": "2026-10-20T04:46:58.034023",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "未来体制内的退休金会降低吗？",
+      "source": "V2EX"
+    },
+    "581beb891dd73e8c": {
+      "first_seen": "2026-10-20T04:46:58.034020",
+      "last_pushed": "2026-10-20T04:46:58.034020",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "感觉自己的人生好失败",
+      "source": "V2EX"
+    },
+    "ea22f294717e73ae": {
+      "first_seen": "2026-10-20T04:46:58.034017",
+      "last_pushed": "2026-10-20T04:46:58.034017",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "也分享下我起起伏伏伏伏伏的 2026 年吧",
+      "source": "V2EX"
+    },
+    "169c3d74553d87b1": {
+      "first_seen": "2026-10-20T04:46:58.034014",
+      "last_pushed": "2026-10-20T04:46:58.034014",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "备孕 2 年，最后试管生下健康女儿，分享一下经历，顺带吐槽一下深圳市妇幼。",
+      "source": "V2EX"
+    },
+    "0102a4a2f5ce4e33": {
+      "first_seen": "2026-10-20T04:46:58.034011",
+      "last_pushed": "2026-10-20T04:46:58.034011",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "9 月音乐精选：用这 8 张新专辑，激发人生新可能",
+      "source": "少数派"
+    },
+    "f592d95e026aeddf": {
+      "first_seen": "2026-10-20T04:46:58.034007",
+      "last_pushed": "2026-10-20T04:46:58.034007",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "与 Tim Cook 走进「蓝盒子」，了解 Mac 如何助力中国企业成长",
+      "source": "少数派"
+    },
+    "37d728d45dce8ea6": {
+      "first_seen": "2026-10-20T04:46:58.033996",
+      "last_pushed": "2026-10-20T04:46:58.033996",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：MiniMax 发布 M3.1 Flash 模型等",
+      "source": "少数派"
+    },
     "aea7d5a6cd5c7d9c": {
       "first_seen": "2026-10-19T04:37:13.748290",
       "last_pushed": "2026-10-19T04:37:13.748290",
@@ -15895,112 +15999,8 @@
       "last_score": 5,
       "title": "精彩之下的反常时刻：聊聊 F1 2026 年新规悖论",
       "source": "少数派"
-    },
-    "2e125eb090ce24bb": {
-      "first_seen": "2026-05-13T04:11:28.124569",
-      "last_pushed": "2026-05-13T04:11:28.124569",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "社区速递 140 | 派友热议状态栏里藏了啥、两款百元级新玩意体验",
-      "source": "少数派"
-    },
-    "c88bf5efb8cd0c04": {
-      "first_seen": "2026-05-13T04:11:28.124567",
-      "last_pushed": "2026-05-13T04:11:28.124567",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：Google 发布多项 Android 功能更新、腾讯收购喜马拉雅获批等",
-      "source": "少数派"
-    },
-    "814e98bd8a91c596": {
-      "first_seen": "2026-05-13T04:11:28.124565",
-      "last_pushed": "2026-05-13T04:11:28.124565",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "Google 提前给 Android 办了场发布会，但主角依然不是 Android",
-      "source": "少数派"
-    },
-    "34ef6468cf91b2fa": {
-      "first_seen": "2026-05-13T04:11:28.124563",
-      "last_pushed": "2026-05-13T04:11:28.124563",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "做了个赛博斗蛐蛐：让 AI 写坦克逻辑，然后看它上战场",
-      "source": "V2EX"
-    },
-    "e64e903a9cd52646": {
-      "first_seen": "2026-05-13T04:11:28.124561",
-      "last_pushed": "2026-05-13T04:11:28.124561",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "mihomo 接入 tailscale",
-      "source": "V2EX"
-    },
-    "60f3ff9748e59ce2": {
-      "first_seen": "2026-05-13T04:11:28.124549",
-      "last_pushed": "2026-05-13T04:11:28.124549",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "感觉 AI Coding 比古法编程累多了",
-      "source": "V2EX"
-    },
-    "33e07d3c638a8183": {
-      "first_seen": "2026-05-12T04:04:00.014261",
-      "last_pushed": "2026-05-12T04:04:00.014261",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派评 | 近期值得关注的 App",
-      "source": "少数派"
-    },
-    "943244d45ae81e6c": {
-      "first_seen": "2026-05-12T04:04:00.014259",
-      "last_pushed": "2026-05-12T04:04:00.014259",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "App+1 | 如果你的手机没有内置地震预警，这款 App 不妨常备",
-      "source": "少数派"
-    },
-    "749294e63a0fcb07": {
-      "first_seen": "2026-05-12T04:04:00.014257",
-      "last_pushed": "2026-05-12T04:04:00.014257",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "替尔泊肽确实是好药，但也没预想中那么神奇，我三个星期，从 98kg 减到 93kg",
-      "source": "V2EX"
-    },
-    "15e7ab96a9811b49": {
-      "first_seen": "2026-05-12T04:04:00.014255",
-      "last_pushed": "2026-05-12T04:04:00.014255",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "[终身成就达成] 单日徒步 100 公里, 我开始享受自己现在健康的身体了.",
-      "source": "V2EX"
-    },
-    "5fe04d6470f8ea7c": {
-      "first_seen": "2026-05-12T04:04:00.014252",
-      "last_pushed": "2026-05-12T04:04:00.014252",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "婚纱照好贵,基本上都 2/3K,跟对象看了看婚纱写真也不错,几百块,有拍过的哥们吗?",
-      "source": "V2EX"
-    },
-    "2ea797f10fe6d7d1": {
-      "first_seen": "2026-05-12T04:04:00.014250",
-      "last_pushed": "2026-05-12T04:04:00.014250",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我做了个小硬件，突破限制，彻底解决 iPhone 骚扰电话拦截效果差的问题",
-      "source": "V2EX"
-    },
-    "9a6a1397033f6c16": {
-      "first_seen": "2026-05-12T04:04:00.014248",
-      "last_pushed": "2026-05-12T04:04:00.014248",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "满血中转， codex 0.1 超低倍率分组，注册赠送两千万 token！求蹬，使劲蹬！",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-19T04:37:13.749145"
+  "last_update": "2026-10-20T04:46:58.034946"
 }
