@@ -1,5 +1,133 @@
 {
   "records": {
+    "0e8017618cdc6a10": {
+      "first_seen": "2026-10-21T04:42:35.094637",
+      "last_pushed": "2026-10-21T04:42:35.094637",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "派评 | 近期值得关注的 App",
+      "source": "少数派"
+    },
+    "1a5fa9b4497844ac": {
+      "first_seen": "2026-10-21T04:42:35.094635",
+      "last_pushed": "2026-10-21T04:42:35.094635",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "前端想学后端，但是看完这段代码就已经力竭了",
+      "source": "V2EX"
+    },
+    "403c4903682f83cc": {
+      "first_seen": "2026-10-21T04:42:35.094634",
+      "last_pushed": "2026-10-21T04:42:35.094634",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "感叹 Codex 的过度设计。",
+      "source": "V2EX"
+    },
+    "4fe532443a13d0e7": {
+      "first_seen": "2026-10-21T04:42:35.094632",
+      "last_pushed": "2026-10-21T04:42:35.094632",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "针对 Claude 封号，写了套软件 + 部署方法，想只卖给企业用户，不知道会不会有市场？",
+      "source": "V2EX"
+    },
+    "e812b8453c336c93": {
+      "first_seen": "2026-10-21T04:42:35.094630",
+      "last_pushed": "2026-10-21T04:42:35.094630",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "想购买 iPad mini 8, 有人打醒我吗？",
+      "source": "V2EX"
+    },
+    "3aba9cb655efd0d6": {
+      "first_seen": "2026-10-21T04:42:35.094628",
+      "last_pushed": "2026-10-21T04:42:35.094628",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "[图一乐] 给大家看看我的 Claude 账号到底有多硬",
+      "source": "V2EX"
+    },
+    "b351433e4d854de6": {
+      "first_seen": "2026-10-21T04:42:35.094626",
+      "last_pushed": "2026-10-21T04:42:35.094626",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "前端这个行业真要完了",
+      "source": "V2EX"
+    },
+    "ee8a1ef655e14080": {
+      "first_seen": "2026-10-21T04:42:35.094624",
+      "last_pushed": "2026-10-21T04:42:35.094624",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "我和老婆，因为女儿练字“吵”了一架",
+      "source": "V2EX"
+    },
+    "94115b6a94a25905": {
+      "first_seen": "2026-10-21T04:42:35.094621",
+      "last_pushed": "2026-10-21T04:42:35.094621",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "是去海外还是留国内",
+      "source": "V2EX"
+    },
+    "08b2dbe3b4125919": {
+      "first_seen": "2026-10-21T04:42:35.094618",
+      "last_pushed": "2026-10-21T04:42:35.094618",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "招行信用卡是真➗啊",
+      "source": "V2EX"
+    },
+    "3a6b77aab6a430c7": {
+      "first_seen": "2026-10-21T04:42:35.094617",
+      "last_pushed": "2026-10-21T04:42:35.094617",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "从「空间扩展」到「等比放大」：我如何为 MacBook Pro 搭建双屏桌面",
+      "source": "少数派"
+    },
+    "e3cffa843532cf9a": {
+      "first_seen": "2026-10-21T04:42:35.094615",
+      "last_pushed": "2026-10-21T04:42:35.094615",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "具透 Plus：Firefox 被「中途喝止」的界面现代化改造；Pixel 不再为 VoLTE 发愁",
+      "source": "少数派"
+    },
+    "e81106a7320dbae4": {
+      "first_seen": "2026-10-21T04:42:35.094613",
+      "last_pushed": "2026-10-21T04:42:35.094613",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：美国政府指示各机构停用 DeepSeek、理想发布「连山」自研三电体系等",
+      "source": "少数派"
+    },
+    "29a4097da4c780e1": {
+      "first_seen": "2026-10-21T04:42:35.094610",
+      "last_pushed": "2026-10-21T04:42:35.094610",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "怀旧手记｜世界首台 UMPC：三星 Q1，和当下平板有什么关系？",
+      "source": "少数派"
+    },
+    "23445c3344026926": {
+      "first_seen": "2026-10-21T04:42:35.094607",
+      "last_pushed": "2026-10-21T04:42:35.094607",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "[中转站] gpt0.16 倍率不降智进来领鸡蛋",
+      "source": "V2EX"
+    },
+    "1585020d56819438": {
+      "first_seen": "2026-10-21T04:42:35.094597",
+      "last_pushed": "2026-10-21T04:42:35.094597",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "TDS REVIEW｜vivo Buds Clip 耳夹式无线耳机体验",
+      "source": "少数派"
+    },
     "3f4aa686c2a3dec1": {
       "first_seen": "2026-10-20T04:46:58.034043",
       "last_pushed": "2026-10-20T04:46:58.034043",
@@ -15871,136 +15999,8 @@
       "last_score": 4,
       "title": "真实相亲 app 构想",
       "source": "V2EX"
-    },
-    "02ed6d817ba0c6ec": {
-      "first_seen": "2026-05-14T04:11:36.020422",
-      "last_pushed": "2026-05-14T04:11:36.020422",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "给各位 V 友发点福利，顺便测试一下",
-      "source": "V2EX"
-    },
-    "2c4ff09ad33c82f4": {
-      "first_seen": "2026-05-14T04:11:36.020419",
-      "last_pushed": "2026-05-14T04:11:36.020419",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "程序员公认的早买早享受的有什么？",
-      "source": "V2EX"
-    },
-    "a7897f7470e50d68": {
-      "first_seen": "2026-05-14T04:11:36.020417",
-      "last_pushed": "2026-05-14T04:11:36.020417",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "神人同事向我要 VISA 卡号和安全码",
-      "source": "V2EX"
-    },
-    "2cb07bfc50f2d37a": {
-      "first_seen": "2026-05-14T04:11:36.020416",
-      "last_pushed": "2026-05-14T04:11:36.020416",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "推广一下自己的中转站, 注册就送 30 刀, 是兄弟就来蹬我",
-      "source": "V2EX"
-    },
-    "68348601cb90e561": {
-      "first_seen": "2026-05-14T04:11:36.020414",
-      "last_pushed": "2026-05-14T04:11:36.020414",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我妹马上毕业了，她的就业问题，让我很生气。",
-      "source": "V2EX"
-    },
-    "cb7e59b28d7df57d": {
-      "first_seen": "2026-05-14T04:11:36.020412",
-      "last_pushed": "2026-05-14T04:11:36.020412",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "前端失业，有点点迷茫",
-      "source": "V2EX"
-    },
-    "94766e1611cb012f": {
-      "first_seen": "2026-05-14T04:11:36.020409",
-      "last_pushed": "2026-05-14T04:11:36.020409",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "佳明本能 Instinct 3 太阳能版评测：我的智能手表终章",
-      "source": "少数派"
-    },
-    "0b4eafb1118bc0e5": {
-      "first_seen": "2026-05-14T04:11:36.020400",
-      "last_pushed": "2026-05-14T04:11:36.020400",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：索尼推出 Xperia 1 VIII 手机及 Alpha 7R VI 相机等",
-      "source": "少数派"
-    },
-    "62264771e690f86e": {
-      "first_seen": "2026-05-13T04:11:28.124584",
-      "last_pushed": "2026-05-13T04:11:28.124584",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "大家不觉得跟理发师沟通就像用大模型吗？",
-      "source": "V2EX"
-    },
-    "4d2a42c8ff5c90d2": {
-      "first_seen": "2026-05-13T04:11:28.124582",
-      "last_pushed": "2026-05-13T04:11:28.124582",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "小米路由器 AX3000T 两年半使用体验(差一点就成为米粉了，换华为路由器了！)",
-      "source": "V2EX"
-    },
-    "c628ea4b6c53ea89": {
-      "first_seen": "2026-05-13T04:11:28.124581",
-      "last_pushed": "2026-05-13T04:11:28.124581",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "原来追觅做了这么多，是想崩地方国资的钱。",
-      "source": "V2EX"
-    },
-    "10654cdf4a852dff": {
-      "first_seen": "2026-05-13T04:11:28.124579",
-      "last_pushed": "2026-05-13T04:11:28.124579",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "给 V2EX 加了个「主题关键词屏蔽」，大家不用天天看中转站广告了",
-      "source": "V2EX"
-    },
-    "c102c78387a97153": {
-      "first_seen": "2026-05-13T04:11:28.124578",
-      "last_pushed": "2026-05-13T04:11:28.124578",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "NET 已死",
-      "source": "V2EX"
-    },
-    "b7982bfbdb30805c": {
-      "first_seen": "2026-05-13T04:11:28.124576",
-      "last_pushed": "2026-05-13T04:11:28.124576",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我身边同事也在用的满血中转 codex ：发放福利分组名额 数量有限，先到先得",
-      "source": "V2EX"
-    },
-    "5bb7a7fe831bda48": {
-      "first_seen": "2026-05-13T04:11:28.124574",
-      "last_pushed": "2026-05-13T04:11:28.124574",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "被多梦困扰的十几年",
-      "source": "V2EX"
-    },
-    "3cef985884711902": {
-      "first_seen": "2026-05-13T04:11:28.124571",
-      "last_pushed": "2026-05-13T04:11:28.124571",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "精彩之下的反常时刻：聊聊 F1 2026 年新规悖论",
-      "source": "少数派"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-20T04:46:58.034946"
+  "last_update": "2026-10-21T04:42:35.095145"
 }
