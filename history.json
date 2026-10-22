@@ -1,5 +1,117 @@
 {
   "records": {
+    "054a86f88bef3b23": {
+      "first_seen": "2026-10-22T04:40:37.294233",
+      "last_pushed": "2026-10-22T04:40:37.294233",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "「MFlare」监控 Cloudflare 用量以及部署的 MacOS 菜单栏小工具（附兑换码）",
+      "source": "V2EX"
+    },
+    "bdd0bab20bbd8f88": {
+      "first_seen": "2026-10-22T04:40:37.294232",
+      "last_pushed": "2026-10-22T04:40:37.294232",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "天塌了，公司就我一个技术，所有项目都跑在 php7 上，今晚我该咋办😨",
+      "source": "V2EX"
+    },
+    "d1c9e3bf6637c557": {
+      "first_seen": "2026-10-22T04:40:37.294231",
+      "last_pushed": "2026-10-22T04:40:37.294231",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "我的一个朋友（真的是一个朋友）目前深陷于一段感情骗局中，请 V 友们支招",
+      "source": "V2EX"
+    },
+    "ff4b66e932dfdce1": {
+      "first_seen": "2026-10-22T04:40:37.294229",
+      "last_pushed": "2026-10-22T04:40:37.294229",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "最近准备换车，旧车想送给妹妹开，怕老婆不同意，该怎么处理？",
+      "source": "V2EX"
+    },
+    "6f4064cf8e3d1f0a": {
+      "first_seen": "2026-10-22T04:40:37.294228",
+      "last_pushed": "2026-10-22T04:40:37.294228",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "今天碰到的一个公共场合的小冲突，分享下",
+      "source": "V2EX"
+    },
+    "f51d4ea4d7a77a78": {
+      "first_seen": "2026-10-22T04:40:37.294227",
+      "last_pushed": "2026-10-22T04:40:37.294227",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "PHP 最新零日漏洞怎么没人讨论",
+      "source": "V2EX"
+    },
+    "0355722780b1ec65": {
+      "first_seen": "2026-10-22T04:40:37.294225",
+      "last_pushed": "2026-10-22T04:40:37.294225",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "结婚三年，现在跟我说不生小孩，我该怎么办？求建议",
+      "source": "V2EX"
+    },
+    "a462b39ae82fb7fa": {
+      "first_seen": "2026-10-22T04:40:37.294223",
+      "last_pushed": "2026-10-22T04:40:37.294223",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "反正我是我家最后一代了，我做恶我自豪？",
+      "source": "V2EX"
+    },
+    "726e7a259506ec30": {
+      "first_seen": "2026-10-22T04:40:37.294222",
+      "last_pushed": "2026-10-22T04:40:37.294222",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "00 后结婚 10 个月，老婆回娘家了，我该怎么处理，求各位帮助",
+      "source": "V2EX"
+    },
+    "f986a1f01db0eab6": {
+      "first_seen": "2026-10-22T04:40:37.294220",
+      "last_pushed": "2026-10-22T04:40:37.294220",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "Vitals：什么在拖慢你的 Mac？它比「活动监视器」更直观易用",
+      "source": "少数派"
+    },
+    "ae05217c2de87623": {
+      "first_seen": "2026-10-22T04:40:37.294219",
+      "last_pushed": "2026-10-22T04:40:37.294219",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "社区速递 162 | MUJI 靠垫、中兴路由器与派友们的长假吃灰装备",
+      "source": "少数派"
+    },
+    "62ecfe7822cd1d3d": {
+      "first_seen": "2026-10-22T04:40:37.294217",
+      "last_pushed": "2026-10-22T04:40:37.294217",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记",
+      "source": "少数派"
+    },
+    "7363149e678c981d": {
+      "first_seen": "2026-10-22T04:40:37.294216",
+      "last_pushed": "2026-10-22T04:40:37.294216",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "为啥你们 Vibe 的网页 AI 味儿那么重?",
+      "source": "V2EX"
+    },
+    "c4945b75034e6830": {
+      "first_seen": "2026-10-22T04:40:37.294210",
+      "last_pushed": "2026-10-22T04:40:37.294210",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "派早报：荣耀发布 WIN2 系列新品、Google 开源 TorchTPU 等",
+      "source": "少数派"
+    },
     "0e8017618cdc6a10": {
       "first_seen": "2026-10-21T04:42:35.094637",
       "last_pushed": "2026-10-21T04:42:35.094637",
@@ -15887,120 +15999,8 @@
       "last_score": 4,
       "title": "一个真正一目了然的自建 Codex 中转站",
       "source": "V2EX"
-    },
-    "c70a9c602b05b8be": {
-      "first_seen": "2026-05-15T04:16:23.931034",
-      "last_pushed": "2026-05-15T04:16:23.931034",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "替尔泊肽要糖尿病处方才能买？",
-      "source": "V2EX"
-    },
-    "fa348bf925d1149d": {
-      "first_seen": "2026-05-15T04:16:23.931031",
-      "last_pushed": "2026-05-15T04:16:23.931031",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "全职写代码感觉坚持不下去了，你们呢？",
-      "source": "V2EX"
-    },
-    "0a96e709ffdd8d6a": {
-      "first_seen": "2026-05-15T04:16:23.931027",
-      "last_pushed": "2026-05-15T04:16:23.931027",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "诚邀已婚有娃男性朋友，探讨中年阶段的困惑[中登专属]",
-      "source": "V2EX"
-    },
-    "2f6eaab680af3ab6": {
-      "first_seen": "2026-05-15T04:16:23.931023",
-      "last_pushed": "2026-05-15T04:16:23.931023",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我们合适么？",
-      "source": "V2EX"
-    },
-    "aeaf37492a5dc8c9": {
-      "first_seen": "2026-05-15T04:16:23.931020",
-      "last_pushed": "2026-05-15T04:16:23.931020",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "崩溃，每个月女朋友都因为钱的问题提分手，好心累",
-      "source": "V2EX"
-    },
-    "7feae0a84df27c49": {
-      "first_seen": "2026-05-15T04:16:23.931017",
-      "last_pushed": "2026-05-15T04:16:23.931017",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "在 Android 上运行 Linux 终端，体验究竟怎么样？（2026 版）",
-      "source": "少数派"
-    },
-    "31f6b3d7b889c45c": {
-      "first_seen": "2026-05-15T04:16:23.931014",
-      "last_pushed": "2026-05-15T04:16:23.931014",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "新玩意 241｜少数派的编辑们最近买了啥？",
-      "source": "少数派"
-    },
-    "ca9f30be08382a98": {
-      "first_seen": "2026-05-15T04:16:23.931011",
-      "last_pushed": "2026-05-15T04:16:23.931011",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：戴尔推出 Alienware 15 入门游戏本，Spotify 将支持 HLS 视频播客技术",
-      "source": "少数派"
-    },
-    "af925d500a00d6d6": {
-      "first_seen": "2026-05-15T04:16:23.931007",
-      "last_pushed": "2026-05-15T04:16:23.931007",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "AI 潮来，翻译何为",
-      "source": "少数派"
-    },
-    "ace1033797ca5cce": {
-      "first_seen": "2026-05-15T04:16:23.930996",
-      "last_pushed": "2026-05-15T04:16:23.930996",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "用 Obsidian Web Clipper，让豆瓣种草更容易",
-      "source": "少数派"
-    },
-    "715a01328b8b0426": {
-      "first_seen": "2026-05-14T04:11:36.020429",
-      "last_pushed": "2026-05-14T04:11:36.020429",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "App+1 | 把笔记软件「装进」浏览器：SilverBullet.md",
-      "source": "少数派"
-    },
-    "79532aa82bba291f": {
-      "first_seen": "2026-05-14T04:11:36.020427",
-      "last_pushed": "2026-05-14T04:11:36.020427",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "手指腱鞘炎怎么办呢。用鼠过度。轨迹球鼠标和垂直鼠标可行吗？",
-      "source": "V2EX"
-    },
-    "6a4da8d477a1c2ea": {
-      "first_seen": "2026-05-14T04:11:36.020426",
-      "last_pushed": "2026-05-14T04:11:36.020426",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "搞不懂为啥更便宜东西更全的网站没啥人用，单一的反而用户多",
-      "source": "V2EX"
-    },
-    "cf6ba4ceb6d0f9ac": {
-      "first_seen": "2026-05-14T04:11:36.020424",
-      "last_pushed": "2026-05-14T04:11:36.020424",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "真实相亲 app 构想",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-21T04:42:35.095145"
+  "last_update": "2026-10-22T04:40:37.294601"
 }
