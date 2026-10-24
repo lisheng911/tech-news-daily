@@ -1,5 +1,101 @@
 {
   "records": {
+    "48a96e4fd4e7e0e7": {
+      "first_seen": "2026-10-24T04:33:08.649946",
+      "last_pushed": "2026-10-24T04:33:08.649946",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "做了个 Mac 小工具，在屏幕边上看 Codex / Claude Code 还剩多少额度",
+      "source": "V2EX"
+    },
+    "b0babeb07065195a": {
+      "first_seen": "2026-10-24T04:33:08.649944",
+      "last_pushed": "2026-10-24T04:33:08.649944",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "软件工程不会消失",
+      "source": "V2EX"
+    },
+    "e31c0fa33f755116": {
+      "first_seen": "2026-10-24T04:33:08.649942",
+      "last_pushed": "2026-10-24T04:33:08.649942",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "为了不被优化，现在应该学点啥",
+      "source": "V2EX"
+    },
+    "b9636f47bbf6d552": {
+      "first_seen": "2026-10-24T04:33:08.649939",
+      "last_pushed": "2026-10-24T04:33:08.649939",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "别说开发了, 这把运维真给干没了把",
+      "source": "V2EX"
+    },
+    "2078ff0501ab6e45": {
+      "first_seen": "2026-10-24T04:33:08.649935",
+      "last_pushed": "2026-10-24T04:33:08.649935",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "大龄后端程序员出路讨论",
+      "source": "V2EX"
+    },
+    "a6141fed5dd2c937": {
+      "first_seen": "2026-10-24T04:33:08.649931",
+      "last_pushed": "2026-10-24T04:33:08.649931",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "大家在为下一次失业做准备吗",
+      "source": "V2EX"
+    },
+    "69da6df56e6d9ff5": {
+      "first_seen": "2026-10-24T04:33:08.649929",
+      "last_pushed": "2026-10-24T04:33:08.649929",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "不是我说，成都这地方当码农简直是灾难级别，成都的程序员真能顶啊？",
+      "source": "V2EX"
+    },
+    "ecee5c3ef34b2aee": {
+      "first_seen": "2026-10-24T04:33:08.649926",
+      "last_pushed": "2026-10-24T04:33:08.649926",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "经过这次 PHP 漏洞的事情，猛然发现技术圈进步的并没有那么快",
+      "source": "V2EX"
+    },
+    "3aa3ef8afac7e515": {
+      "first_seen": "2026-10-24T04:33:08.649924",
+      "last_pushed": "2026-10-24T04:33:08.649924",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "去了趟既熟悉又陌生的台湾",
+      "source": "V2EX"
+    },
+    "460bc6ca2699213d": {
+      "first_seen": "2026-10-24T04:33:08.649921",
+      "last_pushed": "2026-10-24T04:33:08.649921",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "TDS REVIEW｜OPPO Enco X4 降噪真无线耳机体验",
+      "source": "少数派"
+    },
+    "3065e9e374fd2598": {
+      "first_seen": "2026-10-24T04:33:08.649917",
+      "last_pushed": "2026-10-24T04:33:08.649917",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "本周看什么 | 最近值得一看的 12 部作品",
+      "source": "少数派"
+    },
+    "f54c9ef23dbe1c7b": {
+      "first_seen": "2026-10-24T04:33:08.649907",
+      "last_pushed": "2026-10-24T04:33:08.649907",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？",
+      "source": "V2EX"
+    },
     "4cb80f9fa0e41e39": {
       "first_seen": "2026-10-23T04:45:52.721567",
       "last_pushed": "2026-10-23T04:45:52.721567",
@@ -15903,104 +15999,8 @@
       "last_score": 4,
       "title": "这么好用的中转站，我必须得让大家知道",
       "source": "V2EX"
-    },
-    "3215b036cba6e204": {
-      "first_seen": "2026-05-17T04:21:06.492844",
-      "last_pushed": "2026-05-17T04:21:06.492844",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "Bun 的 Rust 重写：一封来自 Zig 社区的公开信",
-      "source": "V2EX"
-    },
-    "68190ce8092c168d": {
-      "first_seen": "2026-05-17T04:21:06.492841",
-      "last_pushed": "2026-05-17T04:21:06.492841",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "假如苹果出相机，传统相机还活得下去吗？",
-      "source": "V2EX"
-    },
-    "94daaddce269327d": {
-      "first_seen": "2026-05-17T04:21:06.492837",
-      "last_pushed": "2026-05-17T04:21:06.492837",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "2025 年平均工资出炉，非私单位 129441，私营单位 71590",
-      "source": "V2EX"
-    },
-    "c69120c75c27b4e8": {
-      "first_seen": "2026-05-17T04:21:06.492835",
-      "last_pushed": "2026-05-17T04:21:06.492835",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "小项目的作者不回邮件还挺打击用户信心的",
-      "source": "V2EX"
-    },
-    "3a2ac98f7e63d941": {
-      "first_seen": "2026-05-17T04:21:06.492832",
-      "last_pushed": "2026-05-17T04:21:06.492832",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "国内的企业是压根不在乎域名吗",
-      "source": "V2EX"
-    },
-    "3e9f53bcdd34c926": {
-      "first_seen": "2026-05-17T04:21:06.492830",
-      "last_pushed": "2026-05-17T04:21:06.492830",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "香港/东京/新加坡/迪拜这四个城市该怎么选呢？",
-      "source": "V2EX"
-    },
-    "f5f8e0d7c122af1c": {
-      "first_seen": "2026-05-17T04:21:06.492827",
-      "last_pushed": "2026-05-17T04:21:06.492827",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "58 元买断的软件，希望可以终生维护，为什么 58 元买的衣服，吃的快餐，没有同样的要求呢？",
-      "source": "V2EX"
-    },
-    "a73084166d7d9467": {
-      "first_seen": "2026-05-17T04:21:06.492824",
-      "last_pushed": "2026-05-17T04:21:06.492824",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "为什么我觉得好的东西，媒体评测却给了低分？",
-      "source": "少数派"
-    },
-    "e001fe1524dd95df": {
-      "first_seen": "2026-05-17T04:21:06.492816",
-      "last_pushed": "2026-05-17T04:21:06.492816",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "ai coding 后已经慢慢丧失了对程序员这份职业的热爱了",
-      "source": "V2EX"
-    },
-    "61a8a08f3947994e": {
-      "first_seen": "2026-05-16T04:00:21.400101",
-      "last_pushed": "2026-05-16T04:00:21.400101",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "[会员免费] Apple WWDC26 全球开发者大会，来与少数派一起看",
-      "source": "少数派"
-    },
-    "c688d0a680b8aa02": {
-      "first_seen": "2026-05-16T04:00:21.400097",
-      "last_pushed": "2026-05-16T04:00:21.400097",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "你会怎么选",
-      "source": "V2EX"
-    },
-    "9f0a8e12660862c9": {
-      "first_seen": "2026-05-16T04:00:21.400095",
-      "last_pushed": "2026-05-16T04:00:21.400095",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "已婚有孩的瓢虫不该被鄙视？是我故作清高？",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-23T04:45:52.722292"
+  "last_update": "2026-10-24T04:33:08.650536"
 }
