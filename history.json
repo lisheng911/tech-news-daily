@@ -1,5 +1,117 @@
 {
   "records": {
+    "9de874180b0771db": {
+      "first_seen": "2026-10-28T05:38:59.299556",
+      "last_pushed": "2026-10-28T05:38:59.299556",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "派评 | 近期值得关注的 App",
+      "source": "少数派"
+    },
+    "0fa79ff76cd31b80": {
+      "first_seen": "2026-10-28T05:38:59.299555",
+      "last_pushed": "2026-10-28T05:38:59.299555",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "Apple Sports：不看新闻、不聊球，只看我关心的比赛",
+      "source": "少数派"
+    },
+    "8ed321a8a79cf8e2": {
+      "first_seen": "2026-10-28T05:38:59.299553",
+      "last_pushed": "2026-10-28T05:38:59.299553",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：Apple 发布 M6 版 iMac 和 MacBook Pro 等",
+      "source": "少数派"
+    },
+    "8549de4fb762235d": {
+      "first_seen": "2026-10-28T05:38:59.299551",
+      "last_pushed": "2026-10-28T05:38:59.299551",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "“你吃的烤肠可能是鸡脖子做的”....",
+      "source": "V2EX"
+    },
+    "21748a7646eb2eaa": {
+      "first_seen": "2026-10-28T05:38:59.299550",
+      "last_pushed": "2026-10-28T05:38:59.299550",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "那么多经典电视剧怎么不进行官方高清修复呢",
+      "source": "V2EX"
+    },
+    "113f35aaf328e57a": {
+      "first_seen": "2026-10-28T05:38:59.299548",
+      "last_pushed": "2026-10-28T05:38:59.299548",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "MacBook Pro M6 14 寸来袭，值不值？",
+      "source": "V2EX"
+    },
+    "df6c3a2932451602": {
+      "first_seen": "2026-10-28T05:38:59.299546",
+      "last_pushed": "2026-10-28T05:38:59.299546",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "第一次去健身房需要注意什么",
+      "source": "V2EX"
+    },
+    "1eec74a78dd0fa42": {
+      "first_seen": "2026-10-28T05:38:59.299543",
+      "last_pushed": "2026-10-28T05:38:59.299543",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "男人为啥非要结婚？给你再选一次的机会",
+      "source": "V2EX"
+    },
+    "27c621f8861e2c5c": {
+      "first_seen": "2026-10-28T05:38:59.299542",
+      "last_pushed": "2026-10-28T05:38:59.299542",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "人生到底应该未雨绸缪，还是车到山前必有路？",
+      "source": "V2EX"
+    },
+    "0652e7b35c7e6d08": {
+      "first_seen": "2026-10-28T05:38:59.299540",
+      "last_pushed": "2026-10-28T05:38:59.299540",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "社区速递 163 | 金豪 59 调整版钢笔与九月派友剁手清单",
+      "source": "少数派"
+    },
+    "eab363b5b7be8d7b": {
+      "first_seen": "2026-10-28T05:38:59.299538",
+      "last_pushed": "2026-10-28T05:38:59.299538",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "怀旧手记｜坚果 Pro2 与 R1：当「理想」和「现实」碰撞会发生什么？",
+      "source": "少数派"
+    },
+    "27954fd178d3b246": {
+      "first_seen": "2026-10-28T05:38:59.299536",
+      "last_pushed": "2026-10-28T05:38:59.299536",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "面对重大医疗决策， AI 和医生意见不同，我该信谁？",
+      "source": "V2EX"
+    },
+    "75f7936d777400fd": {
+      "first_seen": "2026-10-28T05:38:59.299533",
+      "last_pushed": "2026-10-28T05:38:59.299533",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "免费帮你设计一块电路板，你最想做什么？",
+      "source": "V2EX"
+    },
+    "cd473fce85b28535": {
+      "first_seen": "2026-10-28T05:38:59.299524",
+      "last_pushed": "2026-10-28T05:38:59.299524",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "Jetbrains 在经历 Fleet 和 Air 的失败之后再次发布一款的轻量级编辑器 Think",
+      "source": "V2EX"
+    },
     "121c6bb4fe4596ec": {
       "first_seen": "2026-10-27T05:00:08.156036",
       "last_pushed": "2026-10-27T05:00:08.156036",
@@ -15887,120 +15999,8 @@
       "last_score": 4,
       "title": "看选苹果还是选小米有感，十年米粉转黑",
       "source": "V2EX"
-    },
-    "143015679cd9c586": {
-      "first_seen": "2026-05-21T04:43:02.613299",
-      "last_pushed": "2026-05-21T04:43:02.613299",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "兄弟们，被裁员了，如果不上班了大家都想干点啥",
-      "source": "V2EX"
-    },
-    "fe069875356c6b76": {
-      "first_seen": "2026-05-21T04:43:02.613296",
-      "last_pushed": "2026-05-21T04:43:02.613296",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "条件不好，找不到对象，是不是该彻底不婚主义",
-      "source": "V2EX"
-    },
-    "1df6dcbe26248b68": {
-      "first_seen": "2026-05-21T04:43:02.613292",
-      "last_pushed": "2026-05-21T04:43:02.613292",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "4 月音乐精选：听这 8 张美妙的专辑迎接夏天",
-      "source": "少数派"
-    },
-    "7b76e2796514a5e3": {
-      "first_seen": "2026-05-21T04:43:02.613288",
-      "last_pushed": "2026-05-21T04:43:02.613288",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：iQOO 15T 正式发布、小鹏 GX 上市等",
-      "source": "少数派"
-    },
-    "827c83c2fd616874": {
-      "first_seen": "2026-05-21T04:43:02.613285",
-      "last_pushed": "2026-05-21T04:43:02.613285",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "少数派 × 飞傲 多功能便携 CD 音箱一体机 BEATBOX 预售开启",
-      "source": "少数派"
-    },
-    "062425f5675769d7": {
-      "first_seen": "2026-05-21T04:43:02.613282",
-      "last_pushed": "2026-05-21T04:43:02.613282",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "纯 plus/pro 号池 gpt5.5 新建中转站需要测试一下并发压力 www.aigcwe.co",
-      "source": "V2EX"
-    },
-    "e7e49988d53ff04a": {
-      "first_seen": "2026-05-21T04:43:02.613279",
-      "last_pushed": "2026-05-21T04:43:02.613279",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "新用户福利 | ChaoyeAPI 免费 10 刀额度等你来拿",
-      "source": "V2EX"
-    },
-    "cd7a3ffac4640fed": {
-      "first_seen": "2026-05-21T04:43:02.613276",
-      "last_pushed": "2026-05-21T04:43:02.613276",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "自用 OpenAI API 中转，邀 同行分摊成本 🤡 🤡 🤡",
-      "source": "V2EX"
-    },
-    "04c804052c7e3f5a": {
-      "first_seen": "2026-05-21T04:43:02.613265",
-      "last_pushed": "2026-05-21T04:43:02.613265",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "当 AI 成为角色：漫谈我的 SillyTavern 使用经验",
-      "source": "少数派"
-    },
-    "8c2d5bc8eef65047": {
-      "first_seen": "2026-05-20T04:35:05.743151",
-      "last_pushed": "2026-05-20T04:35:05.743151",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "法罗群岛果然不负期待",
-      "source": "V2EX"
-    },
-    "d0cb172f05098715": {
-      "first_seen": "2026-05-20T04:35:05.743148",
-      "last_pushed": "2026-05-20T04:35:05.743148",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "家中次子养老困惑 求解",
-      "source": "V2EX"
-    },
-    "2830c0eea64c2ab6": {
-      "first_seen": "2026-05-20T04:35:05.743145",
-      "last_pushed": "2026-05-20T04:35:05.743145",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "Antigravity 更新了，引入了 Gemini 3.5 Flash，更新的不像 vscode ",
-      "source": "V2EX"
-    },
-    "4f8ad3001734e24c": {
-      "first_seen": "2026-05-20T04:35:05.743142",
-      "last_pushed": "2026-05-20T04:35:05.743142",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "你吃过哪些零食是爱不释手的？来分享一下！",
-      "source": "V2EX"
-    },
-    "a1e93e17af6eb819": {
-      "first_seen": "2026-05-20T04:35:05.743139",
-      "last_pushed": "2026-05-20T04:35:05.743139",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "自用 Codex 站（今天继续福利分组--5.20）",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-27T05:00:08.156459"
+  "last_update": "2026-10-28T05:38:59.300314"
 }
