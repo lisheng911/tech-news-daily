@@ -1,5 +1,125 @@
 {
   "records": {
+    "e11592762752cf5b": {
+      "first_seen": "2026-10-29T05:44:14.956359",
+      "last_pushed": "2026-10-29T05:44:14.956359",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等",
+      "source": "少数派"
+    },
+    "212c032c9edc86bf": {
+      "first_seen": "2026-10-29T05:44:14.956357",
+      "last_pushed": "2026-10-29T05:44:14.956357",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "被裁了，今天最后一天。",
+      "source": "V2EX"
+    },
+    "2f70f866b6a49946": {
+      "first_seen": "2026-10-29T05:44:14.956356",
+      "last_pushed": "2026-10-29T05:44:14.956356",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "全程家宽+软路由+全局，还是被 Claude 发现来自大陆",
+      "source": "V2EX"
+    },
+    "90791bc61a3f3824": {
+      "first_seen": "2026-10-29T05:44:14.956354",
+      "last_pushed": "2026-10-29T05:44:14.956354",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "[公益站] 迫于 token 太多，秉持不浪费的原则分享给大家使用而开站。",
+      "source": "V2EX"
+    },
+    "d28642b1ef38e216": {
+      "first_seen": "2026-10-29T05:44:14.956353",
+      "last_pushed": "2026-10-29T05:44:14.956353",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "感觉 Ternus 上台，没干一件漂亮事啊！",
+      "source": "V2EX"
+    },
+    "64f36c78582b3213": {
+      "first_seen": "2026-10-29T05:44:14.956351",
+      "last_pushed": "2026-10-29T05:44:14.956351",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "拿到华为 od 口头 offer 了，值不值得去",
+      "source": "V2EX"
+    },
+    "068b2628f4289055": {
+      "first_seen": "2026-10-29T05:44:14.956350",
+      "last_pushed": "2026-10-29T05:44:14.956350",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "新款 MacBook 的触摸屏真的有用吗？",
+      "source": "V2EX"
+    },
+    "001d0c04051e66cd": {
+      "first_seen": "2026-10-29T05:44:14.956348",
+      "last_pushed": "2026-10-29T05:44:14.956348",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "兄弟们， MacBook Pro 经典 LOGO 发光的重新回归，有点小激动啊",
+      "source": "V2EX"
+    },
+    "8cb49f34975f193b": {
+      "first_seen": "2026-10-29T05:44:14.956345",
+      "last_pushed": "2026-10-29T05:44:14.956345",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "是我太感情淡漠吗？",
+      "source": "V2EX"
+    },
+    "ff3d1be1c2766bda": {
+      "first_seen": "2026-10-29T05:44:14.956344",
+      "last_pushed": "2026-10-29T05:44:14.956344",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "断舍离只是起点：打造能长期经营的实用主义衣柜",
+      "source": "少数派"
+    },
+    "b4a1751fcfd3a02d": {
+      "first_seen": "2026-10-29T05:44:14.956342",
+      "last_pushed": "2026-10-29T05:44:14.956342",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "备受期待的国产 3A 游戏新作：《影之刃零》游玩体验",
+      "source": "少数派"
+    },
+    "3267e9dee9d6e958": {
+      "first_seen": "2026-10-29T05:44:14.956340",
+      "last_pushed": "2026-10-29T05:44:14.956340",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "一日一技｜iPhone 恶意被锁，线上移除流程拆招",
+      "source": "少数派"
+    },
+    "bf33f2f61d94a8b0": {
+      "first_seen": "2026-10-29T05:44:14.956338",
+      "last_pushed": "2026-10-29T05:44:14.956338",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "让 Agent 读懂你的身体：数据处理篇",
+      "source": "少数派"
+    },
+    "ecb2716089c6c102": {
+      "first_seen": "2026-10-29T05:44:14.956336",
+      "last_pushed": "2026-10-29T05:44:14.956336",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "[送码] 做了个本地影音库 Inscura，支持电影剧集刮削和本地 Ai 画面检索（Mac/Wind",
+      "source": "V2EX"
+    },
+    "0d50ea9f3e4f965a": {
+      "first_seen": "2026-10-29T05:44:14.956329",
+      "last_pushed": "2026-10-29T05:44:14.956329",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "现在的 AI 是不是能达到或者超越一个标准本科生了？？",
+      "source": "V2EX"
+    },
     "9de874180b0771db": {
       "first_seen": "2026-10-28T05:38:59.299556",
       "last_pushed": "2026-10-28T05:38:59.299556",
@@ -15879,128 +15999,8 @@
       "last_score": 4,
       "title": "如何消除 vibe code 产生的技术债？",
       "source": "V2EX"
-    },
-    "3751cf995798d19e": {
-      "first_seen": "2026-05-22T04:35:02.591646",
-      "last_pushed": "2026-05-22T04:35:02.591646",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "Cursor 的 Debug 模式误删我 E 盘 921GB 文件",
-      "source": "V2EX"
-    },
-    "aadf620c46f80d74": {
-      "first_seen": "2026-05-22T04:35:02.591643",
-      "last_pushed": "2026-05-22T04:35:02.591643",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "向微信输入法投降🏳️， 我再也不当嘉豪了",
-      "source": "V2EX"
-    },
-    "dd6c4666acd87487": {
-      "first_seen": "2026-05-22T04:35:02.591640",
-      "last_pushed": "2026-05-22T04:35:02.591640",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "有个问题我始终没有弄明白，如 claude 这样的模型，中国大陆 IP 不能访问",
-      "source": "V2EX"
-    },
-    "9bcdd3d376483060": {
-      "first_seen": "2026-05-22T04:35:02.591636",
-      "last_pushed": "2026-05-22T04:35:02.591636",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "大家都用的什么代理软件",
-      "source": "V2EX"
-    },
-    "03453f6ac2980dbf": {
-      "first_seen": "2026-05-22T04:35:02.591633",
-      "last_pushed": "2026-05-22T04:35:02.591633",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "小朋友打生长激素问题请教",
-      "source": "V2EX"
-    },
-    "2ea31d5996827fc9": {
-      "first_seen": "2026-05-22T04:35:02.591630",
-      "last_pushed": "2026-05-22T04:35:02.591630",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "HyperAPI 留 ID 加 20 刀",
-      "source": "V2EX"
-    },
-    "c3668ea39fb1d35b": {
-      "first_seen": "2026-05-22T04:35:02.591627",
-      "last_pushed": "2026-05-22T04:35:02.591627",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "iOS 里的这些实用辅助功能，每个人都可能用得上",
-      "source": "少数派"
-    },
-    "662dfb745dd4c3b8": {
-      "first_seen": "2026-05-22T04:35:02.591624",
-      "last_pushed": "2026-05-22T04:35:02.591624",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "新玩意 242｜少数派的编辑们最近买了啥？",
-      "source": "少数派"
-    },
-    "00f94c32a5ba3dd1": {
-      "first_seen": "2026-05-22T04:35:02.591621",
-      "last_pushed": "2026-05-22T04:35:02.591621",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "Maptoposter Online：把你爱的城市画成艺术海报",
-      "source": "少数派"
-    },
-    "030a59c754baab4d": {
-      "first_seen": "2026-05-22T04:35:02.591609",
-      "last_pushed": "2026-05-22T04:35:02.591609",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "ChatGPT Pro 20x 才是归宿",
-      "source": "V2EX"
-    },
-    "2bac37d0fb4bc942": {
-      "first_seen": "2026-05-21T04:43:02.613314",
-      "last_pushed": "2026-05-21T04:43:02.613314",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "五月份被裁，五月底入职新公司，不知道怎么过下去了？",
-      "source": "V2EX"
-    },
-    "e4c50a3c5a94d69d": {
-      "first_seen": "2026-05-21T04:43:02.613311",
-      "last_pushed": "2026-05-21T04:43:02.613311",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我第一次发现，原来连我这种干了 8 年的程序员，也回答不了年轻人的问题",
-      "source": "V2EX"
-    },
-    "938136b314d10cee": {
-      "first_seen": "2026-05-21T04:43:02.613308",
-      "last_pushed": "2026-05-21T04:43:02.613308",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "求助：窗边的三棵大树被人为破坏致死，该如何维权？",
-      "source": "V2EX"
-    },
-    "f8ac2c61de6ffa67": {
-      "first_seen": "2026-05-21T04:43:02.613306",
-      "last_pushed": "2026-05-21T04:43:02.613306",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "做了一个睡前听书 App：用 Apple 系统语音读自己的 EPUB/PDF，送 30 个码",
-      "source": "V2EX"
-    },
-    "edcf4dce25f23865": {
-      "first_seen": "2026-05-21T04:43:02.613303",
-      "last_pushed": "2026-05-21T04:43:02.613303",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "看选苹果还是选小米有感，十年米粉转黑",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-28T05:38:59.300314"
+  "last_update": "2026-10-29T05:44:14.956944"
 }
