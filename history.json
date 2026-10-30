@@ -1,5 +1,109 @@
 {
   "records": {
+    "bf685af881e6891b": {
+      "first_seen": "2026-10-30T05:44:05.662755",
+      "last_pushed": "2026-10-30T05:44:05.662755",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "我们只是普通人吗",
+      "source": "V2EX"
+    },
+    "44cb2e4c556cf225": {
+      "first_seen": "2026-10-30T05:44:05.662754",
+      "last_pushed": "2026-10-30T05:44:05.662754",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "就是想买，有人劝醒我么？",
+      "source": "V2EX"
+    },
+    "c2680f1ef3ec8a4e": {
+      "first_seen": "2026-10-30T05:44:05.662752",
+      "last_pushed": "2026-10-30T05:44:05.662752",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "这算是被阴阳了吗？",
+      "source": "V2EX"
+    },
+    "11b74763947b2a42": {
+      "first_seen": "2026-10-30T05:44:05.662750",
+      "last_pushed": "2026-10-30T05:44:05.662750",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "今天自己的自建梯子被封端口了，架构是 Vless+reality（自己的域名）+xhttp+443 ",
+      "source": "V2EX"
+    },
+    "2a2058c4dec49b8e": {
+      "first_seen": "2026-10-30T05:44:05.662748",
+      "last_pushed": "2026-10-30T05:44:05.662748",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "关于达泊西汀，我有句话想说，时间短的兄弟们建议看看",
+      "source": "V2EX"
+    },
+    "f11bf37340d03bf8": {
+      "first_seen": "2026-10-30T05:44:05.662746",
+      "last_pushed": "2026-10-30T05:44:05.662746",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "准备卸载红果了",
+      "source": "V2EX"
+    },
+    "eb56c914b5c7925e": {
+      "first_seen": "2026-10-30T05:44:05.662743",
+      "last_pushed": "2026-10-30T05:44:05.662743",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "Android 全平台纯自研内核 IPTV 播放器，各种格式都可以快速起播",
+      "source": "V2EX"
+    },
+    "2e5f82735a5e6b40": {
+      "first_seen": "2026-10-30T05:44:05.662741",
+      "last_pushed": "2026-10-30T05:44:05.662741",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "亲戚来上海找工作想在我家打地铺，老婆不乐意，我妈说我不懂人情世故",
+      "source": "V2EX"
+    },
+    "a0a2b1e8a6789bd7": {
+      "first_seen": "2026-10-30T05:44:05.662740",
+      "last_pushed": "2026-10-30T05:44:05.662740",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "如何成为不吃压力的「大心脏」？",
+      "source": "少数派"
+    },
+    "3bf556df65a40b9d": {
+      "first_seen": "2026-10-30T05:44:05.662737",
+      "last_pushed": "2026-10-30T05:44:05.662737",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "新玩意 254｜少数派的编辑们最近买了啥？",
+      "source": "少数派"
+    },
+    "1691f57227341b3c": {
+      "first_seen": "2026-10-30T05:44:05.662735",
+      "last_pushed": "2026-10-30T05:44:05.662735",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：全球首款 Android XR 有线眼镜 XREAL AURA 发售等",
+      "source": "少数派"
+    },
+    "32820b95afa7bfba": {
+      "first_seen": "2026-10-30T05:44:05.662733",
+      "last_pushed": "2026-10-30T05:44:05.662733",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "精确到秒的时间记录是怎样的？我的柳比歇夫法半年实践",
+      "source": "少数派"
+    },
+    "d85b1dac8f6835c3": {
+      "first_seen": "2026-10-30T05:44:05.662723",
+      "last_pushed": "2026-10-30T05:44:05.662723",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "《久坐健康指南》作者、运动健康领域创作者阿帅装了啥？",
+      "source": "少数派"
+    },
     "e11592762752cf5b": {
       "first_seen": "2026-10-29T05:44:14.956359",
       "last_pushed": "2026-10-29T05:44:14.956359",
@@ -15895,112 +15999,8 @@
       "last_score": 4,
       "title": "明天就要软考了，我发现了数据库三范式之第一范式好像过时了",
       "source": "V2EX"
-    },
-    "361ecb172a3f2a92": {
-      "first_seen": "2026-05-23T04:06:44.892790",
-      "last_pushed": "2026-05-23T04:06:44.892790",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我要不要买 MacBook Pro？",
-      "source": "V2EX"
-    },
-    "f0887e495b3b02a1": {
-      "first_seen": "2026-05-23T04:06:44.892780",
-      "last_pushed": "2026-05-23T04:06:44.892780",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "Codex 新站点 HappyCode 推广，纯 Plus 号池（0.04 倍率）活动送 75 刀额",
-      "source": "V2EX"
-    },
-    "320d5c2a545e20c9": {
-      "first_seen": "2026-05-23T04:06:44.892777",
-      "last_pushed": "2026-05-23T04:06:44.892777",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "Surge 作者将 𝕏 个人简介修改为已退休",
-      "source": "V2EX"
-    },
-    "e8d6a7f753ea6e56": {
-      "first_seen": "2026-05-23T04:06:44.892775",
-      "last_pushed": "2026-05-23T04:06:44.892775",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "今天我生日,可以薅 V 友一句生日快乐吗?",
-      "source": "V2EX"
-    },
-    "d93274636da041f0": {
-      "first_seen": "2026-05-23T04:06:44.892773",
-      "last_pushed": "2026-05-23T04:06:44.892773",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "蔚来换电讨论",
-      "source": "V2EX"
-    },
-    "c986e1600d397281": {
-      "first_seen": "2026-05-23T04:06:44.892771",
-      "last_pushed": "2026-05-23T04:06:44.892771",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "浏览器扩展合集：我们为你找到了这 6 款实用、有趣的「新玩意」",
-      "source": "少数派"
-    },
-    "9de9c290ea3aed65": {
-      "first_seen": "2026-05-23T04:06:44.892769",
-      "last_pushed": "2026-05-23T04:06:44.892769",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "本周看什么 | 最近值得一看的 7 部作品",
-      "source": "少数派"
-    },
-    "dc3680764328cbce": {
-      "first_seen": "2026-05-23T04:06:44.892766",
-      "last_pushed": "2026-05-23T04:06:44.892766",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "ChatGPT Pro 额度怎么蹬满?",
-      "source": "V2EX"
-    },
-    "f714989cb37a9663": {
-      "first_seen": "2026-05-23T04:06:44.892759",
-      "last_pushed": "2026-05-23T04:06:44.892759",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "AI 蓬勃发展，各种资讯满天飞，大家都是从哪里获取 AI 资讯",
-      "source": "V2EX"
-    },
-    "c5e8a9cf6dd30630": {
-      "first_seen": "2026-05-22T04:35:02.591656",
-      "last_pushed": "2026-05-22T04:35:02.591656",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "有没有机场推荐的",
-      "source": "V2EX"
-    },
-    "a020f253bcc9e4b5": {
-      "first_seen": "2026-05-22T04:35:02.591654",
-      "last_pushed": "2026-05-22T04:35:02.591654",
-      "push_count": 1,
-      "last_score": 9,
-      "title": "派早报：小米召开新品发布会、Photoshop 移除工具支持端侧 AI 模型等",
-      "source": "少数派"
-    },
-    "f2929b30c9781bec": {
-      "first_seen": "2026-05-22T04:35:02.591651",
-      "last_pushed": "2026-05-22T04:35:02.591651",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "用过马应龙的湿厕纸后，无法忍受普通的厕纸了",
-      "source": "V2EX"
-    },
-    "1ea60f5645a54d27": {
-      "first_seen": "2026-05-22T04:35:02.591648",
-      "last_pushed": "2026-05-22T04:35:02.591648",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "如何消除 vibe code 产生的技术债？",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-10-29T05:44:14.956944"
+  "last_update": "2026-10-30T05:44:05.663411"
 }
