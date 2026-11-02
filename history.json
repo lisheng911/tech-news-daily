@@ -1,5 +1,109 @@
 {
   "records": {
+    "42c67f0b26631556": {
+      "first_seen": "2026-11-02T05:58:07.610661",
+      "last_pushed": "2026-11-02T05:58:07.610661",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：Apple 智能将随 iOS 27.3 登陆中国",
+      "source": "少数派"
+    },
+    "2cee7f585bfa9095": {
+      "first_seen": "2026-11-02T05:58:07.610658",
+      "last_pushed": "2026-11-02T05:58:07.610658",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "在国内环境下，如何花点儿小钱实现 token 自由？",
+      "source": "V2EX"
+    },
+    "4555af5592b462ff": {
+      "first_seen": "2026-11-02T05:58:07.610655",
+      "last_pushed": "2026-11-02T05:58:07.610655",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "兄弟们这辈子买过的最贵的东西是什么？",
+      "source": "V2EX"
+    },
+    "450e651035b7a913": {
+      "first_seen": "2026-11-02T05:58:07.610652",
+      "last_pushed": "2026-11-02T05:58:07.610652",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "agent 的代码到底审不审核",
+      "source": "V2EX"
+    },
+    "404292032ceda0b4": {
+      "first_seen": "2026-11-02T05:58:07.610649",
+      "last_pushed": "2026-11-02T05:58:07.610649",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "大家现在每天早餐消费多少钱？",
+      "source": "V2EX"
+    },
+    "148e199db4e3f94c": {
+      "first_seen": "2026-11-02T05:58:07.610645",
+      "last_pushed": "2026-11-02T05:58:07.610645",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "现在的行情真的很冷",
+      "source": "V2EX"
+    },
+    "cf2859835e697900": {
+      "first_seen": "2026-11-02T05:58:07.610641",
+      "last_pushed": "2026-11-02T05:58:07.610641",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "你们除了上班 娱乐方式有哪些",
+      "source": "V2EX"
+    },
+    "1d08a9b1e1492113": {
+      "first_seen": "2026-11-02T05:58:07.610638",
+      "last_pushed": "2026-11-02T05:58:07.610638",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "没有人讨论影之刃零吗？",
+      "source": "V2EX"
+    },
+    "59f433c23c2631b3": {
+      "first_seen": "2026-11-02T05:58:07.610635",
+      "last_pushed": "2026-11-02T05:58:07.610635",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "怀旧手记｜夏普 Telios：20 多年前，Handheld PC 中的「少数派」",
+      "source": "少数派"
+    },
+    "dd778472142dfd2a": {
+      "first_seen": "2026-11-02T05:58:07.610629",
+      "last_pushed": "2026-11-02T05:58:07.610629",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "Xnip 十周年：长截图的新生，也是新的起点",
+      "source": "少数派"
+    },
+    "0e4f4b78e8fccf77": {
+      "first_seen": "2026-11-02T05:58:07.610626",
+      "last_pushed": "2026-11-02T05:58:07.610626",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "ESP Mosaico 这种概念的出现，让 AI 彻底攻破了嵌入式应用开发的护城河",
+      "source": "V2EX"
+    },
+    "488225768f6f04ed": {
+      "first_seen": "2026-11-02T05:58:07.610623",
+      "last_pushed": "2026-11-02T05:58:07.610623",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "当没 token 额度了 你会手改 AI 生成的代码吗 😂",
+      "source": "V2EX"
+    },
+    "74c43ccf6888c9dc": {
+      "first_seen": "2026-11-02T05:58:07.610612",
+      "last_pushed": "2026-11-02T05:58:07.610612",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "用 AI 逆向了搜狗输入法， 让搜狗输入法(v16.10)完全断网 / 禁止更新 / 禁止广告 的一",
+      "source": "V2EX"
+    },
     "5736ee053541436f": {
       "first_seen": "2026-11-01T05:58:41.623334",
       "last_pushed": "2026-11-01T05:58:41.623334",
@@ -15895,112 +15999,8 @@
       "last_score": 5,
       "title": "App+1 | 有太多香水不知道用哪个？我做了一款能帮你选香水的记录 App",
       "source": "少数派"
-    },
-    "7658cd960a9c735c": {
-      "first_seen": "2026-05-26T04:33:39.368554",
-      "last_pushed": "2026-05-26T04:33:39.368554",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "大家找工作的时候，简历一般准备多少页？",
-      "source": "V2EX"
-    },
-    "77a10e40ca9e936d": {
-      "first_seen": "2026-05-26T04:33:39.368552",
-      "last_pushed": "2026-05-26T04:33:39.368552",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "华为这个“韬（τ）定律”有没有懂行的给讲讲呢。",
-      "source": "V2EX"
-    },
-    "e30fc1316d4091b0": {
-      "first_seen": "2026-05-26T04:33:39.368549",
-      "last_pushed": "2026-05-26T04:33:39.368549",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "97 年，失业半年，理发师问我要不要把头发打薄",
-      "source": "V2EX"
-    },
-    "48d2e93fed929166": {
-      "first_seen": "2026-05-26T04:33:39.368546",
-      "last_pushed": "2026-05-26T04:33:39.368546",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "真有人能在大 A 挣到钱吗？",
-      "source": "V2EX"
-    },
-    "cffd24eb1c807d71": {
-      "first_seen": "2026-05-26T04:33:39.368542",
-      "last_pushed": "2026-05-26T04:33:39.368542",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "测评小米汽车的 up 主被关了 1 年 6 个月，还没判……",
-      "source": "V2EX"
-    },
-    "42e20f03bb80dd2f": {
-      "first_seen": "2026-05-26T04:33:39.368539",
-      "last_pushed": "2026-05-26T04:33:39.368539",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "看上了个女同事，有什么办法能加到微信嘛",
-      "source": "V2EX"
-    },
-    "e48546279f510408": {
-      "first_seen": "2026-05-26T04:33:39.368536",
-      "last_pushed": "2026-05-26T04:33:39.368536",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "HyperAPI 的新老用户来领福利了，留 ID 加额度",
-      "source": "V2EX"
-    },
-    "7d6cef0665858eef": {
-      "first_seen": "2026-05-26T04:33:39.368533",
-      "last_pushed": "2026-05-26T04:33:39.368533",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "被忙碌与焦虑裹挟时，学会「停下」比「开始」更重要",
-      "source": "少数派"
-    },
-    "6b7e0a21ad80a320": {
-      "first_seen": "2026-05-26T04:33:39.368530",
-      "last_pushed": "2026-05-26T04:33:39.368530",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：OPPO 与荣耀发布多款新品，华为发表半导体领域新定律等",
-      "source": "少数派"
-    },
-    "9ec6940ca62c5d83": {
-      "first_seen": "2026-05-26T04:33:39.368526",
-      "last_pushed": "2026-05-26T04:33:39.368526",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "自建了一个 AI 中转站，邀请大家帮忙压测（支持 Claude Code 调用 GPT-5.5）",
-      "source": "V2EX"
-    },
-    "902e518396eb9601": {
-      "first_seen": "2026-05-26T04:33:39.368515",
-      "last_pushed": "2026-05-26T04:33:39.368515",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "送 $5 余额｜ Claude 满血 Opus 99% SLA / GPT 倍率 0.2， API ",
-      "source": "V2EX"
-    },
-    "61f129a24ccf8b41": {
-      "first_seen": "2026-05-25T04:49:49.158081",
-      "last_pushed": "2026-05-25T04:49:49.158081",
-      "push_count": 1,
-      "last_score": 9,
-      "title": "capcap：一键搞定截图、标注与图床，免费、开源的 macOS 截图工具",
-      "source": "少数派"
-    },
-    "e400c9850e6a7bea": {
-      "first_seen": "2026-05-25T04:49:49.158079",
-      "last_pushed": "2026-05-25T04:49:49.158079",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "有哪些东西，是你装修后最庆幸买的？",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-01T05:58:41.623929"
+  "last_update": "2026-11-02T05:58:07.611341"
 }
