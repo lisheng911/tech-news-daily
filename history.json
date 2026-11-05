@@ -1,5 +1,117 @@
 {
   "records": {
+    "259587c666333e86": {
+      "first_seen": "2026-11-05T06:41:37.427001",
+      "last_pushed": "2026-11-05T06:41:37.427001",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "Apple 官网排版细节鉴赏",
+      "source": "少数派"
+    },
+    "aee8f00e389a5850": {
+      "first_seen": "2026-11-05T06:41:37.426999",
+      "last_pushed": "2026-11-05T06:41:37.426999",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "微诗：从诗入画、且唱且行，这款免费 app 把诗装进手机",
+      "source": "少数派"
+    },
+    "8d98ca9f64bc3691": {
+      "first_seen": "2026-11-05T06:41:37.426996",
+      "last_pushed": "2026-11-05T06:41:37.426996",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "比亚迪的天神之眼 B 是真的烂",
+      "source": "V2EX"
+    },
+    "46fc0b87032e799b": {
+      "first_seen": "2026-11-05T06:41:37.426993",
+      "last_pushed": "2026-11-05T06:41:37.426993",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "勤俭节约的过一辈子，会不会等老了才发现亏大发了",
+      "source": "V2EX"
+    },
+    "e42105c579ffaa32": {
+      "first_seen": "2026-11-05T06:41:37.426990",
+      "last_pushed": "2026-11-05T06:41:37.426990",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "可以一直压着最左侧限速跑在最左侧道吗🐶",
+      "source": "V2EX"
+    },
+    "5bd67a268ed43856": {
+      "first_seen": "2026-11-05T06:41:37.426988",
+      "last_pushed": "2026-11-05T06:41:37.426988",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "能不能给人留点隐私",
+      "source": "V2EX"
+    },
+    "2fc7c2e8236da7eb": {
+      "first_seen": "2026-11-05T06:41:37.426984",
+      "last_pushed": "2026-11-05T06:41:37.426984",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "昨天通知被裁员了，到现在脑瓜子还是嗡嗡的",
+      "source": "V2EX"
+    },
+    "6a421a7ec854f7c2": {
+      "first_seen": "2026-11-05T06:41:37.426980",
+      "last_pushed": "2026-11-05T06:41:37.426980",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "刚去接水，发现领导在用洗洁精洗眼镜，搜了下好像说是可以，不过长期用会有什么问题吗",
+      "source": "V2EX"
+    },
+    "0c837c130681c13f": {
+      "first_seen": "2026-11-05T06:41:37.426978",
+      "last_pushed": "2026-11-05T06:41:37.426978",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "全球 3.5 万个电台随机听 RoamDial： iOS 版上架了，安卓正在封测，发帖送一波永久 P",
+      "source": "V2EX"
+    },
+    "cbcf31c85aa54db5": {
+      "first_seen": "2026-11-05T06:41:37.426975",
+      "last_pushed": "2026-11-05T06:41:37.426975",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "[送兑换码] 做了个 iOS 翻译 App，用自己的 API Key，多个大模型译文并排对比，送 3",
+      "source": "V2EX"
+    },
+    "42d043380c9b9959": {
+      "first_seen": "2026-11-05T06:41:37.426972",
+      "last_pushed": "2026-11-05T06:41:37.426972",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "我觉得 ai 时代对于普通人是利好啊，为啥如此多的人反感/不屑呢？",
+      "source": "V2EX"
+    },
+    "61b0a06143c44024": {
+      "first_seen": "2026-11-05T06:41:37.426969",
+      "last_pushed": "2026-11-05T06:41:37.426969",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "全新三端纯原生 SSH 客户端： SSH、SFTP 与 AI 尽在一个应用里，随楼依次赠送 100 ",
+      "source": "V2EX"
+    },
+    "4f1b8f6815fcc778": {
+      "first_seen": "2026-11-05T06:41:37.426966",
+      "last_pushed": "2026-11-05T06:41:37.426966",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "你不知道的客户端开发：AI 时代下的选型、原生与借力",
+      "source": "少数派"
+    },
+    "1f0f7983bf0646b4": {
+      "first_seen": "2026-11-05T06:41:37.426955",
+      "last_pushed": "2026-11-05T06:41:37.426955",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等",
+      "source": "少数派"
+    },
     "f9ae2a9f40ca0b5e": {
       "first_seen": "2026-11-04T06:14:37.465554",
       "last_pushed": "2026-11-04T06:14:37.465554",
@@ -15887,120 +15999,8 @@
       "last_score": 4,
       "title": "有没有一种工作能每天稳定收入 10-50 元",
       "source": "V2EX"
-    },
-    "36972bbde43cdff9": {
-      "first_seen": "2026-05-29T04:41:39.007696",
-      "last_pushed": "2026-05-29T04:41:39.007696",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "Krill 福利加倍送，持续送，回贴就送，反正就是送～纯 pro 号池低至 0.13, image-",
-      "source": "V2EX"
-    },
-    "991e9cfbc09bdf12": {
-      "first_seen": "2026-05-29T04:41:39.007694",
-      "last_pushed": "2026-05-29T04:41:39.007694",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "被领导警告了",
-      "source": "V2EX"
-    },
-    "6e8e49d5aed8e55e": {
-      "first_seen": "2026-05-29T04:41:39.007691",
-      "last_pushed": "2026-05-29T04:41:39.007691",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "各位现在的主力手机是哪款？",
-      "source": "V2EX"
-    },
-    "c066ebf34432c155": {
-      "first_seen": "2026-05-29T04:41:39.007689",
-      "last_pushed": "2026-05-29T04:41:39.007689",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "[月末活动] 一个真正一目了然的自建 Codex 中转站",
-      "source": "V2EX"
-    },
-    "7b62b3924ec239ed": {
-      "first_seen": "2026-05-29T04:41:39.007687",
-      "last_pushed": "2026-05-29T04:41:39.007687",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "从原理到实践：年轻人的第一篇染发及洗护指南",
-      "source": "少数派"
-    },
-    "5aaa67364a6ce765": {
-      "first_seen": "2026-05-29T04:41:39.007685",
-      "last_pushed": "2026-05-29T04:41:39.007685",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：Sony 发布 Bravia 2026 款电视产品等",
-      "source": "少数派"
-    },
-    "cd3cb5d271fc1129": {
-      "first_seen": "2026-05-29T04:41:39.007683",
-      "last_pushed": "2026-05-29T04:41:39.007683",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "什么才是「好」的 Android 音频输出？从一台旧日 Xperia 说起",
-      "source": "少数派"
-    },
-    "f2d67f4b18b5f5dc": {
-      "first_seen": "2026-05-29T04:41:39.007680",
-      "last_pushed": "2026-05-29T04:41:39.007680",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "牛逼，比亚迪昨晚智驾发布会，宣布自家天神之眼 AB 免费城市领航兜底 1 年，就等大唐上市了",
-      "source": "V2EX"
-    },
-    "b99cba7c3f244c29": {
-      "first_seen": "2026-05-29T04:41:39.007666",
-      "last_pushed": "2026-05-29T04:41:39.007666",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "从零手搓 AI Agent，我学到了什么？",
-      "source": "少数派"
-    },
-    "2cd794387a4124a9": {
-      "first_seen": "2026-05-28T04:38:38.743346",
-      "last_pushed": "2026-05-28T04:38:38.743346",
-      "push_count": 1,
-      "last_score": 9,
-      "title": "屏忆：这款开源工具，把过目就忘的日常变成「上下文」",
-      "source": "少数派"
-    },
-    "a865974464350986": {
-      "first_seen": "2026-05-28T04:38:38.743343",
-      "last_pushed": "2026-05-28T04:38:38.743343",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "mac 笔记本 500G，开发用，现在没有储存空间了怎么办",
-      "source": "V2EX"
-    },
-    "5e6a69a0d67ef5cd": {
-      "first_seen": "2026-05-28T04:38:38.743340",
-      "last_pushed": "2026-05-28T04:38:38.743340",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "想知道你们曾经离职的主要核心原因都是什么？",
-      "source": "V2EX"
-    },
-    "3f1785f3123cc8ac": {
-      "first_seen": "2026-05-28T04:38:38.743337",
-      "last_pushed": "2026-05-28T04:38:38.743337",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "命令行提取 macOS 核心软件 Top 30 , 晒晒你的",
-      "source": "V2EX"
-    },
-    "aa928e0cfb80c8db": {
-      "first_seen": "2026-05-28T04:38:38.743334",
-      "last_pushed": "2026-05-28T04:38:38.743334",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "老婆送了我个 iPhone17 Pro Max 1T，但我更舍不得我的 iPhone13 巨魔",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-04T06:14:37.466120"
+  "last_update": "2026-11-05T06:41:37.427789"
 }
