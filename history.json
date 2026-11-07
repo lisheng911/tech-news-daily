@@ -1,5 +1,101 @@
 {
   "records": {
+    "a11b8ce0bdebf5e6": {
+      "first_seen": "2026-11-07T05:55:24.760041",
+      "last_pushed": "2026-11-07T05:55:24.760041",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "做了一个叫「窝囊费」的小程序，大佬们给点意见。",
+      "source": "V2EX"
+    },
+    "26ec7cabd736bd9c": {
+      "first_seen": "2026-11-07T05:55:24.760038",
+      "last_pushed": "2026-11-07T05:55:24.760038",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "原来达里奥切除过睾丸，很少有人知道",
+      "source": "V2EX"
+    },
+    "0aa9b8ed1effddd6": {
+      "first_seen": "2026-11-07T05:55:24.760036",
+      "last_pushed": "2026-11-07T05:55:24.760036",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "最近发现更新小火箭不需要切换美区苹果 ID 了",
+      "source": "V2EX"
+    },
+    "cda31f709e5ec44e": {
+      "first_seen": "2026-11-07T05:55:24.760033",
+      "last_pushed": "2026-11-07T05:55:24.760033",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "关于 gemini 用不了之后的戒断反应",
+      "source": "V2EX"
+    },
+    "dd06e13ca80b7995": {
+      "first_seen": "2026-11-07T05:55:24.760030",
+      "last_pushed": "2026-11-07T05:55:24.760030",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "网上看到一则相亲帖",
+      "source": "V2EX"
+    },
+    "c4596a2596578675": {
+      "first_seen": "2026-11-07T05:55:24.760025",
+      "last_pushed": "2026-11-07T05:55:24.760025",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "这可能是除了肉身之外的终极 Claude 防封方法，应该没有之一吧",
+      "source": "V2EX"
+    },
+    "770a55ea47c2b2cb": {
+      "first_seen": "2026-11-07T05:55:24.760023",
+      "last_pushed": "2026-11-07T05:55:24.760023",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "请问大家，如果自建 Git 服务器，有什么要注意的、踩坑的",
+      "source": "V2EX"
+    },
+    "0b87a1afcc913869": {
+      "first_seen": "2026-11-07T05:55:24.760020",
+      "last_pushed": "2026-11-07T05:55:24.760020",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "用的飞机节点都被送中了",
+      "source": "V2EX"
+    },
+    "4081b67e414f514f": {
+      "first_seen": "2026-11-07T05:55:24.760017",
+      "last_pushed": "2026-11-07T05:55:24.760017",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "今天离职谈话领导说他心寒了",
+      "source": "V2EX"
+    },
+    "48c0a0021dce33be": {
+      "first_seen": "2026-11-07T05:55:24.760014",
+      "last_pushed": "2026-11-07T05:55:24.760014",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "iPhone 变强了，但我没有",
+      "source": "少数派"
+    },
+    "1a62ebeb2c3faeab": {
+      "first_seen": "2026-11-07T05:55:24.760011",
+      "last_pushed": "2026-11-07T05:55:24.760011",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "本周看什么 | 最近值得一看的 9 部作品",
+      "source": "少数派"
+    },
+    "b37b16b700732906": {
+      "first_seen": "2026-11-07T05:55:24.760001",
+      "last_pushed": "2026-11-07T05:55:24.760001",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "AI 浪潮下，孩子英语还需要卷吗？",
+      "source": "V2EX"
+    },
     "fcefc5e125e6bdcb": {
       "first_seen": "2026-11-06T06:38:31.492681",
       "last_pushed": "2026-11-06T06:38:31.492681",
@@ -15903,104 +15999,8 @@
       "last_score": 4,
       "title": "每天瑞幸自由，算是中产的标志了吗？",
       "source": "V2EX"
-    },
-    "7ac4cdd8aadd27e9": {
-      "first_seen": "2026-05-31T04:49:39.728945",
-      "last_pushed": "2026-05-31T04:49:39.728945",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "HP 打印机没有 mac 驱动怎么办？",
-      "source": "V2EX"
-    },
-    "3141fb5555d2547c": {
-      "first_seen": "2026-05-31T04:49:39.728942",
-      "last_pushed": "2026-05-31T04:49:39.728942",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "各位大佬们，固态硬盘到底分不分区？",
-      "source": "V2EX"
-    },
-    "08d1f1f39bc25706": {
-      "first_seen": "2026-05-31T04:49:39.728939",
-      "last_pushed": "2026-05-31T04:49:39.728939",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "和 Gemini 聊了四个小时，现在感觉在大学去上课就是浪费时间",
-      "source": "V2EX"
-    },
-    "6366223f136fd9ed": {
-      "first_seen": "2026-05-31T04:49:39.728936",
-      "last_pushed": "2026-05-31T04:49:39.728936",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "大佬们 vibe coding 的项目怎么样了",
-      "source": "V2EX"
-    },
-    "6249ff828b38ac6e": {
-      "first_seen": "2026-05-31T04:49:39.728933",
-      "last_pushed": "2026-05-31T04:49:39.728933",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "求救，这样的婚姻，还有必要坚持吗？从来没有对谁倾诉过，实在内耗得不行了。",
-      "source": "V2EX"
-    },
-    "fdb837c3d049f513": {
-      "first_seen": "2026-05-31T04:49:39.728931",
-      "last_pushed": "2026-05-31T04:49:39.728931",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "HyperAPI 的新老用户来领福利了",
-      "source": "V2EX"
-    },
-    "c6d209f0f05949c7": {
-      "first_seen": "2026-05-31T04:49:39.728928",
-      "last_pushed": "2026-05-31T04:49:39.728928",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "AI 编程时代， MVP 思维已经失效了？",
-      "source": "V2EX"
-    },
-    "86ec12f471a052d4": {
-      "first_seen": "2026-05-31T04:49:39.728925",
-      "last_pushed": "2026-05-31T04:49:39.728925",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "给大二的小孩买了 GPT Go",
-      "source": "V2EX"
-    },
-    "7439bb7f7f2fe2b0": {
-      "first_seen": "2026-05-31T04:49:39.728915",
-      "last_pushed": "2026-05-31T04:49:39.728915",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "AI 如何影响你的审美？",
-      "source": "少数派"
-    },
-    "6ee8ee00427a0d26": {
-      "first_seen": "2026-05-30T04:16:17.389085",
-      "last_pushed": "2026-05-30T04:16:17.389085",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "热死人了，你们都喝什么保命",
-      "source": "V2EX"
-    },
-    "7afc344216e4f1e7": {
-      "first_seen": "2026-05-30T04:16:17.389083",
-      "last_pushed": "2026-05-30T04:16:17.389083",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我们大 A 又又又发生了什么？需要我们股民买单？",
-      "source": "V2EX"
-    },
-    "02f2c427cf9f2772": {
-      "first_seen": "2026-05-30T04:16:17.389081",
-      "last_pushed": "2026-05-30T04:16:17.389081",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "周末要加班，但是不想在家里也不想去公司加，可以带着电脑去哪里加",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-06T06:38:31.493334"
+  "last_update": "2026-11-07T05:55:24.760732"
 }
