@@ -1,5 +1,109 @@
 {
   "records": {
+    "e82cfdbe8ad212c3": {
+      "first_seen": "2026-11-10T07:13:35.850668",
+      "last_pushed": "2026-11-10T07:13:35.850668",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "公司不让用苹果手机设备了，有 苹果 pro 尺寸大小的手机推荐么",
+      "source": "V2EX"
+    },
+    "33fec9b96f45b66c": {
+      "first_seen": "2026-11-10T07:13:35.850665",
+      "last_pushed": "2026-11-10T07:13:35.850665",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "外企外包也许是大龄失业人员的最好归宿",
+      "source": "V2EX"
+    },
+    "4a201c3cadfd1ba7": {
+      "first_seen": "2026-11-10T07:13:35.850662",
+      "last_pushed": "2026-11-10T07:13:35.850662",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "工作以及求职解惑",
+      "source": "V2EX"
+    },
+    "9b16a8081f6f103d": {
+      "first_seen": "2026-11-10T07:13:35.850660",
+      "last_pushed": "2026-11-10T07:13:35.850660",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "有没有三个月瘦 30 斤的办法",
+      "source": "V2EX"
+    },
+    "65e52cca397ef5e3": {
+      "first_seen": "2026-11-10T07:13:35.850657",
+      "last_pushed": "2026-11-10T07:13:35.850657",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "北漂四年的河北小夫妻，想去南方城市看看，想听听大家的意见",
+      "source": "V2EX"
+    },
+    "e74c5a8a596d15db": {
+      "first_seen": "2026-11-10T07:13:35.850654",
+      "last_pushed": "2026-11-10T07:13:35.850654",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "突然想到个一直没有想的事情，各位一般多久剪一次头发",
+      "source": "V2EX"
+    },
+    "85dfe47afd881ef7": {
+      "first_seen": "2026-11-10T07:13:35.850649",
+      "last_pushed": "2026-11-10T07:13:35.850649",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "七年级期中考试分数如下，哎，认命了",
+      "source": "V2EX"
+    },
+    "f08da2212b750f73": {
+      "first_seen": "2026-11-10T07:13:35.850646",
+      "last_pushed": "2026-11-10T07:13:35.850646",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "天花板上的白色盒子，是怎样保护我们的安全的？",
+      "source": "少数派"
+    },
+    "f7f5832e2cc956b8": {
+      "first_seen": "2026-11-10T07:13:35.850644",
+      "last_pushed": "2026-11-10T07:13:35.850644",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "一家人的客厅，和一个人的深夜 — Sonos Beam Ultra 与 Ace Ultra 体验",
+      "source": "少数派"
+    },
+    "4680f83da38889a3": {
+      "first_seen": "2026-11-10T07:13:35.850641",
+      "last_pushed": "2026-11-10T07:13:35.850641",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "双十一 | 少数派会员、正版软件、付费栏目限时优惠",
+      "source": "少数派"
+    },
+    "41cfdc3955c6ecba": {
+      "first_seen": "2026-11-10T07:13:35.850638",
+      "last_pushed": "2026-11-10T07:13:35.850638",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：火山引擎发布 Seedream 5.5，苹果研究团队用仿真训练人形机器人等",
+      "source": "少数派"
+    },
+    "cab7d8f64ad3faf9": {
+      "first_seen": "2026-11-10T07:13:35.850635",
+      "last_pushed": "2026-11-10T07:13:35.850635",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "今年双十一，这些鼠标值得一看",
+      "source": "少数派"
+    },
+    "bf981e365865884e": {
+      "first_seen": "2026-11-10T07:13:35.850627",
+      "last_pushed": "2026-11-10T07:13:35.850627",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "我做的收费 SSH 客户端 Termark，被人 1:1 复刻并开源了",
+      "source": "V2EX"
+    },
     "45e43ce5a330e9c2": {
       "first_seen": "2026-11-09T06:20:46.983510",
       "last_pushed": "2026-11-09T06:20:46.983510",
@@ -15895,112 +15999,8 @@
       "last_score": 4,
       "title": "被裁两个月后，聊聊感想，发点照片",
       "source": "V2EX"
-    },
-    "3771ab79a666f0e9": {
-      "first_seen": "2026-06-03T05:14:50.812604",
-      "last_pushed": "2026-06-03T05:14:50.812604",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "在视频时代，认真拍一张照片：OPPO Find X9 Ultra 影像漫谈",
-      "source": "少数派"
-    },
-    "f9b8f5dd62128fad": {
-      "first_seen": "2026-06-03T05:14:50.812601",
-      "last_pushed": "2026-06-03T05:14:50.812601",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "造福 V 站， [免费指导] 写傲娇 L 站的申请小作文！我申请了 5 次才通过！",
-      "source": "V2EX"
-    },
-    "61d1990fd7d2baa4": {
-      "first_seen": "2026-06-03T05:14:50.812589",
-      "last_pushed": "2026-06-03T05:14:50.812589",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "[新站内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3",
-      "source": "V2EX"
-    },
-    "538b101c065a4204": {
-      "first_seen": "2026-06-02T04:59:35.019175",
-      "last_pushed": "2026-06-02T04:59:35.019175",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "想在卧室里面看电影，推荐投影仪还是电视呢？",
-      "source": "V2EX"
-    },
-    "d02673a5d715b698": {
-      "first_seen": "2026-06-02T04:59:35.019173",
-      "last_pushed": "2026-06-02T04:59:35.019173",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "你愿意主动推荐给别人观看的电影有哪些？",
-      "source": "V2EX"
-    },
-    "1d137767aef35d64": {
-      "first_seen": "2026-06-02T04:59:35.019171",
-      "last_pushed": "2026-06-02T04:59:35.019171",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派评 | 近期值得关注的 App",
-      "source": "少数派"
-    },
-    "232da61ce29a59ff": {
-      "first_seen": "2026-06-02T04:59:35.019170",
-      "last_pushed": "2026-06-02T04:59:35.019170",
-      "push_count": 1,
-      "last_score": 9,
-      "title": "从插件到 AI 辅助：Obsidian 如何成为我的主力工具",
-      "source": "少数派"
-    },
-    "d0a43bb933376ce4": {
-      "first_seen": "2026-06-02T04:59:35.019168",
-      "last_pushed": "2026-06-02T04:59:35.019168",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "2026 第二季度了，移动端开发你会选择 flutter 还是 react native?",
-      "source": "V2EX"
-    },
-    "f8bdc5c461abbc9b": {
-      "first_seen": "2026-06-02T04:59:35.019166",
-      "last_pushed": "2026-06-02T04:59:35.019166",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "中外程序员素质对比",
-      "source": "V2EX"
-    },
-    "a726ca04c6cb85b9": {
-      "first_seen": "2026-06-02T04:59:35.019163",
-      "last_pushed": "2026-06-02T04:59:35.019163",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "“万 1 免 5”a 股低佣大笑脸开户， 61 抽把仿真手枪，男人至死是少年~",
-      "source": "V2EX"
-    },
-    "ff0f0fa3a2ea1cae": {
-      "first_seen": "2026-06-02T04:59:35.019161",
-      "last_pushed": "2026-06-02T04:59:35.019161",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "天塌了。codex 登录要二次验证",
-      "source": "V2EX"
-    },
-    "26719a875ccd1ba4": {
-      "first_seen": "2026-06-02T04:59:35.019159",
-      "last_pushed": "2026-06-02T04:59:35.019159",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "在一起一年，今天真正分手啦",
-      "source": "V2EX"
-    },
-    "3d06b329c3e4b705": {
-      "first_seen": "2026-06-02T04:59:35.019157",
-      "last_pushed": "2026-06-02T04:59:35.019157",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "站里没人看老黄的新电脑吗",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-09T06:20:46.983951"
+  "last_update": "2026-11-10T07:13:35.851380"
 }
