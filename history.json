@@ -1,5 +1,109 @@
 {
   "records": {
+    "7681a897150abd75": {
+      "first_seen": "2026-11-11T06:11:38.415294",
+      "last_pushed": "2026-11-11T06:11:38.415294",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "工作和未来困境，大龄码农该何去何从",
+      "source": "V2EX"
+    },
+    "fa5a703ec8880c58": {
+      "first_seen": "2026-11-11T06:11:38.415293",
+      "last_pushed": "2026-11-11T06:11:38.415293",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "SSHYard 已正式发布 V1.0.0 - 高颜值纯原生 SSH 客户端，功能齐全且体积非常小，随",
+      "source": "V2EX"
+    },
+    "c27bfb19a2fe512f": {
+      "first_seen": "2026-11-11T06:11:38.415292",
+      "last_pushed": "2026-11-11T06:11:38.415292",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "32 岁后端程序员，准备拿 N+1 离职了",
+      "source": "V2EX"
+    },
+    "94d136d3e4c61bd0": {
+      "first_seen": "2026-11-11T06:11:38.415290",
+      "last_pushed": "2026-11-11T06:11:38.415290",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "再聊 A/封号，所有的伪装都是徒劳",
+      "source": "V2EX"
+    },
+    "643d7f486823e713": {
+      "first_seen": "2026-11-11T06:11:38.415288",
+      "last_pushed": "2026-11-11T06:11:38.415288",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "双十一名存实亡",
+      "source": "V2EX"
+    },
+    "499fec2cd59947e1": {
+      "first_seen": "2026-11-11T06:11:38.415286",
+      "last_pushed": "2026-11-11T06:11:38.415286",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "大模型千千万，为什么非要用 Claude？",
+      "source": "V2EX"
+    },
+    "fba360c345e56ebd": {
+      "first_seen": "2026-11-11T06:11:38.415284",
+      "last_pushed": "2026-11-11T06:11:38.415284",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "马上结婚了，但是吵架了！",
+      "source": "V2EX"
+    },
+    "d12aa105aaf2220a": {
+      "first_seen": "2026-11-11T06:11:38.415282",
+      "last_pushed": "2026-11-11T06:11:38.415282",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "报名人数创下新高，第十一届「移动应用创新赛」圆满落幕",
+      "source": "少数派"
+    },
+    "19f8f63b2244e572": {
+      "first_seen": "2026-11-11T06:11:38.415281",
+      "last_pushed": "2026-11-11T06:11:38.415281",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "社区速递 165 | 透明工牌与派友十月购物清单",
+      "source": "少数派"
+    },
+    "4de0674b285e8903": {
+      "first_seen": "2026-11-11T06:11:38.415279",
+      "last_pushed": "2026-11-11T06:11:38.415279",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等",
+      "source": "少数派"
+    },
+    "40741c2fef7a17f7": {
+      "first_seen": "2026-11-11T06:11:38.415277",
+      "last_pushed": "2026-11-11T06:11:38.415277",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "RetroSweeper Go：复古外观、更有手感的扫雷游戏",
+      "source": "少数派"
+    },
+    "1b3987fea30b3872": {
+      "first_seen": "2026-11-11T06:11:38.415275",
+      "last_pushed": "2026-11-11T06:11:38.415275",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "[91Token] 新站开启， Claude、GPT、Gemini、Seedance、GLM 塞进了",
+      "source": "V2EX"
+    },
+    "1cc4d2c710601119": {
+      "first_seen": "2026-11-11T06:11:38.415265",
+      "last_pushed": "2026-11-11T06:11:38.415265",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "你对 AI 说的最多的一句话是什么？",
+      "source": "V2EX"
+    },
     "e82cfdbe8ad212c3": {
       "first_seen": "2026-11-10T07:13:35.850668",
       "last_pushed": "2026-11-10T07:13:35.850668",
@@ -15895,112 +15999,8 @@
       "last_score": 5,
       "title": "小车车里的大世界：车模收藏入坑指南",
       "source": "少数派"
-    },
-    "ad3837c92ac18855": {
-      "first_seen": "2026-06-04T05:03:31.291023",
-      "last_pushed": "2026-06-04T05:03:31.291023",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：豆包确认将推出付费版服务、樱桃发布 UWB 键盘等",
-      "source": "少数派"
-    },
-    "6ae79c30efd38e9f": {
-      "first_seen": "2026-06-04T05:03:31.291015",
-      "last_pushed": "2026-06-04T05:03:31.291015",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "比 ZeroTier 更好的选择：EasyTier 去中心化异地组网全平台部署",
-      "source": "少数派"
-    },
-    "1ccc2818c7d33c8c": {
-      "first_seen": "2026-06-03T05:14:50.812635",
-      "last_pushed": "2026-06-03T05:14:50.812635",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：Apple 公布 2026 年 Apple 设计大奖得主等",
-      "source": "少数派"
-    },
-    "43b7f7de16c57aca": {
-      "first_seen": "2026-06-03T05:14:50.812633",
-      "last_pushed": "2026-06-03T05:14:50.812633",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "App+1 | 零基础 3 分钟在线搞定产品演示视频：Mockup Studio",
-      "source": "少数派"
-    },
-    "9d7dfd85960c83b3": {
-      "first_seen": "2026-06-03T05:14:50.812631",
-      "last_pushed": "2026-06-03T05:14:50.812631",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "得力管家还是多此一举？聊聊 macOS 后台进程管理工具 App Tamer",
-      "source": "少数派"
-    },
-    "9eac6d707677fba2": {
-      "first_seen": "2026-06-03T05:14:50.812628",
-      "last_pushed": "2026-06-03T05:14:50.812628",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "好奇有人每天裸用 macbook 吗？",
-      "source": "V2EX"
-    },
-    "c8e46bdc5007e354": {
-      "first_seen": "2026-06-03T05:14:50.812625",
-      "last_pushed": "2026-06-03T05:14:50.812625",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "公司搬家直线距离 21km，这种情况争取礼包胜算大吗？",
-      "source": "V2EX"
-    },
-    "85caa202f7f3a536": {
-      "first_seen": "2026-06-03T05:14:50.812623",
-      "last_pushed": "2026-06-03T05:14:50.812623",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "被当老头崩了怎么办？还需要继续吗？",
-      "source": "V2EX"
-    },
-    "42bc95d6956ae5ee": {
-      "first_seen": "2026-06-03T05:14:50.812620",
-      "last_pushed": "2026-06-03T05:14:50.812620",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "来说说你们是怎样坚持上班这么多年的",
-      "source": "V2EX"
-    },
-    "fc13d19f682837c9": {
-      "first_seen": "2026-06-03T05:14:50.812616",
-      "last_pushed": "2026-06-03T05:14:50.812616",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "婚后 10 年，你们的生活也这样吗？",
-      "source": "V2EX"
-    },
-    "6e2a5e99baaf0139": {
-      "first_seen": "2026-06-03T05:14:50.812613",
-      "last_pushed": "2026-06-03T05:14:50.812613",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "操作失误导致公司损失，直属领导被罚 1 万把我保下来了，我该私下转他 5000 分担吗？",
-      "source": "V2EX"
-    },
-    "4afe49953492c63d": {
-      "first_seen": "2026-06-03T05:14:50.812610",
-      "last_pushed": "2026-06-03T05:14:50.812610",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "因为性生活满足不了对方，被提分手",
-      "source": "V2EX"
-    },
-    "9d96ba0970beaf73": {
-      "first_seen": "2026-06-03T05:14:50.812608",
-      "last_pushed": "2026-06-03T05:14:50.812608",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "被裁两个月后，聊聊感想，发点照片",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-10T07:13:35.851380"
+  "last_update": "2026-11-11T06:11:38.415886"
 }
