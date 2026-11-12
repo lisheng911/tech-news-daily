@@ -1,5 +1,117 @@
 {
   "records": {
+    "afe0866e9b301572": {
+      "first_seen": "2026-11-12T07:06:40.640979",
+      "last_pushed": "2026-11-12T07:06:40.640979",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：Apple 公布 Swift Student Challenge 安排、微软发布 Auto ",
+      "source": "少数派"
+    },
+    "3fad702f4f4fbc6b": {
+      "first_seen": "2026-11-12T07:06:40.640976",
+      "last_pushed": "2026-11-12T07:06:40.640976",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "不知道的迷信，它生效吗？",
+      "source": "V2EX"
+    },
+    "9bf0bb1c79850e1f": {
+      "first_seen": "2026-11-12T07:06:40.640973",
+      "last_pushed": "2026-11-12T07:06:40.640973",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "[送码] Mu3ic 史诗级更新，现已支持播客和听书，实现音频内容消费中心，对音乐服大曲库实现深度优",
+      "source": "V2EX"
+    },
+    "2ece236b2db7e200": {
+      "first_seen": "2026-11-12T07:06:40.640971",
+      "last_pushed": "2026-11-12T07:06:40.640971",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "咸鱼怎么卖东西，好多东西挂了许久也卖不出去，只有购买记录，售出记录屈指可数",
+      "source": "V2EX"
+    },
+    "46ef3504933f5a4b": {
+      "first_seen": "2026-11-12T07:06:40.640968",
+      "last_pushed": "2026-11-12T07:06:40.640968",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "兄弟们，房贷终于要还清了！",
+      "source": "V2EX"
+    },
+    "22ca82438f900396": {
+      "first_seen": "2026-11-12T07:06:40.640966",
+      "last_pushed": "2026-11-12T07:06:40.640966",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "一年前给小电驴装的监控，终于派上用场了，成功拍到偷头盔的全过程",
+      "source": "V2EX"
+    },
+    "1ce07e8ad214a8da": {
+      "first_seen": "2026-11-12T07:06:40.640962",
+      "last_pushed": "2026-11-12T07:06:40.640962",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "夹缝中生存的中国程序员",
+      "source": "V2EX"
+    },
+    "0e2a5e6134d811f5": {
+      "first_seen": "2026-11-12T07:06:40.640959",
+      "last_pushed": "2026-11-12T07:06:40.640959",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "31 岁男前来讨教 V 吧老哥备孕秘籍",
+      "source": "V2EX"
+    },
+    "b5583eb6e92def06": {
+      "first_seen": "2026-11-12T07:06:40.640956",
+      "last_pushed": "2026-11-12T07:06:40.640956",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "最近秋招陆陆续续面了一堆应届生，说点感受",
+      "source": "V2EX"
+    },
+    "b7c6bbd013576f6c": {
+      "first_seen": "2026-11-12T07:06:40.640953",
+      "last_pushed": "2026-11-12T07:06:40.640953",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "家人们，我失恋了",
+      "source": "V2EX"
+    },
+    "3f5a506b8a375bd7": {
+      "first_seen": "2026-11-12T07:06:40.640951",
+      "last_pushed": "2026-11-12T07:06:40.640951",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "腾讯裁员一半",
+      "source": "V2EX"
+    },
+    "cbe6d52b0a2e6d62": {
+      "first_seen": "2026-11-12T07:06:40.640948",
+      "last_pushed": "2026-11-12T07:06:40.640948",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "从优胜美地到金门大桥：跟着 macOS 游览加州",
+      "source": "少数派"
+    },
+    "58503151f9c9fddd": {
+      "first_seen": "2026-11-12T07:06:40.640945",
+      "last_pushed": "2026-11-12T07:06:40.640945",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "城市漫步指南 | 安特卫普，时尚就在生活中",
+      "source": "少数派"
+    },
+    "9ab5d092d4cdac56": {
+      "first_seen": "2026-11-12T07:06:40.640935",
+      "last_pushed": "2026-11-12T07:06:40.640935",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "让老音箱焕发新生：Home Assistant Connect AUX-2 首发体验",
+      "source": "少数派"
+    },
     "7681a897150abd75": {
       "first_seen": "2026-11-11T06:11:38.415294",
       "last_pushed": "2026-11-11T06:11:38.415294",
@@ -15887,120 +15999,8 @@
       "last_score": 5,
       "title": "WWDC26 开幕在即，今年有哪些看点值得关注？",
       "source": "少数派"
-    },
-    "ef504f957f73ed28": {
-      "first_seen": "2026-06-05T04:45:53.712284",
-      "last_pushed": "2026-06-05T04:45:53.712284",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "注册送免费额度 支持 gpt5.5 5.4 / Claude sonnet / opus 4.6 4",
-      "source": "V2EX"
-    },
-    "78bfbedf08e4f307": {
-      "first_seen": "2026-06-05T04:45:53.712274",
-      "last_pushed": "2026-06-05T04:45:53.712274",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "[HyperAPI] gpt pro➕plus 号池，额度又重置了，这不得送点",
-      "source": "V2EX"
-    },
-    "23fa382a9731b410": {
-      "first_seen": "2026-06-04T05:03:31.291046",
-      "last_pushed": "2026-06-04T05:03:31.291046",
-      "push_count": 1,
-      "last_score": 7,
-      "title": "让原生体验「接地气」：Pixel Text 与「原点系列」工具集",
-      "source": "少数派"
-    },
-    "9381129b3e360d3b": {
-      "first_seen": "2026-06-04T05:03:31.291044",
-      "last_pushed": "2026-06-04T05:03:31.291044",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "v 友们 windows 电脑用 codex/claude code 一般用什么终端？感觉系统原生终",
-      "source": "V2EX"
-    },
-    "6a611261b2b873da": {
-      "first_seen": "2026-06-04T05:03:31.291043",
-      "last_pushed": "2026-06-04T05:03:31.291043",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "老罗思想还是太超前了",
-      "source": "V2EX"
-    },
-    "1db0ee8a25f4c280": {
-      "first_seen": "2026-06-04T05:03:31.291041",
-      "last_pushed": "2026-06-04T05:03:31.291041",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "有重置了兄弟们",
-      "source": "V2EX"
-    },
-    "6a27b3bafb6a8d22": {
-      "first_seen": "2026-06-04T05:03:31.291040",
-      "last_pushed": "2026-06-04T05:03:31.291040",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "[自荐] 做了个纯 SSH 的服务器管理 App —— Caret,iOS 已上线",
-      "source": "V2EX"
-    },
-    "3c60f5ededf9bfcd": {
-      "first_seen": "2026-06-04T05:03:31.291038",
-      "last_pushed": "2026-06-04T05:03:31.291038",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "[社会大调查]大家会购买一个支持存储密码和 passkey 的设备吗？",
-      "source": "V2EX"
-    },
-    "752505d56b05e07d": {
-      "first_seen": "2026-06-04T05:03:31.291036",
-      "last_pushed": "2026-06-04T05:03:31.291036",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "网上聊了个总裁助理的相亲对象，刚聊了几句，问了个问题，她就毛了",
-      "source": "V2EX"
-    },
-    "f899e8a4b674c90c": {
-      "first_seen": "2026-06-04T05:03:31.291034",
-      "last_pushed": "2026-06-04T05:03:31.291034",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "大家现在个人服务器一般怎么管理比较合适？",
-      "source": "V2EX"
-    },
-    "9a99d5355e533cc2": {
-      "first_seen": "2026-06-04T05:03:31.291032",
-      "last_pushed": "2026-06-04T05:03:31.291032",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "断掉牛奶后感觉免疫力变强了",
-      "source": "V2EX"
-    },
-    "c3825d7c48683ce6": {
-      "first_seen": "2026-06-04T05:03:31.291031",
-      "last_pushed": "2026-06-04T05:03:31.291031",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "年龄越来越大 找不到老婆怎么办",
-      "source": "V2EX"
-    },
-    "7df7a51a61d2877b": {
-      "first_seen": "2026-06-04T05:03:31.291029",
-      "last_pushed": "2026-06-04T05:03:31.291029",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "L 站真有这么神？",
-      "source": "V2EX"
-    },
-    "4a78dd269fa96557": {
-      "first_seen": "2026-06-04T05:03:31.291027",
-      "last_pushed": "2026-06-04T05:03:31.291027",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "小车车里的大世界：车模收藏入坑指南",
-      "source": "少数派"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-11T06:11:38.415886"
+  "last_update": "2026-11-12T07:06:40.641639"
 }
