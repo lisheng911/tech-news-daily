@@ -1,5 +1,93 @@
 {
   "records": {
+    "e86724834e808d2e": {
+      "first_seen": "2026-11-15T06:24:49.122992",
+      "last_pushed": "2026-11-15T06:24:49.122992",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "求助: 想在寝室搞一个小主机 有推荐么?",
+      "source": "V2EX"
+    },
+    "b40850e508828217": {
+      "first_seen": "2026-11-15T06:24:49.122991",
+      "last_pushed": "2026-11-15T06:24:49.122991",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "Claude 代充跳 kyc 被封都是不退款的吗",
+      "source": "V2EX"
+    },
+    "bc0f68d8cb49115f": {
+      "first_seen": "2026-11-15T06:24:49.122989",
+      "last_pushed": "2026-11-15T06:24:49.122989",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "打算购买 Claude Team 成品号，这种号的风险跟稳定性怎么样？",
+      "source": "V2EX"
+    },
+    "5f190806c3eee5e0": {
+      "first_seen": "2026-11-15T06:24:49.122988",
+      "last_pushed": "2026-11-15T06:24:49.122988",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "分享一下 claude portal kyc 后用护照认证被封但又申诉成功的经历",
+      "source": "V2EX"
+    },
+    "de63e7c22642de93": {
+      "first_seen": "2026-11-15T06:24:49.122985",
+      "last_pushed": "2026-11-15T06:24:49.122985",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "纠结， Mac 有必要买 AC+么",
+      "source": "V2EX"
+    },
+    "88b3969c65e8af69": {
+      "first_seen": "2026-11-15T06:24:49.122982",
+      "last_pushed": "2026-11-15T06:24:49.122982",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "有没有 V 友自己搭建过云手机？想实现网页远程操作，不想再用第三方云手机了",
+      "source": "V2EX"
+    },
+    "aa6a18721b08bf13": {
+      "first_seen": "2026-11-15T06:24:49.122980",
+      "last_pushed": "2026-11-15T06:24:49.122980",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "如果给计算机基础教材列一个「五大经典」，你会选哪几本",
+      "source": "V2EX"
+    },
+    "40d1b7b4b709630e": {
+      "first_seen": "2026-11-15T06:24:49.122978",
+      "last_pushed": "2026-11-15T06:24:49.122978",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "关于设置中目前提供的 6 种楼中楼样式的 Demo",
+      "source": "V2EX"
+    },
+    "0c32888d9596c629": {
+      "first_seen": "2026-11-15T06:24:49.122976",
+      "last_pushed": "2026-11-15T06:24:49.122976",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "AI 时代，程序员正在慢慢转向产品经理",
+      "source": "V2EX"
+    },
+    "71ccb1168685d2a8": {
+      "first_seen": "2026-11-15T06:24:49.122974",
+      "last_pushed": "2026-11-15T06:24:49.122974",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "我自己开发了一个远程控制软件 Airhand 欢迎 star~ 支持 120fps",
+      "source": "V2EX"
+    },
+    "ddce0c57012bb6b0": {
+      "first_seen": "2026-11-15T06:24:49.122964",
+      "last_pushed": "2026-11-15T06:24:49.122964",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "怀旧手记｜索尼 CLIE：千禧年的高端 Palm OS PDA",
+      "source": "少数派"
+    },
     "5bc9eb5577f5c845": {
       "first_seen": "2026-11-14T06:17:26.229237",
       "last_pushed": "2026-11-14T06:17:26.229237",
@@ -15911,96 +15999,8 @@
       "last_score": 4,
       "title": "想减少风控，固定出口 IP，有推荐的 vps 吗？",
       "source": "V2EX"
-    },
-    "fe0cdeb001253730": {
-      "first_seen": "2026-06-07T04:54:56.886837",
-      "last_pushed": "2026-06-07T04:54:56.886837",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "佬们，安克充电头推荐吗？ 100w 还是 140w",
-      "source": "V2EX"
-    },
-    "acfa6db5b03b83a8": {
-      "first_seen": "2026-06-07T04:54:56.886834",
-      "last_pushed": "2026-06-07T04:54:56.886834",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "月底去法国出差一周，有什么好买的",
-      "source": "V2EX"
-    },
-    "c83fb8ab60ad4f0e": {
-      "first_seen": "2026-06-07T04:54:56.886831",
-      "last_pushed": "2026-06-07T04:54:56.886831",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "谈下 ios 端的 surge 相比 loon 不足的一些地方",
-      "source": "V2EX"
-    },
-    "c145a7534840565f": {
-      "first_seen": "2026-06-07T04:54:56.886830",
-      "last_pushed": "2026-06-07T04:54:56.886830",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "为啥中国景区的门票普遍比较贵？",
-      "source": "V2EX"
-    },
-    "a182471d4dd41b9a": {
-      "first_seen": "2026-06-07T04:54:56.886827",
-      "last_pushed": "2026-06-07T04:54:56.886827",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "天猫国际退货退款纠纷，商家称少收 35 件，顺丰又找回 10 件，我该起诉谁？",
-      "source": "V2EX"
-    },
-    "da77cec404faf060": {
-      "first_seen": "2026-06-07T04:54:56.886826",
-      "last_pushed": "2026-06-07T04:54:56.886826",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "pdd 商家真是把我当脑残耍，能装 1l 水的杯子装不了 1l 牛奶",
-      "source": "V2EX"
-    },
-    "2cab1aa8cc40b059": {
-      "first_seen": "2026-06-07T04:54:56.886824",
-      "last_pushed": "2026-06-07T04:54:56.886824",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "你是一名退伍人员，有手艺在身，长得也很帅，面对两个女人，如何选择？",
-      "source": "V2EX"
-    },
-    "51dbc8e7c13594ef": {
-      "first_seen": "2026-06-07T04:54:56.886822",
-      "last_pushed": "2026-06-07T04:54:56.886822",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "不相信灵魂转世",
-      "source": "V2EX"
-    },
-    "7ed0b54f206b4188": {
-      "first_seen": "2026-06-07T04:54:56.886815",
-      "last_pushed": "2026-06-07T04:54:56.886815",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "iPhone air 和 iPhone17 同价，都是 5000 元，你会选哪一个",
-      "source": "V2EX"
-    },
-    "215a40cce0051519": {
-      "first_seen": "2026-06-06T04:19:03.933799",
-      "last_pushed": "2026-06-06T04:19:03.933799",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "2026 Apple 设计奖正式揭晓，细数 12 款 App 的特别之处",
-      "source": "少数派"
-    },
-    "38132a9c38a56d9b": {
-      "first_seen": "2026-06-06T04:19:03.933797",
-      "last_pushed": "2026-06-06T04:19:03.933797",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "Google 秒收录，秀一秀欢迎提交您的 vibe coding 作品",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-14T06:17:26.229839"
+  "last_update": "2026-11-15T06:24:49.123461"
 }
