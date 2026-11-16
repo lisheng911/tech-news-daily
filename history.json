@@ -1,5 +1,109 @@
 {
   "records": {
+    "06b6b57a5f82c3cc": {
+      "first_seen": "2026-11-16T06:23:12.422082",
+      "last_pushed": "2026-11-16T06:23:12.422082",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "App+1｜不卡带：给你爱听的「老调」，配点记忆中的风味",
+      "source": "少数派"
+    },
+    "8144e70713d4193c": {
+      "first_seen": "2026-11-16T06:23:12.422081",
+      "last_pushed": "2026-11-16T06:23:12.422081",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "微软悄悄上线了一款新的中文输入法",
+      "source": "V2EX"
+    },
+    "555847d5dfabffba": {
+      "first_seen": "2026-11-16T06:23:12.422078",
+      "last_pushed": "2026-11-16T06:23:12.422078",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "一觉醒来，V 站升级了评论区 UI 交互，Polish 要为上次的事故付出代价了",
+      "source": "V2EX"
+    },
+    "3cd784d3c91aa4e5": {
+      "first_seen": "2026-11-16T06:23:12.422076",
+      "last_pushed": "2026-11-16T06:23:12.422076",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "唉，QQ 音乐年会员又涨价了",
+      "source": "V2EX"
+    },
+    "1e8922214f7e9d6c": {
+      "first_seen": "2026-11-16T06:23:12.422075",
+      "last_pushed": "2026-11-16T06:23:12.422075",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "路上天天都能遇到焊颈帝",
+      "source": "V2EX"
+    },
+    "2a4e63848ade97de": {
+      "first_seen": "2026-11-16T06:23:12.422073",
+      "last_pushed": "2026-11-16T06:23:12.422073",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "又被淘宝双 11 背刺了",
+      "source": "V2EX"
+    },
+    "51b3f450d4a7a23e": {
+      "first_seen": "2026-11-16T06:23:12.422071",
+      "last_pushed": "2026-11-16T06:23:12.422071",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "其实我个人也是比较偏向于使用国模的，但问题是",
+      "source": "V2EX"
+    },
+    "4f5df4e654860232": {
+      "first_seen": "2026-11-16T06:23:12.422070",
+      "last_pushed": "2026-11-16T06:23:12.422070",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "世态炎凉，瑟瑟发抖",
+      "source": "V2EX"
+    },
+    "33dd1d087b041704": {
+      "first_seen": "2026-11-16T06:23:12.422069",
+      "last_pushed": "2026-11-16T06:23:12.422069",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "deepseek harness 的实际能力远超大多数人的认知，最近深度体验总结",
+      "source": "V2EX"
+    },
+    "31e1a8626d4a66d1": {
+      "first_seen": "2026-11-16T06:23:12.422068",
+      "last_pushed": "2026-11-16T06:23:12.422068",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "Aerial Switcher：给 Mac 的航拍壁纸排个时间表",
+      "source": "少数派"
+    },
+    "4f027930d6c38380": {
+      "first_seen": "2026-11-16T06:23:12.422066",
+      "last_pushed": "2026-11-16T06:23:12.422066",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：逾十万人次联署要求黄仁勋复职",
+      "source": "少数派"
+    },
+    "caa40b8aac311b8d": {
+      "first_seen": "2026-11-16T06:23:12.422065",
+      "last_pushed": "2026-11-16T06:23:12.422065",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "都说 AI 大大提高了编程效率，真正失业的程序员多吗",
+      "source": "V2EX"
+    },
+    "8d6a7facad8eb4ea": {
+      "first_seen": "2026-11-16T06:23:12.422057",
+      "last_pushed": "2026-11-16T06:23:12.422057",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "我觉得 AI 的发展已经到头了",
+      "source": "V2EX"
+    },
     "e86724834e808d2e": {
       "first_seen": "2026-11-15T06:24:49.122992",
       "last_pushed": "2026-11-15T06:24:49.122992",
@@ -15895,112 +15999,8 @@
       "last_score": 4,
       "title": "看佛经的一些困惑",
       "source": "V2EX"
-    },
-    "c6896901c499df76": {
-      "first_seen": "2026-06-08T05:00:26.536610",
-      "last_pushed": "2026-06-08T05:00:26.536610",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "需要购买国产显卡本地部署大模型，哪家的比较好",
-      "source": "V2EX"
-    },
-    "58d4cdc2d70f30f8": {
-      "first_seen": "2026-06-08T05:00:26.536607",
-      "last_pushed": "2026-06-08T05:00:26.536607",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "周一上班路上的糟心事：果然是人不要皮天下无敌",
-      "source": "V2EX"
-    },
-    "19c4668bda075bdd": {
-      "first_seen": "2026-06-08T05:00:26.536603",
-      "last_pushed": "2026-06-08T05:00:26.536603",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "最近想买个键盘，能欣赏（参考）下佬儿们的键盘吗？",
-      "source": "V2EX"
-    },
-    "25826d83ced0c2c7": {
-      "first_seen": "2026-06-08T05:00:26.536601",
-      "last_pushed": "2026-06-08T05:00:26.536601",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "微信不理会一小撮用户的吐槽是对的，大部分人用着没问题不会吐槽",
-      "source": "V2EX"
-    },
-    "64b3c7cc6f601def": {
-      "first_seen": "2026-06-08T05:00:26.536597",
-      "last_pushed": "2026-06-08T05:00:26.536597",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "作为程序员的你，和作为普通群体你是如何吐槽微信的",
-      "source": "V2EX"
-    },
-    "71c3be31a9267689": {
-      "first_seen": "2026-06-08T05:00:26.536591",
-      "last_pushed": "2026-06-08T05:00:26.536591",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "微信为何丧心病狂打击多开？多开是用户的合理需求！",
-      "source": "V2EX"
-    },
-    "930ee500e1405b24": {
-      "first_seen": "2026-06-08T05:00:26.536583",
-      "last_pushed": "2026-06-08T05:00:26.536583",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "“万一免五”股票 ETF 低佣开户，抽一个鼠标迈从 A7 V3 PRO+，或者键盘迈从 Ace 68",
-      "source": "V2EX"
-    },
-    "b1570294948e79cc": {
-      "first_seen": "2026-06-08T05:00:26.536579",
-      "last_pushed": "2026-06-08T05:00:26.536579",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "接住来自空间站的信号：如何用手台接收 SSTV？",
-      "source": "少数派"
-    },
-    "c03221ac9de4e016": {
-      "first_seen": "2026-06-08T05:00:26.536577",
-      "last_pushed": "2026-06-08T05:00:26.536577",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：乘用车越造越重，12 年增重近 400 公斤",
-      "source": "少数派"
-    },
-    "488d280424d3834e": {
-      "first_seen": "2026-06-08T05:00:26.536576",
-      "last_pushed": "2026-06-08T05:00:26.536576",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "大语言模型正在变成大编程模型",
-      "source": "少数派"
-    },
-    "5f0aaa76b1532c9f": {
-      "first_seen": "2026-06-08T05:00:26.536573",
-      "last_pushed": "2026-06-08T05:00:26.536573",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "chatgpt plus 是不是假的啊， codex 运行半小时额度就花完了？",
-      "source": "V2EX"
-    },
-    "17ff7c53bfded0d4": {
-      "first_seen": "2026-06-08T05:00:26.536564",
-      "last_pushed": "2026-06-08T05:00:26.536564",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "[bytecat]codex 免费用，还送十刀，中奖率 20%助力 v 友编码~",
-      "source": "V2EX"
-    },
-    "0e4ade810c059cc4": {
-      "first_seen": "2026-06-07T04:54:56.886838",
-      "last_pushed": "2026-06-07T04:54:56.886838",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "想减少风控，固定出口 IP，有推荐的 vps 吗？",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-15T06:24:49.123461"
+  "last_update": "2026-11-16T06:23:12.422446"
 }
