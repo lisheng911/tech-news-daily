@@ -1,5 +1,117 @@
 {
   "records": {
+    "f6cb0122f46046c3": {
+      "first_seen": "2026-11-17T07:51:45.050032",
+      "last_pushed": "2026-11-17T07:51:45.050032",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派评 | 近期值得关注的 App",
+      "source": "少数派"
+    },
+    "7a8496065d94e64d": {
+      "first_seen": "2026-11-17T07:51:45.050029",
+      "last_pushed": "2026-11-17T07:51:45.050029",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "Codex 大家会开 Full access 么",
+      "source": "V2EX"
+    },
+    "e96f6dec6bedbc29": {
+      "first_seen": "2026-11-17T07:51:45.050027",
+      "last_pushed": "2026-11-17T07:51:45.050027",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "电鸡充电桩收费如此贵",
+      "source": "V2EX"
+    },
+    "cb23046ef431fa51": {
+      "first_seen": "2026-11-17T07:51:45.050025",
+      "last_pushed": "2026-11-17T07:51:45.050025",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "今天是我的生日",
+      "source": "V2EX"
+    },
+    "e954377f29260dbb": {
+      "first_seen": "2026-11-17T07:51:45.050022",
+      "last_pushed": "2026-11-17T07:51:45.050022",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "跟异性聊天总是没话题，有没有军师指点",
+      "source": "V2EX"
+    },
+    "080f6059390b6f3c": {
+      "first_seen": "2026-11-17T07:51:45.050019",
+      "last_pushed": "2026-11-17T07:51:45.050019",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "熊市中就开个银河免 5 定投纳指或者红利低波 ETF 吧，股票也有免 5 的。",
+      "source": "V2EX"
+    },
+    "6f126247fdbf8f2d": {
+      "first_seen": "2026-11-17T07:51:45.050016",
+      "last_pushed": "2026-11-17T07:51:45.050016",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "有通勤一个半小时的老哥嘛",
+      "source": "V2EX"
+    },
+    "e8f66bb1793a9401": {
+      "first_seen": "2026-11-17T07:51:45.050013",
+      "last_pushed": "2026-11-17T07:51:45.050013",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "干半天才发现：人家没读书，却比我混得好",
+      "source": "V2EX"
+    },
+    "b1623027dd34301c": {
+      "first_seen": "2026-11-17T07:51:45.050010",
+      "last_pushed": "2026-11-17T07:51:45.050010",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "玩了发现恋物癖越来越严重了咋办",
+      "source": "V2EX"
+    },
+    "510c3da8afe9e1ed": {
+      "first_seen": "2026-11-17T07:51:45.050007",
+      "last_pushed": "2026-11-17T07:51:45.050007",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "Rosetta 2 即将退役，Mac 老应用何去何从？",
+      "source": "少数派"
+    },
+    "29c4962037054d70": {
+      "first_seen": "2026-11-17T07:51:45.050005",
+      "last_pushed": "2026-11-17T07:51:45.050005",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：OPPO 发布 Reno17 系列、影石发布 Insta360 Toast 墨水屏相纸等",
+      "source": "少数派"
+    },
+    "b4b99a83cc9f5f61": {
+      "first_seen": "2026-11-17T07:51:45.050002",
+      "last_pushed": "2026-11-17T07:51:45.050002",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "为了另一种可能性：在国内折腾 Linux 打游戏的二三事",
+      "source": "少数派"
+    },
+    "8f94bb344a6ccfe0": {
+      "first_seen": "2026-11-17T07:51:45.049999",
+      "last_pushed": "2026-11-17T07:51:45.049999",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "个人感觉，对对联可能是给 LLM AI 压力最大的活之一。",
+      "source": "V2EX"
+    },
+    "10cf26e05edff081": {
+      "first_seen": "2026-11-17T07:51:45.049990",
+      "last_pushed": "2026-11-17T07:51:45.049990",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "[台灣站長不跑路] 不擔心封號，高穩定 Claude 中轉，評論送 5 刀（也有 Grok、GPT）",
+      "source": "V2EX"
+    },
     "06b6b57a5f82c3cc": {
       "first_seen": "2026-11-16T06:23:12.422082",
       "last_pushed": "2026-11-16T06:23:12.422082",
@@ -15887,120 +15999,8 @@
       "last_score": 5,
       "title": "一图流 | Apple WWDC26 开幕式回顾",
       "source": "少数派"
-    },
-    "cb89c174b79aa465": {
-      "first_seen": "2026-06-09T04:33:07.355771",
-      "last_pushed": "2026-06-09T04:33:07.355771",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "好用 AI 来 V 站了， 0.05 倍率 20 刀 废话不多说直接开送",
-      "source": "V2EX"
-    },
-    "c40142073a4d8c66": {
-      "first_seen": "2026-06-09T04:33:07.355768",
-      "last_pushed": "2026-06-09T04:33:07.355768",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "你们遇到婆媳矛盾处理过的最妥当的方式是怎样的",
-      "source": "V2EX"
-    },
-    "302f8d66097515ee": {
-      "first_seen": "2026-06-09T04:33:07.355765",
-      "last_pushed": "2026-06-09T04:33:07.355765",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "不知道是哪里病了",
-      "source": "V2EX"
-    },
-    "31a92e30c2aaf153": {
-      "first_seen": "2026-06-09T04:33:07.355763",
-      "last_pushed": "2026-06-09T04:33:07.355763",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "iOS 27 史诗级更新！",
-      "source": "V2EX"
-    },
-    "1f7382cc0fd9bcbe": {
-      "first_seen": "2026-06-09T04:33:07.355759",
-      "last_pushed": "2026-06-09T04:33:07.355759",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "归乡",
-      "source": "V2EX"
-    },
-    "b329d12ab8cb4162": {
-      "first_seen": "2026-06-09T04:33:07.355756",
-      "last_pushed": "2026-06-09T04:33:07.355756",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "在中国推广无密码还有哪些阻力？",
-      "source": "V2EX"
-    },
-    "95328e6c2c868ec5": {
-      "first_seen": "2026-06-09T04:33:07.355752",
-      "last_pushed": "2026-06-09T04:33:07.355752",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "一年一度，苹果 wwdc 大会讨论帖",
-      "source": "V2EX"
-    },
-    "9753479bf1a68b74": {
-      "first_seen": "2026-06-09T04:33:07.355750",
-      "last_pushed": "2026-06-09T04:33:07.355750",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我不知道我在说些什么，就这样随便看随便吐槽吧",
-      "source": "V2EX"
-    },
-    "7359bd7ae1e682ad": {
-      "first_seen": "2026-06-09T04:33:07.355747",
-      "last_pushed": "2026-06-09T04:33:07.355747",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "“新生命，新开始。“ 宝宝姓 [贾] ，想请各位帮忙赐个名字。",
-      "source": "V2EX"
-    },
-    "d34253a58a61dc40": {
-      "first_seen": "2026-06-09T04:33:07.355744",
-      "last_pushed": "2026-06-09T04:33:07.355744",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "2026 美加墨世界杯观赛指南",
-      "source": "少数派"
-    },
-    "a913728eb6f0e37c": {
-      "first_seen": "2026-06-09T04:33:07.355742",
-      "last_pushed": "2026-06-09T04:33:07.355742",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "少数派正版软件 + 付费教程 618 促销活动限时开启",
-      "source": "少数派"
-    },
-    "8ecbadbdb150d9e7": {
-      "first_seen": "2026-06-09T04:33:07.355738",
-      "last_pushed": "2026-06-09T04:33:07.355738",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：WWDC26 全球开发者大会开幕等",
-      "source": "少数派"
-    },
-    "3ff4d1f9242e3810": {
-      "first_seen": "2026-06-09T04:33:07.355731",
-      "last_pushed": "2026-06-09T04:33:07.355731",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "稳定 AI 中转站， 5000 刀 key 直接蹬！ 0.001 倍率留下邮箱送 30 刀",
-      "source": "V2EX"
-    },
-    "b9a7e3fa1a31aad7": {
-      "first_seen": "2026-06-08T05:00:26.536614",
-      "last_pushed": "2026-06-08T05:00:26.536614",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "看佛经的一些困惑",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-16T06:23:12.422446"
+  "last_update": "2026-11-17T07:51:45.050740"
 }
