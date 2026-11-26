@@ -1,5 +1,117 @@
 {
   "records": {
+    "e4d833df117fb095": {
+      "first_seen": "2026-11-26T08:11:52.416899",
+      "last_pushed": "2026-11-26T08:11:52.416899",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "翻开 2027， 值得入手的新年日历推荐",
+      "source": "少数派"
+    },
+    "5e09a91cd6529956": {
+      "first_seen": "2026-11-26T08:11:52.416896",
+      "last_pushed": "2026-11-26T08:11:52.416896",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "Claude 桌面端可接入 DeepSeek，有意义吗？",
+      "source": "V2EX"
+    },
+    "17f28c2ca89337e6": {
+      "first_seen": "2026-11-26T08:11:52.416894",
+      "last_pushed": "2026-11-26T08:11:52.416894",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "广州有没有治疗 睡眠少的医院",
+      "source": "V2EX"
+    },
+    "bcd75fe4b31a5bfd": {
+      "first_seen": "2026-11-26T08:11:52.416892",
+      "last_pushed": "2026-11-26T08:11:52.416892",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "最近买冬装，淘宝首页已经被各种“杂牌”占领了",
+      "source": "V2EX"
+    },
+    "b64e20c7d8661977": {
+      "first_seen": "2026-11-26T08:11:52.416889",
+      "last_pushed": "2026-11-26T08:11:52.416889",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "想换一台 MacBook，纠结 14 寸和 16 寸，求有实际使用经验的朋友聊聊",
+      "source": "V2EX"
+    },
+    "ba25b772434c2d4e": {
+      "first_seen": "2026-11-26T08:11:52.416886",
+      "last_pushed": "2026-11-26T08:11:52.416886",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "美股同学看过来，需要老雷交易笔记的可以留下联系方式，私信",
+      "source": "V2EX"
+    },
+    "8356dc66fdd15e97": {
+      "first_seen": "2026-11-26T08:11:52.416882",
+      "last_pushed": "2026-11-26T08:11:52.416882",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "彩票预测分析",
+      "source": "V2EX"
+    },
+    "0156e493d369b8f0": {
+      "first_seen": "2026-11-26T08:11:52.416878",
+      "last_pushed": "2026-11-26T08:11:52.416878",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "个人知识库怎么搞比较好？",
+      "source": "V2EX"
+    },
+    "504def55931650a7": {
+      "first_seen": "2026-11-26T08:11:52.416875",
+      "last_pushed": "2026-11-26T08:11:52.416875",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "认真问，现在是不是可以抄底了？",
+      "source": "V2EX"
+    },
+    "befe2ed5e90692c3": {
+      "first_seen": "2026-11-26T08:11:52.416872",
+      "last_pushed": "2026-11-26T08:11:52.416872",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "我开始受 AI 毒害了。。。",
+      "source": "V2EX"
+    },
+    "b6f13dfc0b58bf11": {
+      "first_seen": "2026-11-26T08:11:52.416869",
+      "last_pushed": "2026-11-26T08:11:52.416869",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "回帖 + 加群送 $18 额度，Claude Code / Codex 改个地址就能用，GPT 低至",
+      "source": "V2EX"
+    },
+    "2e0c492a7e87777b": {
+      "first_seen": "2026-11-26T08:11:52.416866",
+      "last_pushed": "2026-11-26T08:11:52.416866",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "派早报：蔚来举办 2026 创新科技日、Tidal 将拒绝 AI 音乐等",
+      "source": "少数派"
+    },
+    "173f8104c5dd27d3": {
+      "first_seen": "2026-11-26T08:11:52.416863",
+      "last_pushed": "2026-11-26T08:11:52.416863",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "我用AI做了一张两千年的中国历史地图",
+      "source": "少数派"
+    },
+    "b18b7d71fe308d57": {
+      "first_seen": "2026-11-26T08:11:52.416853",
+      "last_pushed": "2026-11-26T08:11:52.416853",
+      "push_count": 1,
+      "last_score": 7,
+      "title": "论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图",
+      "source": "少数派"
+    },
     "6193840cff0c1fd4": {
       "first_seen": "2026-11-25T08:28:09.412297",
       "last_pushed": "2026-11-25T08:28:09.412297",
@@ -15887,120 +15999,8 @@
       "last_score": 4,
       "title": "大家如何看待最近广州没收小电驴的行为？",
       "source": "V2EX"
-    },
-    "f92db9118cedf874": {
-      "first_seen": "2026-06-18T05:00:22.303579",
-      "last_pushed": "2026-06-18T05:00:22.303579",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "好奇大家的芝麻信用分是多少？ 820 分算什么 level 的？",
-      "source": "V2EX"
-    },
-    "4918bc49de70547b": {
-      "first_seen": "2026-06-18T05:00:22.303576",
-      "last_pushed": "2026-06-18T05:00:22.303576",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "术后第八天老婆想要我开车送她，因此还生气",
-      "source": "V2EX"
-    },
-    "659390b725c5cc4a": {
-      "first_seen": "2026-06-18T05:00:22.303573",
-      "last_pushed": "2026-06-18T05:00:22.303573",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "大佬们客观评价我夫妻之间的相处，我该怎么办，是我错了吗？",
-      "source": "V2EX"
-    },
-    "f78ff9496e97eb51": {
-      "first_seen": "2026-06-18T05:00:22.303569",
-      "last_pushed": "2026-06-18T05:00:22.303569",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "具透 | 动态应用网格、Liquid Glass 微调，watchOS 27 首个开发者测试版一览",
-      "source": "少数派"
-    },
-    "9c8db21025aea0fc": {
-      "first_seen": "2026-06-18T05:00:22.303566",
-      "last_pushed": "2026-06-18T05:00:22.303566",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "模糊算法让图像更清晰？游戏里的「抗锯齿」到底在做什么",
-      "source": "少数派"
-    },
-    "89cd6c2b4cb14514": {
-      "first_seen": "2026-06-18T05:00:22.303563",
-      "last_pushed": "2026-06-18T05:00:22.303563",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "派早报：Android 17 正式推送、微软发布 Surface 新品等",
-      "source": "少数派"
-    },
-    "ecd8075c29892ddf": {
-      "first_seen": "2026-06-18T05:00:22.303560",
-      "last_pushed": "2026-06-18T05:00:22.303560",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "具透 | visionOS 27 首个开发者测试版中值得关注的新内容",
-      "source": "少数派"
-    },
-    "1cc980ef63eb274c": {
-      "first_seen": "2026-06-18T05:00:22.303556",
-      "last_pushed": "2026-06-18T05:00:22.303556",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "抽 5 个 智友社的 GPTPLUS 稳定渠道成品号（满月测试稳定度 99% ）",
-      "source": "V2EX"
-    },
-    "92ffaaf61d0cd665": {
-      "first_seen": "2026-06-18T05:00:22.303538",
-      "last_pushed": "2026-06-18T05:00:22.303538",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "Mac OS 类 Everything 文件搜索 APP 免费送兑换码",
-      "source": "V2EX"
-    },
-    "73d7a57d1fc02bdc": {
-      "first_seen": "2026-06-18T05:00:22.303526",
-      "last_pushed": "2026-06-18T05:00:22.303526",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "[内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3，回",
-      "source": "V2EX"
-    },
-    "8551ff3c97223c3b": {
-      "first_seen": "2026-06-17T05:15:09.424932",
-      "last_pushed": "2026-06-17T05:15:09.424932",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "派评 | 近期值得关注的 App",
-      "source": "少数派"
-    },
-    "9bc8a77eb517fcd9": {
-      "first_seen": "2026-06-17T05:15:09.424930",
-      "last_pushed": "2026-06-17T05:15:09.424930",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "吐槽下小孩生病住院花费的问题",
-      "source": "V2EX"
-    },
-    "1f45aa5f8c61aebb": {
-      "first_seen": "2026-06-17T05:15:09.424928",
-      "last_pushed": "2026-06-17T05:15:09.424928",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "如何评价阿里前高管出任山姆董事长",
-      "source": "V2EX"
-    },
-    "4d2074c7edfa1531": {
-      "first_seen": "2026-06-17T05:15:09.424925",
-      "last_pushed": "2026-06-17T05:15:09.424925",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "感叹现在的就业环境",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-25T08:28:09.412809"
+  "last_update": "2026-11-26T08:11:52.417676"
 }
