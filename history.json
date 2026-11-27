@@ -1,5 +1,101 @@
 {
   "records": {
+    "3fd34f415dc378b4": {
+      "first_seen": "2026-11-27T08:24:34.003014",
+      "last_pushed": "2026-11-27T08:24:34.003014",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "求推荐: 怎么解决家庭超轻量的看电影/动画片需求",
+      "source": "V2EX"
+    },
+    "e65cce255ad11566": {
+      "first_seen": "2026-11-27T08:24:34.003011",
+      "last_pushed": "2026-11-27T08:24:34.003011",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "其他模型真的好用，我又何必折腾 Claude 呢",
+      "source": "V2EX"
+    },
+    "8a5dea3ddea9d80f": {
+      "first_seen": "2026-11-27T08:24:34.003009",
+      "last_pushed": "2026-11-27T08:24:34.003009",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "「黑五」值得买：不容错过的 App 和服务优惠",
+      "source": "少数派"
+    },
+    "09ac5d7b69531394": {
+      "first_seen": "2026-11-27T08:24:34.003006",
+      "last_pushed": "2026-11-27T08:24:34.003006",
+      "push_count": 1,
+      "last_score": 9,
+      "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
+      "source": "少数派"
+    },
+    "3ebca1579a0e936f": {
+      "first_seen": "2026-11-27T08:24:34.003002",
+      "last_pushed": "2026-11-27T08:24:34.003002",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "为何新出的手机完全不支持 tf 卡了？",
+      "source": "V2EX"
+    },
+    "1353a0d2a8b772fa": {
+      "first_seen": "2026-11-27T08:24:34.002998",
+      "last_pushed": "2026-11-27T08:24:34.002998",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "最近 Antigravity 重置太频繁了，于是我上线了一个 Agy Reset 重置信号监测站，让",
+      "source": "V2EX"
+    },
+    "c7f9cfa39c159435": {
+      "first_seen": "2026-11-27T08:24:34.002995",
+      "last_pushed": "2026-11-27T08:24:34.002995",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "感觉网易 uu 也可以下课了...",
+      "source": "V2EX"
+    },
+    "4abfca9a09ef50ec": {
+      "first_seen": "2026-11-27T08:24:34.002992",
+      "last_pushed": "2026-11-27T08:24:34.002992",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "有人从 codex 弃坑转到 Antigravity 的没",
+      "source": "V2EX"
+    },
+    "a7cbcf37d0198a73": {
+      "first_seen": "2026-11-27T08:24:34.002989",
+      "last_pushed": "2026-11-27T08:24:34.002989",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "周五好，大家周末打算干啥",
+      "source": "V2EX"
+    },
+    "5397aeb961b50a52": {
+      "first_seen": "2026-11-27T08:24:34.002986",
+      "last_pushed": "2026-11-27T08:24:34.002986",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "网传 Hysteria 的多名代码贡献者已经被抓",
+      "source": "V2EX"
+    },
+    "7910b4ce8838839a": {
+      "first_seen": "2026-11-27T08:24:34.002983",
+      "last_pushed": "2026-11-27T08:24:34.002983",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "2026 赣南脐橙给 v 友抽几箱",
+      "source": "V2EX"
+    },
+    "10306485cbbb3bbd": {
+      "first_seen": "2026-11-27T08:24:34.002976",
+      "last_pushed": "2026-11-27T08:24:34.002976",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "派早报：1Password 确认内部系统遭入侵等",
+      "source": "少数派"
+    },
     "e4d833df117fb095": {
       "first_seen": "2026-11-26T08:11:52.416899",
       "last_pushed": "2026-11-26T08:11:52.416899",
@@ -15903,104 +15999,8 @@
       "last_score": 4,
       "title": "问个合同到期公司不续签问题",
       "source": "V2EX"
-    },
-    "8cbd8a1e5cd67b3a": {
-      "first_seen": "2026-06-19T05:23:20.161366",
-      "last_pushed": "2026-06-19T05:23:20.161366",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "我是不是不适合炒股?",
-      "source": "V2EX"
-    },
-    "9fe9090ea3138075": {
-      "first_seen": "2026-06-19T05:23:20.161363",
-      "last_pushed": "2026-06-19T05:23:20.161363",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "[送码] 成功把 iCloud 空间省出了 190GB",
-      "source": "V2EX"
-    },
-    "6d84958ac2311d1f": {
-      "first_seen": "2026-06-19T05:23:20.161362",
-      "last_pushed": "2026-06-19T05:23:20.161362",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "Nothing Phone 杂谈：活下去再谈未来，然后呢？",
-      "source": "少数派"
-    },
-    "277b8ba68f1c9c17": {
-      "first_seen": "2026-06-19T05:23:20.161360",
-      "last_pushed": "2026-06-19T05:23:20.161360",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "新玩意 244｜少数派的编辑们最近买了啥？",
-      "source": "少数派"
-    },
-    "c0ab36eaa7b4c0e2": {
-      "first_seen": "2026-06-19T05:23:20.161358",
-      "last_pushed": "2026-06-19T05:23:20.161358",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "MD Preview 全平台上线：一个给 AI 生成 Markdown 文档用的本地预览器",
-      "source": "V2EX"
-    },
-    "effe920b38a1032b": {
-      "first_seen": "2026-06-19T05:23:20.161355",
-      "last_pushed": "2026-06-19T05:23:20.161355",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "发现 windsurf 上的国产最新最强模型都是免费了。如 glm-5.2, kimi-2.7 等",
-      "source": "V2EX"
-    },
-    "2ab7448c6365330c": {
-      "first_seen": "2026-06-19T05:23:20.161351",
-      "last_pushed": "2026-06-19T05:23:20.161351",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "买了二手 airpods pro3 后的体验小结",
-      "source": "V2EX"
-    },
-    "8eb85778f51d934d": {
-      "first_seen": "2026-06-19T05:23:20.161343",
-      "last_pushed": "2026-06-19T05:23:20.161343",
-      "push_count": 1,
-      "last_score": 6,
-      "title": "我司为了强制使用 AI 开发实施的新的绩效考核办法，博诸君一笑",
-      "source": "V2EX"
-    },
-    "125da283bc466afa": {
-      "first_seen": "2026-06-18T05:00:22.303589",
-      "last_pushed": "2026-06-18T05:00:22.303589",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "3 岁小朋友不吃鸡蛋，早餐总是吃面包，包子的豆沙馅，肉包也不吃，蛋白质不足。现在个子发育有点慢，有什",
-      "source": "V2EX"
-    },
-    "7a23eb60dcb27e22": {
-      "first_seen": "2026-06-18T05:00:22.303586",
-      "last_pushed": "2026-06-18T05:00:22.303586",
-      "push_count": 1,
-      "last_score": 5,
-      "title": "WWDC26 在现场，与 Apple 设计大奖提名开发者聊聊他们的 app",
-      "source": "少数派"
-    },
-    "7680a57bb0b39b6d": {
-      "first_seen": "2026-06-18T05:00:22.303583",
-      "last_pushed": "2026-06-18T05:00:22.303583",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "🔥「送码」高颜值的截图/录屏应用，开发会喜欢吗？",
-      "source": "V2EX"
-    },
-    "d0db38c029357e96": {
-      "first_seen": "2026-06-18T05:00:22.303581",
-      "last_pushed": "2026-06-18T05:00:22.303581",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "大家如何看待最近广州没收小电驴的行为？",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-26T08:11:52.417676"
+  "last_update": "2026-11-27T08:24:34.003515"
 }
