@@ -1,5 +1,109 @@
 {
   "records": {
+    "80dcfcf0045ee2cf": {
+      "first_seen": "2026-11-28T07:43:51.688793",
+      "last_pushed": "2026-11-28T07:43:51.688793",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "社交圈太小，怎么才能认识更多异性？",
+      "source": "V2EX"
+    },
+    "f180c8db5494d15a": {
+      "first_seen": "2026-11-28T07:43:51.688792",
+      "last_pushed": "2026-11-28T07:43:51.688792",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "译哥 Poly：Mac 本机把视频换成另一种语言，并用原片音色配音（v 站用户送 10 个买断码）",
+      "source": "V2EX"
+    },
+    "0cba2bf20fbe5f94": {
+      "first_seen": "2026-11-28T07:43:51.688791",
+      "last_pushed": "2026-11-28T07:43:51.688791",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "按照 NVIDIA 的迭代速度，是不是现在投入买算力越狠的，后面淘汰的越快",
+      "source": "V2EX"
+    },
+    "049de0a6de0e3414": {
+      "first_seen": "2026-11-28T07:43:51.688789",
+      "last_pushed": "2026-11-28T07:43:51.688789",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "觉得 vibe coding 半天还不如直接花钱订阅成熟的软件",
+      "source": "V2EX"
+    },
+    "610f583fc67427af": {
+      "first_seen": "2026-11-28T07:43:51.688788",
+      "last_pushed": "2026-11-28T07:43:51.688788",
+      "push_count": 1,
+      "last_score": 4,
+      "title": "公司每个月只交 299 元公积金，剩下的都是我自己补的，一审法院却说这事不归法院管？",
+      "source": "V2EX"
+    },
+    "406b24558a12f402": {
+      "first_seen": "2026-11-28T07:43:51.688786",
+      "last_pushed": "2026-11-28T07:43:51.688786",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "本周看什么 | 最近值得一看的 8 部作品",
+      "source": "少数派"
+    },
+    "30aab339be4a9062": {
+      "first_seen": "2026-11-28T07:43:51.688784",
+      "last_pushed": "2026-11-28T07:43:51.688784",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "本月玩什么｜GTA VI、塞尔达传说 时之笛、魔兽世界：无限",
+      "source": "少数派"
+    },
+    "9545f0e3db607ff8": {
+      "first_seen": "2026-11-28T07:43:51.688783",
+      "last_pushed": "2026-11-28T07:43:51.688783",
+      "push_count": 1,
+      "last_score": 5,
+      "title": "「黑五」值得买：不容错过的数码硬件优惠",
+      "source": "少数派"
+    },
+    "d399d566fed6bc2b": {
+      "first_seen": "2026-11-28T07:43:51.688782",
+      "last_pushed": "2026-11-28T07:43:51.688782",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "有了 AI 之后，开发越来越容易，推广却越来越难？",
+      "source": "V2EX"
+    },
+    "6f30fcd04ed8ce84": {
+      "first_seen": "2026-11-28T07:43:51.688781",
+      "last_pushed": "2026-11-28T07:43:51.688781",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "谷歌订阅 AI PRO 黑五提前买歪打正着",
+      "source": "V2EX"
+    },
+    "d9741fb59d7d8c80": {
+      "first_seen": "2026-11-28T07:43:51.688780",
+      "last_pushed": "2026-11-28T07:43:51.688780",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "[推广] [发码] 做了个 AI 阅读器 ，我们想将 AI 和阅读器做深度结合，而不仅仅是简单问答",
+      "source": "V2EX"
+    },
+    "9ebe517639638e4e": {
+      "first_seen": "2026-11-28T07:43:51.688778",
+      "last_pushed": "2026-11-28T07:43:51.688778",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "建议大家理性上车年付的 AI 订阅",
+      "source": "V2EX"
+    },
+    "29558eeefe00d2d6": {
+      "first_seen": "2026-11-28T07:43:51.688769",
+      "last_pushed": "2026-11-28T07:43:51.688769",
+      "push_count": 1,
+      "last_score": 6,
+      "title": "新用户黑五 Google AI Pro 优惠",
+      "source": "V2EX"
+    },
     "3fd34f415dc378b4": {
       "first_seen": "2026-11-27T08:24:34.003014",
       "last_pushed": "2026-11-27T08:24:34.003014",
@@ -15895,112 +15999,8 @@
       "last_score": 7,
       "title": "AI 工作流实践：100% Vibe Coding 完成 Game Jam 游戏开发",
       "source": "少数派"
-    },
-    "d722442c5cf36cef": {
-      "first_seen": "2026-06-20T04:39:57.730938",
-      "last_pushed": "2026-06-20T04:39:57.730938",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "好难受, 现在是不是 GLM 最适合我了",
-      "source": "V2EX"
-    },
-    "ed545d268b667080": {
-      "first_seen": "2026-06-20T04:39:57.730935",
-      "last_pushed": "2026-06-20T04:39:57.730935",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "GLM5.2 个人感觉有点被吹大了",
-      "source": "V2EX"
-    },
-    "fd31e7e46d484db5": {
-      "first_seen": "2026-06-20T04:39:57.730932",
-      "last_pushed": "2026-06-20T04:39:57.730932",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "请教一下 VIM 怎么做到类似 idea ide 一样识别函数，自动跳转，查看引用？",
-      "source": "V2EX"
-    },
-    "0d1ed782cd878f43": {
-      "first_seen": "2026-06-20T04:39:57.730928",
-      "last_pushed": "2026-06-20T04:39:57.730928",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "小散不要炒个股不要盯盘不要做 T",
-      "source": "V2EX"
-    },
-    "2842a04098baf9f6": {
-      "first_seen": "2026-06-20T04:39:57.730925",
-      "last_pushed": "2026-06-20T04:39:57.730925",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "GitHub copilot 重新恢复订阅了",
-      "source": "V2EX"
-    },
-    "81b19a3f81945f5b": {
-      "first_seen": "2026-06-20T04:39:57.730923",
-      "last_pushed": "2026-06-20T04:39:57.730923",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "前端界面比想象中复杂好多",
-      "source": "V2EX"
-    },
-    "c928015b4932e92e": {
-      "first_seen": "2026-06-20T04:39:57.730920",
-      "last_pushed": "2026-06-20T04:39:57.730920",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "目前海外 esim 手机号在国内，哪个最好？",
-      "source": "V2EX"
-    },
-    "77bb777f6d6ca900": {
-      "first_seen": "2026-06-20T04:39:57.730917",
-      "last_pushed": "2026-06-20T04:39:57.730917",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "来说说🪜的客户端",
-      "source": "V2EX"
-    },
-    "3cb945aab35664ac": {
-      "first_seen": "2026-06-20T04:39:57.730914",
-      "last_pushed": "2026-06-20T04:39:57.730914",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "用惯了 MacOS 启动台 Launchpad，于是我创建了 Windows 版的 Launchpa",
-      "source": "V2EX"
-    },
-    "bc4f270d226a5be4": {
-      "first_seen": "2026-06-20T04:39:57.730904",
-      "last_pushed": "2026-06-20T04:39:57.730904",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "一个 reCAPTCHA 把我骗到重装系统，分享出来给大家提个醒",
-      "source": "V2EX"
-    },
-    "1f9f22834c9cace1": {
-      "first_seen": "2026-06-19T05:23:20.161372",
-      "last_pushed": "2026-06-19T05:23:20.161372",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "端午节快乐！求推荐高质量 VPS 线路",
-      "source": "V2EX"
-    },
-    "3811bcc0d58da876": {
-      "first_seen": "2026-06-19T05:23:20.161370",
-      "last_pushed": "2026-06-19T05:23:20.161370",
-      "push_count": 1,
-      "last_score": 8,
-      "title": "你们用啥 ai 编程工具可以当生产力?",
-      "source": "V2EX"
-    },
-    "e09f11f4d6e27e0b": {
-      "first_seen": "2026-06-19T05:23:20.161368",
-      "last_pushed": "2026-06-19T05:23:20.161368",
-      "push_count": 1,
-      "last_score": 4,
-      "title": "问个合同到期公司不续签问题",
-      "source": "V2EX"
     }
   },
   "consecutive_empty": 0,
-  "last_update": "2026-11-27T08:24:34.003515"
+  "last_update": "2026-11-28T07:43:51.689181"
 }
